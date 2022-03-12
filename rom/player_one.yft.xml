@@ -1,0 +1,3113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Fragment>
+ <Name>pack:/player_one</Name>
+ <BoundingSphereCenter x="0" y="0" z="0" />
+ <BoundingSphereRadius value="16.970562" />
+ <UnknownB0 value="0" />
+ <UnknownB8 value="0" />
+ <UnknownBC value="0" />
+ <UnknownC0 value="256" />
+ <UnknownC4 value="67" />
+ <UnknownCC value="0" />
+ <GravityFactor value="1" />
+ <BuoyancyFactor value="1" />
+ <Drawable>
+  <Name>skel</Name>
+  <Matrix>
+   1 0 0
+   0 1 0
+   0 0 1
+   0 0 0
+  </Matrix>
+  <BoundingSphereCenter x="0" y="0" z="0" />
+  <BoundingSphereRadius value="16.970562" />
+  <BoundingBoxMin x="-12" y="-12" z="0" />
+  <BoundingBoxMax x="12" y="12" z="0" />
+  <LodDistHigh value="9998" />
+  <LodDistMed value="9998" />
+  <LodDistLow value="9998" />
+  <LodDistVlow value="9998" />
+  <FlagsHigh value="1" />
+  <FlagsMed value="0" />
+  <FlagsLow value="0" />
+  <FlagsVlow value="0" />
+  <Unknown9A value="0" />
+  <ShaderGroup>
+   <Unknown30 value="80" />
+   <Shaders>
+    <Item>
+     <Name>default</Name>
+     <FileName>default.sps</FileName>
+     <RenderBucket value="0" />
+     <Parameters>
+      <Item name="DiffuseSampler" type="Texture" />
+      <Item name="matMaterialColorScale" type="Vector" x="1" y="0" z="0" w="0" />
+      <Item name="HardAlphaBlend" type="Vector" x="1" y="0" z="0" w="0" />
+      <Item name="useTessellation" type="Vector" x="0" y="0" z="0" w="0" />
+      <Item name="wetnessMultiplier" type="Vector" x="1" y="0" z="0" w="0" />
+      <Item name="globalAnimUV1" type="Vector" x="0" y="1" z="0" w="0" />
+      <Item name="globalAnimUV0" type="Vector" x="1" y="0" z="0" w="0" />
+     </Parameters>
+    </Item>
+   </Shaders>
+  </ShaderGroup>
+    <Skeleton>
+      <Unknown1C value="16777216" />
+      <Unknown50 value="1832184151" />
+      <Unknown54 value="3792140576" />
+      <Unknown58 value="1369104990" />
+      <Bones>
+        <Item>
+          <Name>SKEL_ROOT</Name>
+          <Tag value="0" />
+          <Index value="0" />
+          <ParentIndex value="-1" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="2e-07" y="0.007101" z="-0.018706" />
+          <Rotation x="0.0" y="0.0" z="1.0" w="0.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_Pelvis</Name>
+          <Tag value="11816" />
+          <Index value="1" />
+          <ParentIndex value="0" />
+          <SiblingIndex value="47" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="2.0000002e-08" y="0.0026666" z="-0.24273512" />
+          <Rotation x="-9.9999994e-08" y="0.7071068" z="9.999995e-08" w="0.7071067" />
+          <Scale x="0.99999994" y="0.99999976" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Thigh</Name>
+          <Tag value="58271" />
+          <Index value="2" />
+          <ParentIndex value="1" />
+          <SiblingIndex value="20" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.07378913" y="-0.0014208409" z="-0.06160981" />
+          <Rotation x="-0.021296486" y="0.0074193617" z="-0.02587476" w="0.9994108" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Calf</Name>
+          <Tag value="63931" />
+          <Index value="3" />
+          <ParentIndex value="2" />
+          <SiblingIndex value="15" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.27721292" y="1.4109537e-07" z="1.26987e-05" />
+          <Rotation x="-6.755896e-05" y="-0.0071121715" z="-0.014114772" w="0.9998751" />
+          <Scale x="0.99999994" y="1.0" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Foot</Name>
+          <Tag value="14201" />
+          <Index value="4" />
+          <ParentIndex value="3" />
+          <SiblingIndex value="10" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.3177522" y="-1.2340024e-08" z="3.8849073e-05" />
+          <Rotation x="-0.02186125" y="-0.032829884" z="0.6187725" w="0.78457946" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Toe0</Name>
+          <Tag value="2108" />
+          <Index value="5" />
+          <ParentIndex value="4" />
+          <SiblingIndex value="7" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.09221288" y="-0.011875453" z="4.0745363e-09" />
+          <Rotation x="-0.9843179" y="-0.17640425" z="7.864959e-08" w="3.062012e-07" />
+          <Scale x="0.99999994" y="1.0" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SM_L_Flipper</Name>
+          <Tag value="58255" />
+          <Index value="6" />
+          <ParentIndex value="5" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.027280327" y="0.023246761" z="9.5693395e-08" />
+          <Rotation x="6.441842e-07" y="8.3236955e-09" z="8.196221e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SM_L_FlipFlop</Name>
+          <Tag value="23869" />
+          <Index value="7" />
+          <ParentIndex value="4" />
+          <SiblingIndex value="8" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.12419111" y="1.094304e-07" z="9.452924e-08" />
+          <Rotation x="0.984318" y="0.17640312" z="-2.1235398e-07" w="3.0717683e-07" />
+          <Scale x="0.9999989" y="0.9999998" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>PH_L_Foot</Name>
+          <Tag value="57717" />
+          <Index value="8" />
+          <ParentIndex value="4" />
+          <SiblingIndex value="9" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.078240395" y="-0.049299702" z="2.4015317e-06" />
+          <Rotation x="-0.58040476" y="0.40391728" z="0.56412435" w="0.42631543" />
+          <Scale x="0.99999994" y="1.0" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>IK_L_Foot</Name>
+          <Tag value="65245" />
+          <Index value="9" />
+          <ParentIndex value="4" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.078240395" y="-0.049299702" z="2.4015317e-06" />
+          <Rotation x="-0.58040476" y="0.40391728" z="0.56412435" w="0.42631543" />
+          <Scale x="0.99999994" y="1.0" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_CalfBack</Name>
+          <Tag value="4115" />
+          <Index value="10" />
+          <ParentIndex value="3" />
+          <SiblingIndex value="11" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.04992528" y="-0.07611779" z="-3.5215635e-07" />
+          <Rotation x="1.0646428e-06" y="1.1711592e-05" z="0.020960253" w="0.9997803" />
+          <Scale x="0.99999994" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SPR_L_Leg_Fireman_F</Name>
+          <Tag value="6783" />
+          <Index value="11" />
+          <ParentIndex value="3" />
+          <SiblingIndex value="12" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.28299925" y="0.06684604" z="0.0031203302" />
+          <Rotation x="-0.012317609" y="-0.042204242" z="0.7347803" w="0.6768789" />
+          <Scale x="0.99999994" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SPR_L_Leg_Fireman_B</Name>
+          <Tag value="6779" />
+          <Index value="12" />
+          <ParentIndex value="3" />
+          <SiblingIndex value="13" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.29200748" y="-0.040744185" z="-0.0010979294" />
+          <Rotation x="-0.0123174805" y="-0.042204216" z="0.7347804" w="0.6768788" />
+          <Scale x="1.0000001" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_PantHem_ROOT</Name>
+          <Tag value="25003" />
+          <Index value="13" />
+          <ParentIndex value="3" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.31752178" y="-3.115274e-07" z="-7.4412674e-07" />
+          <Rotation x="0.0022308603" y="-0.0022275997" z="0.7072783" w="0.7069282" />
+          <Scale x="0.99999994" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_PantHem</Name>
+          <Tag value="15639" />
+          <Index value="14" />
+          <ParentIndex value="13" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="8.614734e-09" y="-1.7738785e-08" z="1.2805685e-09" />
+          <Rotation x="2.20362e-07" y="0.012182994" z="0.0009129087" w="0.9999254" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_ThighBack</Name>
+          <Tag value="24589" />
+          <Index value="15" />
+          <ParentIndex value="2" />
+          <SiblingIndex value="16" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.23533759" y="-0.06746098" z="5.030306e-06" />
+          <Rotation x="4.2708416e-07" y="-1.6037608e-05" z="-2.3283064e-10" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_Knee</Name>
+          <Tag value="30464" />
+          <Index value="16" />
+          <ParentIndex value="2" />
+          <SiblingIndex value="17" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.27276832" y="2.2863969e-07" z="1.24399085e-05" />
+          <Rotation x="7.742802e-05" y="-0.008811551" z="0.008726104" w="0.9999231" />
+          <Scale x="0.99999994" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_BumRoot</Name>
+          <Tag value="64275" />
+          <Index value="17" />
+          <ParentIndex value="2" />
+          <SiblingIndex value="19" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="-2.5960617e-08" y="1.1641532e-09" z="9.837095e-09" />
+          <Rotation x="-0.02574117" y="0.0047587333" z="0.182173" w="0.98291796" />
+          <Scale x="1.0000001" y="0.99999994" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_Bum</Name>
+          <Tag value="56819" />
+          <Index value="18" />
+          <ParentIndex value="17" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="-8.1490725e-10" y="-2.7939677e-09" z="2.386514e-09" />
+          <Rotation x="-1.7904676e-07" y="-2.6635826e-07" z="9.502983e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_ShirtFront_TARGET</Name>
+          <Tag value="35724" />
+          <Index value="19" />
+          <ParentIndex value="2" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.16984211" y="0.081890866" z="-0.006918463" />
+          <Rotation x="0.99120563" y="0.008406051" z="0.0006194092" w="0.13206208" />
+          <Scale x="0.99999994" y="0.9999999" z="0.9999984" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_Thigh</Name>
+          <Tag value="51826" />
+          <Index value="20" />
+          <ParentIndex value="1" />
+          <SiblingIndex value="38" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.0736387" y="-0.0004741449" z="0.061651304" />
+          <Rotation x="0.020755326" y="-0.00077807263" z="-0.024377748" w="0.99948716" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_Calf</Name>
+          <Tag value="36864" />
+          <Index value="21" />
+          <ParentIndex value="20" />
+          <SiblingIndex value="33" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.27721348" y="-1.3923272e-07" z="-0.00011057989" />
+          <Rotation x="7.957706e-05" y="-0.005210438" z="-0.019082999" w="0.9998043" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_Foot</Name>
+          <Tag value="52301" />
+          <Index value="22" />
+          <ParentIndex value="21" />
+          <SiblingIndex value="28" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.31775278" y="-2.7078204e-07" z="4.944508e-06" />
+          <Rotation x="0.021819457" y="0.032776292" z="0.6187757" w="0.7845803" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_Toe0</Name>
+          <Tag value="20781" />
+          <Index value="23" />
+          <ParentIndex value="22" />
+          <SiblingIndex value="25" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.09221262" y="-0.011875585" z="-1.3853423e-08" />
+          <Rotation x="0.98431814" y="0.17640254" z="-1.1389404e-07" w="5.5888495e-07" />
+          <Scale x="0.9999998" y="1.0" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SM_R_Flipper</Name>
+          <Tag value="59791" />
+          <Index value="24" />
+          <ParentIndex value="23" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.03737183" y="0.023640512" z="0.0003713246" />
+          <Rotation x="0.0015288789" y="-0.039125137" z="5.9513957e-05" w="0.9992332" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SM_R_FlipFlop</Name>
+          <Tag value="64460" />
+          <Index value="25" />
+          <ParentIndex value="22" />
+          <SiblingIndex value="26" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.124190815" y="2.3050234e-07" z="-2.188608e-08" />
+          <Rotation x="0.984318" y="0.17640325" z="2.1661153e-07" w="5.775717e-07" />
+          <Scale x="1.000001" y="1.0" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>PH_R_Foot</Name>
+          <Tag value="24806" />
+          <Index value="26" />
+          <ParentIndex value="22" />
+          <SiblingIndex value="27" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.07824" y="-0.049297463" z="-2.0023435e-08" />
+          <Rotation x="-0.5641289" y="0.426333" z="0.5803885" w="0.40391576" />
+          <Scale x="1.0" y="1.0" z="0.9999999" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>IK_R_Foot</Name>
+          <Tag value="35502" />
+          <Index value="27" />
+          <ParentIndex value="22" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.07824" y="-0.049297463" z="-2.0023435e-08" />
+          <Rotation x="-0.5641289" y="0.426333" z="0.5803885" w="0.40391576" />
+          <Scale x="1.0" y="1.0" z="0.9999999" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_CalfBack</Name>
+          <Tag value="45075" />
+          <Index value="28" />
+          <ParentIndex value="21" />
+          <SiblingIndex value="29" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.049928296" y="-0.07611831" z="3.995467e-05" />
+          <Rotation x="1.450826e-07" y="1.0136049e-05" z="-3.3969263e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SPR_R_Leg_Fireman_F</Name>
+          <Tag value="4223" />
+          <Index value="29" />
+          <ParentIndex value="21" />
+          <SiblingIndex value="30" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.28299946" y="0.06684622" z="-0.0031167879" />
+          <Rotation x="0.01231299" y="0.04220103" z="0.73478115" w="0.6768782" />
+          <Scale x="0.9999999" y="0.9999998" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SPR_R_Leg_Fireman_B</Name>
+          <Tag value="4219" />
+          <Index value="30" />
+          <ParentIndex value="21" />
+          <SiblingIndex value="31" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.29200774" y="-0.04074408" z="0.0011013164" />
+          <Rotation x="0.012313009" y="0.04220102" z="0.7347815" w="0.6768779" />
+          <Scale x="1.0000001" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_PantHem_ROOT</Name>
+          <Tag value="24843" />
+          <Index value="31" />
+          <ParentIndex value="21" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.31752205" y="3.236346e-08" z="5.4376433e-06" />
+          <Rotation x="-6.0863213e-06" y="-5.2146547e-06" z="0.7071082" w="0.70710546" />
+          <Scale x="1.0" y="1.0000001" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_PantHem</Name>
+          <Tag value="13079" />
+          <Index value="32" />
+          <ParentIndex value="31" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="-5.820766e-09" y="7.223571e-08" z="-2.0302832e-07" />
+          <Rotation x="-6.1285647e-07" y="-0.0121831205" z="0.00091285596" w="0.9999254" />
+          <Scale x="1.0" y="0.99999994" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_ThighBack</Name>
+          <Tag value="20899" />
+          <Index value="33" />
+          <ParentIndex value="20" />
+          <SiblingIndex value="34" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.23536137" y="-0.06746129" z="0.0003079828" />
+          <Rotation x="-3.3957988e-07" y="-2.529414e-07" z="1.4982106e-07" w="1.0" />
+          <Scale x="1.0" y="0.99999994" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_Knee</Name>
+          <Tag value="721" />
+          <Index value="34" />
+          <ParentIndex value="20" />
+          <SiblingIndex value="35" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.27276877" y="-2.3725443e-07" z="-0.000108909095" />
+          <Rotation x="7.554842e-05" y="0.008769915" z="-0.008726422" w="0.99992347" />
+          <Scale x="0.99999994" y="0.99999994" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_BumRoot</Name>
+          <Tag value="1668" />
+          <Index value="35" />
+          <ParentIndex value="20" />
+          <SiblingIndex value="37" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="1.097942e-08" y="-1.0384247e-07" z="1.3460522e-08" />
+          <Rotation x="0.025739113" y="0.0047671734" z="0.18217449" w="0.9829177" />
+          <Scale x="1.0000001" y="0.9999999" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_Bum</Name>
+          <Tag value="59033" />
+          <Index value="36" />
+          <ParentIndex value="35" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="-1.9208528e-09" y="-9.313226e-10" z="-1.2514647e-09" />
+          <Rotation x="1.8975697e-08" y="5.415641e-07" z="8.006464e-08" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_ShirtFront_TARGET</Name>
+          <Tag value="3422" />
+          <Index value="37" />
+          <ParentIndex value="20" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.1698268" y="0.081883244" z="0.006737251" />
+          <Rotation x="0.13206157" y="0.0006081113" z="0.008407702" w="0.9912057" />
+          <Scale x="0.99999994" y="0.99999994" z="0.9999999" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>RB_L_ThighRoll</Name>
+          <Tag value="23639" />
+          <Index value="38" />
+          <ParentIndex value="1" />
+          <SiblingIndex value="39" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.026355337" y="-0.008566029" z="-0.06588408" />
+          <Rotation x="-0.020322992" y="0.0388947" z="-0.02000971" w="0.9988362" />
+          <Scale x="1.0000001" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>RB_R_ThighRoll</Name>
+          <Tag value="6442" />
+          <Index value="39" />
+          <ParentIndex value="1" />
+          <SiblingIndex value="40" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.026355434" y="-0.008565929" z="0.06588402" />
+          <Rotation x="0.02031733" y="-0.039135963" z="-0.020014888" w="0.9988268" />
+          <Scale x="1.0" y="0.9999999" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>RB_L_BumRoll</Name>
+          <Tag value="40433" />
+          <Index value="40" />
+          <ParentIndex value="1" />
+          <SiblingIndex value="41" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="-0.013575572" y="-0.08598553" z="-0.074394874" />
+          <Rotation x="2.2351736e-07" y="2.1073417e-14" z="-1.4901158e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>RB_R_BumRoll</Name>
+          <Tag value="7153" />
+          <Index value="41" />
+          <ParentIndex value="1" />
+          <SiblingIndex value="42" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="-0.013575626" y="-0.085985616" z="0.07439482" />
+          <Rotation x="5.960465e-07" y="-2.8664557e-14" z="-1.4901161e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SPR_R_Belt_Police</Name>
+          <Tag value="38229" />
+          <Index value="42" />
+          <ParentIndex value="1" />
+          <SiblingIndex value="43" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="-0.053906865" y="-0.021256309" z="0.1475869" />
+          <Rotation x="-0.7071125" y="0.0021956791" z="0.7070943" w="0.002188879" />
+          <Scale x="0.99999994" y="1.0" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SPR_L_Belt_Police</Name>
+          <Tag value="57948" />
+          <Index value="43" />
+          <ParentIndex value="1" />
+          <SiblingIndex value="44" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="-0.0539069" y="-0.072323725" z="-0.12350161" />
+          <Rotation x="-0.70709556" y="0.0021957853" z="0.70711124" w="0.0021889852" />
+          <Scale x="1.0" y="1.0" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_ShirtCompressor</Name>
+          <Tag value="35428" />
+          <Index value="44" />
+          <ParentIndex value="1" />
+          <SiblingIndex value="45" />
+          <Flags>RotX, RotY, RotZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="-0.065570906" y="0.107617825" z="0.09252491" />
+          <Rotation x="-0.67258555" y="-0.20104958" z="0.6888816" w="0.180693" />
+          <Scale x="1.0" y="1.0" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_ShirtCompressor</Name>
+          <Tag value="31738" />
+          <Index value="45" />
+          <ParentIndex value="1" />
+          <SiblingIndex value="46" />
+          <Flags>RotX, RotY, RotZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="-0.065570965" y="0.08853261" z="-0.098091505" />
+          <Rotation x="0.6678481" y="-0.16924016" z="-0.70694804" w="0.15987848" />
+          <Scale x="1.0" y="0.9999998" z="0.9999988" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_SecPass</Name>
+          <Tag value="25435" />
+          <Index value="46" />
+          <ParentIndex value="1" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="-0.0021219358" y="0.098811194" z="0.0646215" />
+          <Rotation x="-0.76031727" y="-0.1385504" z="0.6243222" w="0.11376863" />
+          <Scale x="1.0" y="0.9999999" z="0.99999917" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_Spine_Root</Name>
+          <Tag value="57597" />
+          <Index value="47" />
+          <ParentIndex value="0" />
+          <SiblingIndex value="249" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="2.0000002e-08" y="0.0026666" z="-0.24273512" />
+          <Rotation x="0.0" y="-0.7071068" z="0.0" w="0.7071067" />
+          <Scale x="0.99999994" y="0.99999976" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_Spine0</Name>
+          <Tag value="23553" />
+          <Index value="48" />
+          <ParentIndex value="47" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.041469574" y="0.0003873813" z="1.0658141e-14" />
+          <Rotation x="8.559968e-05" y="-8.373387e-06" z="-0.00027939747" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_Spine1</Name>
+          <Tag value="24816" />
+          <Index value="49" />
+          <ParentIndex value="48" />
+          <SiblingIndex value="235" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.045190252" y="-0.0084226895" z="-3.077493e-05" />
+          <Rotation x="-2.5296269e-05" y="-0.00058430166" z="-0.0029468506" w="0.99999547" />
+          <Scale x="1.0000001" y="1.0000001" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_Spine2</Name>
+          <Tag value="24817" />
+          <Index value="50" />
+          <ParentIndex value="49" />
+          <SiblingIndex value="233" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.04816561" y="-0.0075427117" z="-2.553874e-05" />
+          <Rotation x="2.500933e-05" y="0.0005842447" z="0.0020004993" w="0.99999785" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_Spine3</Name>
+          <Tag value="24818" />
+          <Index value="51" />
+          <ParentIndex value="50" />
+          <SiblingIndex value="232" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.044988755" y="7.3893247e-09" z="2.0305038e-09" />
+          <Rotation x="-1.6921899e-06" y="-7.308642e-05" z="0.007444529" w="0.9999723" />
+          <Scale x="0.99999994" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Clavicle</Name>
+          <Tag value="64729" />
+          <Index value="52" />
+          <ParentIndex value="51" />
+          <SiblingIndex value="97" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.09537473" y="-0.023038857" z="0.030646257" />
+          <Rotation x="0.009556702" y="-0.7565878" z="-0.014108525" w="0.6536701" />
+          <Scale x="1.0" y="1.0000001" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_UpperArm</Name>
+          <Tag value="45509" />
+          <Index value="53" />
+          <ParentIndex value="52" />
+          <SiblingIndex value="90" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="0.045301408" y="0.0015775189" z="0.0032343995" />
+          <Rotation x="-0.019162102" y="0.07192429" z="0.019526254" w="0.99703485" />
+          <Scale x="0.99999994" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Forearm</Name>
+          <Tag value="61163" />
+          <Index value="54" />
+          <ParentIndex value="53" />
+          <SiblingIndex value="86" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="0.18110302" y="-8.8696834e-05" z="3.0508003e-05" />
+          <Rotation x="-2.0433187e-07" y="-8.4079504e-05" z="0.00064566755" w="0.9999999" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Hand</Name>
+          <Tag value="18905" />
+          <Index value="55" />
+          <ParentIndex value="54" />
+          <SiblingIndex value="80" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="0.17315333" y="8.8475645e-08" z="-3.7169666e-06" />
+          <Rotation x="0.16215864" y="-0.04468938" z="-0.04371715" w="0.98478246" />
+          <Scale x="0.9999999" y="0.99999994" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Finger00</Name>
+          <Tag value="26610" />
+          <Index value="56" />
+          <ParentIndex value="55" />
+          <SiblingIndex value="61" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.01697994" y="0.020306712" z="0.0023436188" />
+          <Rotation x="-0.09422061" y="0.038831025" z="0.20492293" w="0.9734584" />
+          <Scale x="0.9999998" y="0.9999999" z="0.9999999" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Finger01</Name>
+          <Tag value="4089" />
+          <Index value="57" />
+          <ParentIndex value="56" />
+          <SiblingIndex value="60" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.027043987" y="0.0019530155" z="0.000172497" />
+          <Rotation x="0.014058221" y="0.040118046" z="-0.06896404" w="0.99671304" />
+          <Scale x="1.0000001" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Finger02</Name>
+          <Tag value="4090" />
+          <Index value="58" />
+          <ParentIndex value="57" />
+          <SiblingIndex value="59" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.029938402" y="-0.0012086122" z="-0.000107035856" />
+          <Rotation x="0.0021014735" y="0.009947243" z="-0.066714175" w="0.99772036" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_Finger00</Name>
+          <Tag value="35939" />
+          <Index value="59" />
+          <ParentIndex value="57" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="0.014420199" y="-5.7625584e-09" z="9.819632e-07" />
+          <Rotation x="6.021e-07" y="-3.5050323e-06" z="3.8271537e-08" w="1.0" />
+          <Scale x="1.0" y="1.0000001" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_FingerBulge00</Name>
+          <Tag value="24504" />
+          <Index value="60" />
+          <ParentIndex value="56" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="0.03545824" y="-0.020270485" z="0.011951694" />
+          <Rotation x="4.4563785e-07" y="-1.9986182e-06" z="-3.5041012e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Finger10</Name>
+          <Tag value="26611" />
+          <Index value="61" />
+          <ParentIndex value="55" />
+          <SiblingIndex value="65" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.061243955" y="0.018012429" z="-0.015302613" />
+          <Rotation x="-0.70601577" y="0.0115897395" z="0.06117959" w="0.7054534" />
+          <Scale x="0.9999999" y="0.9999998" z="0.99999976" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Finger11</Name>
+          <Tag value="4169" />
+          <Index value="62" />
+          <ParentIndex value="61" />
+          <SiblingIndex value="64" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.027533999" y="-4.7002686e-09" z="1.0477379e-09" />
+          <Rotation x="-0.025619214" y="0.0017319612" z="0.001810268" w="0.99966866" />
+          <Scale x="1.0" y="1.0" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Finger12</Name>
+          <Tag value="4170" />
+          <Index value="63" />
+          <ParentIndex value="62" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.01623857" y="-6.8891677e-07" z="-1.3387762e-09" />
+          <Rotation x="-0.007108063" y="-0.009269692" z="0.0010071724" w="0.9999313" />
+          <Scale x="1.0" y="1.0" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_Finger10</Name>
+          <Tag value="35923" />
+          <Index value="64" />
+          <ParentIndex value="61" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="0.015919687" y="-4.3364707e-09" z="5.820766e-10" />
+          <Rotation x="5.9714694e-07" y="8.959705e-07" z="9.3132627e-07" w="1.0" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Finger20</Name>
+          <Tag value="26612" />
+          <Index value="65" />
+          <ParentIndex value="55" />
+          <SiblingIndex value="68" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.061915293" y="0.004466024" z="-0.011821922" />
+          <Rotation x="-0.7408531" y="0.008565198" z="0.06085661" w="0.6688497" />
+          <Scale x="0.99999994" y="0.9999999" z="0.9999999" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Finger21</Name>
+          <Tag value="4185" />
+          <Index value="66" />
+          <ParentIndex value="65" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.030182507" y="-1.5890691e-08" z="2.764864e-09" />
+          <Rotation x="-0.010835641" y="0.0002863136" z="0.0018966127" w="0.9999395" />
+          <Scale x="1.0000001" y="0.99999994" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Finger22</Name>
+          <Tag value="4186" />
+          <Index value="67" />
+          <ParentIndex value="66" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.019513551" y="1.03609636e-07" z="-3.4779077e-09" />
+          <Rotation x="-0.02092469" y="-0.025290709" z="-0.028511347" w="0.9990544" />
+          <Scale x="0.9999999" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Finger30</Name>
+          <Tag value="26613" />
+          <Index value="68" />
+          <ParentIndex value="55" />
+          <SiblingIndex value="71" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.06294577" y="-0.00882717" z="-0.007607023" />
+          <Rotation x="-0.7677215" y="0.006041378" z="0.059845015" w="0.6379545" />
+          <Scale x="0.99999994" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Finger31</Name>
+          <Tag value="4137" />
+          <Index value="69" />
+          <ParentIndex value="68" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.02856529" y="4.9590366e-05" z="3.4887344e-06" />
+          <Rotation x="0.00135257" y="-0.0017383692" z="0.0019160142" w="0.99999577" />
+          <Scale x="1.0" y="0.9999998" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Finger32</Name>
+          <Tag value="4138" />
+          <Index value="70" />
+          <ParentIndex value="69" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.017776141" y="-6.4028427e-10" z="-2.3283064e-10" />
+          <Rotation x="-0.027796514" y="0.0010187879" z="-0.008034618" w="0.9995808" />
+          <Scale x="0.99999994" y="0.99999994" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Finger40</Name>
+          <Tag value="26614" />
+          <Index value="71" />
+          <ParentIndex value="55" />
+          <SiblingIndex value="74" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.064185664" y="-0.020544961" z="0.00021607103" />
+          <Rotation x="-0.7981659" y="0.0034631405" z="0.06125109" w="0.59930587" />
+          <Scale x="0.9999999" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Finger41</Name>
+          <Tag value="4153" />
+          <Index value="72" />
+          <ParentIndex value="71" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.022271167" y="-1.5148544e-08" z="-1.7120328e-08" />
+          <Rotation x="-0.0060711927" y="-0.00054779527" z="0.000732286" w="0.99998116" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Finger42</Name>
+          <Tag value="4154" />
+          <Index value="73" />
+          <ParentIndex value="72" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.013500783" y="-4.954054e-07" z="-6.809387e-09" />
+          <Rotation x="-0.021115178" y="-0.0065469397" z="-0.027933573" w="0.9993653" />
+          <Scale x="0.99999994" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>PH_L_Hand</Name>
+          <Tag value="60309" />
+          <Index value="74" />
+          <ParentIndex value="55" />
+          <SiblingIndex value="75" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.03246236" y="1.97615e-08" z="2.5352929e-06" />
+          <Rotation x="3.6088753e-08" y="-7.944462e-05" z="5.9930613e-07" w="1.0" />
+          <Scale x="0.9999999" y="0.99999994" z="0.9999999" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>IK_L_Hand</Name>
+          <Tag value="36029" />
+          <Index value="75" />
+          <ParentIndex value="55" />
+          <SiblingIndex value="76" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.03246236" y="1.97615e-08" z="2.5352929e-06" />
+          <Rotation x="3.6088753e-08" y="-7.944462e-05" z="5.9930613e-07" w="1.0" />
+          <Scale x="0.9999999" y="0.99999994" z="0.9999999" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_Thumb</Name>
+          <Tag value="8323" />
+          <Index value="76" />
+          <ParentIndex value="55" />
+          <SiblingIndex value="77" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.021698447" y="9.487849e-09" z="-2.742745e-07" />
+          <Rotation x="-4.8405496e-07" y="6.903895e-06" z="3.953465e-07" w="1.0" />
+          <Scale x="0.99999994" y="0.9999999" z="0.9999999" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_HandWebbing</Name>
+          <Tag value="15828" />
+          <Index value="77" />
+          <ParentIndex value="55" />
+          <SiblingIndex value="78" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.044991262" y="0.008561123" z="0.0036734436" />
+          <Rotation x="-9.4480055e-07" y="5.907713e-06" z="-0.3826827" w="0.92387986" />
+          <Scale x="0.9999999" y="0.9999998" z="0.9999999" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_FingerTop00</Name>
+          <Tag value="41540" />
+          <Index value="78" />
+          <ParentIndex value="55" />
+          <SiblingIndex value="79" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="0.05972804" y="0.03150232" z="-0.0069163246" />
+          <Rotation x="-0.27495283" y="-0.16040844" z="0.10551104" w="0.94209206" />
+          <Scale x="0.9999999" y="0.99999994" z="0.9999999" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_HandSide</Name>
+          <Tag value="51082" />
+          <Index value="79" />
+          <ParentIndex value="55" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="0.038198356" y="-0.025116172" z="0.0089019295" />
+          <Rotation x="-0.833552" y="0.07092376" z="-0.11480918" w="0.53570515" />
+          <Scale x="1.0" y="0.99999994" z="0.9999998" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>RB_L_ForeArmRoll</Name>
+          <Tag value="61007" />
+          <Index value="80" />
+          <ParentIndex value="54" />
+          <SiblingIndex value="82" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.059640847" y="-0.0005094759" z="-0.00031690596" />
+          <Rotation x="-4.9874683e-07" y="-5.8694408e-05" z="3.3540258e-07" w="1.0" />
+          <Scale x="0.99999994" y="0.99999994" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_Wrist</Name>
+          <Tag value="49600" />
+          <Index value="81" />
+          <ParentIndex value="80" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.06826424" y="-0.0002590032" z="-9.6204225e-05" />
+          <Rotation x="-7.0263604e-07" y="3.2449916e-05" z="1.2460077e-10" w="1.0" />
+          <Scale x="1.0000001" y="1.0" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_Elbow</Name>
+          <Tag value="17012" />
+          <Index value="82" />
+          <ParentIndex value="54" />
+          <SiblingIndex value="83" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.15930769" y="8.4837666e-08" z="1.4283927e-05" />
+          <Rotation x="9.18675e-09" y="0.0001403847" z="2.981374e-07" w="1.0" />
+          <Scale x="0.99999994" y="0.99999994" z="0.9999999" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>L_Cuff_ROOT</Name>
+          <Tag value="20970" />
+          <Index value="83" />
+          <ParentIndex value="54" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.18838592" y="-9.3714334e-08" z="-1.7518993e-05" />
+          <Rotation x="-1.9707205e-07" y="2.8752624e-05" z="2.3842476e-06" w="1.0" />
+          <Scale x="1.0" y="1.0" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SM_L_Cuff</Name>
+          <Tag value="64672" />
+          <Index value="84" />
+          <ParentIndex value="83" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="5.577158e-08" y="7.1304385e-10" z="5.820766e-11" />
+          <Rotation x="-3.878199e-09" y="1.950567e-05" z="2.0727384e-09" w="1.0" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SM_L_Cuff_TILTER</Name>
+          <Tag value="46636" />
+          <Index value="85" />
+          <ParentIndex value="84" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="-1.3300905e-08" y="2.7066562e-09" z="1.7462298e-10" />
+          <Rotation x="-9.397355e-10" y="-1.740462e-05" z="1.4551915e-11" w="1.0" />
+          <Scale x="0.99999994" y="0.99999994" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>RB_L_ArmRoll</Name>
+          <Tag value="5232" />
+          <Index value="86" />
+          <ParentIndex value="53" />
+          <SiblingIndex value="87" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="-4.0836312e-10" y="5.9662852e-09" z="1.09139364e-10" />
+          <Rotation x="2.9806617e-07" y="-0.0003004313" z="3.7066098e-07" w="0.99999994" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_Bicep</Name>
+          <Tag value="54337" />
+          <Index value="87" />
+          <ParentIndex value="53" />
+          <SiblingIndex value="88" />
+          <Flags>RotX, RotY, RotZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="0.13995458" y="0.0077399113" z="-1.3933313e-06" />
+          <Rotation x="-2.6723797e-09" y="4.2788935e-05" z="4.4699297e-07" w="1.0" />
+          <Scale x="1.0000001" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_Sleeve</Name>
+          <Tag value="37692" />
+          <Index value="88" />
+          <ParentIndex value="53" />
+          <SiblingIndex value="89" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.14282224" y="0.046015497" z="0.00964711" />
+          <Rotation x="-8.820791e-09" y="1.2807666e-05" z="-1.4898524e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>RB_L_ArmRoll_Vest</Name>
+          <Tag value="9247" />
+          <Index value="89" />
+          <ParentIndex value="53" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="-4.0836312e-10" y="5.9662852e-09" z="1.09139364e-10" />
+          <Rotation x="-8.844836e-10" y="3.4198427e-05" z="-1.3687895e-09" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_Shoulder</Name>
+          <Tag value="29957" />
+          <Index value="90" />
+          <ParentIndex value="52" />
+          <SiblingIndex value="93" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="-3.1432137e-09" y="2.3341272e-08" z="2.3719622e-09" />
+          <Rotation x="2.2713211e-06" y="-4.011023e-05" z="-4.2287866e-08" w="1.0" />
+          <Scale x="1.0" y="1.0" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_Scap_ROOT</Name>
+          <Tag value="934" />
+          <Index value="91" />
+          <ParentIndex value="90" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.14078577" y="-9.0112735e-09" z="-1.0222793e-05" />
+          <Rotation x="0.97586405" y="0.18103866" z="-0.121040605" w="0.016234946" />
+          <Scale x="0.9999996" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_Scap</Name>
+          <Tag value="10362" />
+          <Index value="92" />
+          <ParentIndex value="91" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.012688927" y="0.055727523" z="-0.03328179" />
+          <Rotation x="-6.7392165e-08" y="9.976163e-07" z="-0.15932098" w="0.98722684" />
+          <Scale x="1.0" y="1.0000001" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_ArmPit_In_ROOT</Name>
+          <Tag value="58850" />
+          <Index value="93" />
+          <ParentIndex value="52" />
+          <SiblingIndex value="95" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.120677836" y="5.355105e-09" z="0.046956696" />
+          <Rotation x="0.34784183" y="0.11123685" z="-0.8732612" w="0.32256368" />
+          <Scale x="1.0000001" y="0.9999999" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_ArmPit_In</Name>
+          <Tag value="10508" />
+          <Index value="94" />
+          <ParentIndex value="93" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="-7.450581e-09" y="-3.3993274e-08" z="3.7252903e-09" />
+          <Rotation x="2.9169023e-06" y="1.00582845e-07" z="-5.3830445e-07" w="1.0" />
+          <Scale x="0.99999994" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_ArmPit_Out_ROOT</Name>
+          <Tag value="35718" />
+          <Index value="95" />
+          <ParentIndex value="52" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.120677836" y="5.355105e-09" z="0.046956696" />
+          <Rotation x="-0.05205762" y="-0.03487525" z="-0.938546" w="0.33941883" />
+          <Scale x="1.0000005" y="1.0000001" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_ArmPit_Out</Name>
+          <Tag value="17376" />
+          <Index value="96" />
+          <ParentIndex value="95" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="-7.043127e-09" y="1.816079e-08" z="4.1909516e-09" />
+          <Rotation x="8.353964e-07" y="8.265489e-09" z="-3.4147963e-06" w="1.0" />
+          <Scale x="0.99999994" y="1.0" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_Clavicle</Name>
+          <Tag value="10706" />
+          <Index value="97" />
+          <ParentIndex value="51" />
+          <SiblingIndex value="142" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.09536554" y="-0.023038166" z="-0.030658852" />
+          <Rotation x="-0.009558441" y="0.75667125" z="-0.014105059" w="0.6535736" />
+          <Scale x="1.0" y="1.0000001" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_UpperArm</Name>
+          <Tag value="40269" />
+          <Index value="98" />
+          <ParentIndex value="97" />
+          <SiblingIndex value="135" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="0.045301806" y="0.0015771248" z="-0.0032331033" />
+          <Rotation x="0.019163482" y="-0.0718206" z="0.01952841" w="0.99704224" />
+          <Scale x="0.99999994" y="1.0000001" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_Forearm</Name>
+          <Tag value="28252" />
+          <Index value="99" />
+          <ParentIndex value="98" />
+          <SiblingIndex value="131" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="0.1811033" y="-8.883428e-05" z="-7.955532e-07" />
+          <Rotation x="1.2958058e-06" y="-1.6783084e-05" z="0.0006465614" w="0.9999999" />
+          <Scale x="1.0" y="1.0000001" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>RB_R_ForeArmRoll</Name>
+          <Tag value="43810" />
+          <Index value="100" />
+          <ParentIndex value="99" />
+          <SiblingIndex value="102" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.059650086" y="-0.0006170985" z="0.00030160256" />
+          <Rotation x="-1.9475635e-07" y="-4.1685522e-05" z="-3.718924e-08" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_Wrist</Name>
+          <Tag value="29881" />
+          <Index value="101" />
+          <ParentIndex value="100" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.06826482" y="-0.00028240215" z="7.790173e-05" />
+          <Rotation x="-6.670007e-10" y="-5.129019e-05" z="2.9803914e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_Elbow</Name>
+          <Tag value="62460" />
+          <Index value="102" />
+          <ParentIndex value="99" />
+          <SiblingIndex value="103" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.15930755" y="1.9499566e-09" z="-2.9192364e-05" />
+          <Rotation x="-1.9181203e-07" y="-0.00028629001" z="-1.4889977e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>R_Cuff_ROOT</Name>
+          <Tag value="23184" />
+          <Index value="103" />
+          <ParentIndex value="99" />
+          <SiblingIndex value="106" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.18838605" y="-5.798938e-09" z="-2.8390321e-05" />
+          <Rotation x="-1.9885863e-07" y="0.00017157417" z="9.094947e-12" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SM_R_Cuff</Name>
+          <Tag value="34929" />
+          <Index value="104" />
+          <ParentIndex value="103" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="8.229563e-09" y="-3.805326e-09" z="-1.1641532e-10" />
+          <Rotation x="-1.392629e-06" y="9.8368575e-05" z="1.1537686e-06" w="1.0" />
+          <Scale x="1.0" y="1.0" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SM_R_Cuff_TILTER</Name>
+          <Tag value="26917" />
+          <Index value="105" />
+          <ParentIndex value="104" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="1.6595095e-08" y="8.614734e-09" z="-5.2386895e-10" />
+          <Rotation x="5.106813e-10" y="-0.00011902393" z="7.6124707e-10" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_Hand</Name>
+          <Tag value="57005" />
+          <Index value="106" />
+          <ParentIndex value="99" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="0.17315346" y="-1.1335942e-08" z="-5.2910764e-06" />
+          <Rotation x="-0.16216059" y="0.044751514" z="-0.04370836" w="0.9847796" />
+          <Scale x="0.99999994" y="0.9999999" z="0.9999999" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_Finger00</Name>
+          <Tag value="58866" />
+          <Index value="107" />
+          <ParentIndex value="106" />
+          <SiblingIndex value="112" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.017011741" y="0.020168096" z="-0.0024022167" />
+          <Rotation x="0.11154057" y="-0.05003718" z="0.22011665" w="0.96778286" />
+          <Scale x="0.99999994" y="1.0" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_Finger01</Name>
+          <Tag value="64016" />
+          <Index value="108" />
+          <ParentIndex value="107" />
+          <SiblingIndex value="111" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.027039226" y="0.0009594753" z="-0.0009024031" />
+          <Rotation x="-0.007042871" y="-0.023896134" z="-0.07882016" w="0.99657756" />
+          <Scale x="0.9999999" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_Finger02</Name>
+          <Tag value="64017" />
+          <Index value="109" />
+          <ParentIndex value="108" />
+          <SiblingIndex value="110" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.029927328" y="-0.0013782044" z="0.0004769715" />
+          <Rotation x="0.0010358256" y="0.012634484" z="-0.115542546" w="0.99322164" />
+          <Scale x="0.99999994" y="1.0" z="0.9999999" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_Finger00</Name>
+          <Tag value="11363" />
+          <Index value="110" />
+          <ParentIndex value="108" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="0.012476515" y="-4.1618478e-09" z="1.8737046e-07" />
+          <Rotation x="-2.0040898e-07" y="1.7939601e-07" z="1.3496901e-09" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_FingerBulge00</Name>
+          <Tag value="27064" />
+          <Index value="111" />
+          <ParentIndex value="107" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="0.035448335" y="-0.020264426" z="-0.011946704" />
+          <Rotation x="6.9849193e-10" y="-1.4388934e-07" z="4.2491592e-09" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_Finger10</Name>
+          <Tag value="58867" />
+          <Index value="112" />
+          <ParentIndex value="106" />
+          <SiblingIndex value="116" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.061275896" y="0.017858308" z="0.015241553" />
+          <Rotation x="-0.66857576" y="-0.058391444" z="-0.004788589" w="0.7413326" />
+          <Scale x="0.9999999" y="1.0" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_Finger11</Name>
+          <Tag value="64096" />
+          <Index value="113" />
+          <ParentIndex value="112" />
+          <SiblingIndex value="115" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.027470876" y="1.1641532e-08" z="-2.0954758e-09" />
+          <Rotation x="0.024119033" y="0.002854118" z="-0.0040957695" w="0.9996967" />
+          <Scale x="0.99999994" y="0.9999999" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_Finger12</Name>
+          <Tag value="64097" />
+          <Index value="114" />
+          <ParentIndex value="113" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.016318893" y="-4.0000712e-05" z="4.2402185e-05" />
+          <Rotation x="0.0071901297" y="-0.009214268" z="-0.008688729" w="0.99989396" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_Finger10</Name>
+          <Tag value="11347" />
+          <Index value="115" />
+          <ParentIndex value="112" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="0.015883427" y="1.5366822e-08" z="-1.0477379e-09" />
+          <Rotation x="-3.526111e-09" y="8.4408384e-08" z="-2.2314816e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_Finger20</Name>
+          <Tag value="58868" />
+          <Index value="116" />
+          <ParentIndex value="106" />
+          <SiblingIndex value="119" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.061942272" y="0.004311802" z="0.011760451" />
+          <Rotation x="-0.6531283" y="-0.058179572" z="-0.0048936135" w="0.7549931" />
+          <Scale x="0.99999994" y="1.0" z="0.9999999" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_Finger21</Name>
+          <Tag value="64112" />
+          <Index value="117" />
+          <ParentIndex value="116" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.030214285" y="-9.489339e-05" z="4.2095962e-05" />
+          <Rotation x="0.010222954" y="-0.0002908426" z="-0.0069319466" w="0.9999237" />
+          <Scale x="0.9999999" y="0.99999994" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_Finger22</Name>
+          <Tag value="64113" />
+          <Index value="118" />
+          <ParentIndex value="117" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.019514984" y="-7.683411e-09" z="-3.3032848e-09" />
+          <Rotation x="0.021142002" y="-0.02512125" z="0.020391371" w="0.9992528" />
+          <Scale x="1.0" y="1.0" z="0.9999999" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_Finger30</Name>
+          <Tag value="58869" />
+          <Index value="119" />
+          <ParentIndex value="106" />
+          <SiblingIndex value="122" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.062968284" y="-0.008981589" z="0.0075451517" />
+          <Rotation x="-0.59600997" y="-0.060572963" z="-0.0022160443" w="0.8006862" />
+          <Scale x="1.0" y="1.0000001" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_Finger31</Name>
+          <Tag value="64064" />
+          <Index value="120" />
+          <ParentIndex value="119" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.028549816" y="-2.0988664e-05" z="1.0799862e-05" />
+          <Rotation x="-0.0013510564" y="-0.0017444721" z="-0.0016343743" w="0.99999624" />
+          <Scale x="0.99999994" y="0.9999999" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_Finger32</Name>
+          <Tag value="64065" />
+          <Index value="121" />
+          <ParentIndex value="120" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.017724564" y="4.4237822e-09" z="4.7148205e-09" />
+          <Rotation x="0.027801475" y="0.0009977974" z="0.008146594" w="0.9995798" />
+          <Scale x="1.0" y="1.0000001" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_Finger40</Name>
+          <Tag value="58870" />
+          <Index value="122" />
+          <ParentIndex value="106" />
+          <SiblingIndex value="125" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.06420366" y="-0.02069961" z="-0.0002782545" />
+          <Rotation x="-0.538624" y="-0.060905356" z="0.0020718842" w="0.8403395" />
+          <Scale x="1.0" y="1.0" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_Finger41</Name>
+          <Tag value="64080" />
+          <Index value="123" />
+          <ParentIndex value="122" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.022309074" y="1.44355e-08" z="-1.2660166e-09" />
+          <Rotation x="0.0061855963" y="-0.0006244554" z="-0.0031028758" w="0.99997586" />
+          <Scale x="0.99999994" y="1.0000002" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_Finger42</Name>
+          <Tag value="64081" />
+          <Index value="124" />
+          <ParentIndex value="123" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.013440459" y="6.8813097e-07" z="3.3178367e-09" />
+          <Rotation x="0.021112964" y="-0.0065888115" z="0.028943079" w="0.9993364" />
+          <Scale x="0.9999999" y="1.0000001" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>PH_R_Hand</Name>
+          <Tag value="28422" />
+          <Index value="125" />
+          <ParentIndex value="106" />
+          <SiblingIndex value="126" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.032462798" y="8.614734e-09" z="1.7881393e-07" />
+          <Rotation x="8.63336e-07" y="-2.9893125e-05" z="6.700866e-07" w="1.0" />
+          <Scale x="1.0000001" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>IK_R_Hand</Name>
+          <Tag value="6286" />
+          <Index value="126" />
+          <ParentIndex value="106" />
+          <SiblingIndex value="127" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.032462798" y="8.614734e-09" z="1.7881393e-07" />
+          <Rotation x="8.63336e-07" y="-2.9893125e-05" z="6.700866e-07" w="1.0" />
+          <Scale x="1.0000001" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_Thumb</Name>
+          <Tag value="53771" />
+          <Index value="127" />
+          <ParentIndex value="106" />
+          <SiblingIndex value="128" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.021698281" y="1.8044375e-09" z="2.8661452e-07" />
+          <Rotation x="-4.3655746e-08" y="-3.6158601e-06" z="2.9662627e-07" w="1.0" />
+          <Scale x="0.99999994" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_HandWebbing</Name>
+          <Tag value="35547" />
+          <Index value="128" />
+          <ParentIndex value="106" />
+          <SiblingIndex value="129" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.04499123" y="0.008561106" z="0.003674166" />
+          <Rotation x="1.292706e-06" y="-3.7131747e-06" z="-0.3826831" w="0.9238797" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_FingerTop00</Name>
+          <Tag value="61259" />
+          <Index value="129" />
+          <ParentIndex value="106" />
+          <SiblingIndex value="130" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="0.059727766" y="0.031501602" z="0.006917853" />
+          <Rotation x="0.27495402" y="0.16040492" z="0.10550917" w="0.94209254" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_HandSide</Name>
+          <Tag value="26875" />
+          <Index value="130" />
+          <ParentIndex value="106" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="0.03819795" y="-0.025116986" z="-0.00890193" />
+          <Rotation x="-0.53570473" y="0.11480895" z="-0.07092394" w="0.8335521" />
+          <Scale x="0.9999998" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>RB_R_ArmRoll</Name>
+          <Tag value="37119" />
+          <Index value="131" />
+          <ParentIndex value="98" />
+          <SiblingIndex value="132" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="-1.7456841e-08" y="3.958121e-09" z="-3.7107384e-10" />
+          <Rotation x="-4.9660923e-07" y="-0.000182889" z="-1.16050614e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_Bicep</Name>
+          <Tag value="34618" />
+          <Index value="132" />
+          <ParentIndex value="98" />
+          <SiblingIndex value="133" />
+          <Flags>RotX, RotY, RotZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="0.1400931" y="-2.8609065e-08" z="3.903231e-06" />
+          <Rotation x="1.981617e-06" y="0.00019695082" z="-0.011070749" w="0.9999387" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_Sleeve</Name>
+          <Tag value="37596" />
+          <Index value="133" />
+          <ParentIndex value="98" />
+          <SiblingIndex value="134" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.14282179" y="0.046015467" z="-0.009644499" />
+          <Rotation x="9.472103e-09" y="1.2263609e-05" z="1.4903344e-07" w="1.0" />
+          <Scale x="0.99999994" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>RB_R_ArmRoll_Vest</Name>
+          <Tag value="9151" />
+          <Index value="134" />
+          <ParentIndex value="98" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="-1.7456841e-08" y="3.958121e-09" z="-3.7107384e-10" />
+          <Rotation x="4.534172e-09" y="6.473067e-05" z="-1.15293915e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_Shoulder</Name>
+          <Tag value="54533" />
+          <Index value="135" />
+          <ParentIndex value="97" />
+          <SiblingIndex value="138" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="-2.2118911e-09" y="2.685556e-08" z="-2.6921043e-09" />
+          <Rotation x="-1.1728844e-06" y="0.00012817925" z="9.236973e-07" w="1.0" />
+          <Scale x="1.0" y="1.0000001" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_Scap_ROOT</Name>
+          <Tag value="3148" />
+          <Index value="136" />
+          <ParentIndex value="135" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.14078577" y="-1.1088559e-08" z="3.1529722e-05" />
+          <Rotation x="0.121111974" y="0.016222207" z="-0.9758553" w="0.18103918" />
+          <Scale x="0.9999985" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_Scap</Name>
+          <Tag value="45786" />
+          <Index value="137" />
+          <ParentIndex value="136" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="-0.012383917" y="0.055727705" z="-0.033281792" />
+          <Rotation x="-2.725757e-07" y="9.957297e-07" z="0.15932041" w="0.987227" />
+          <Scale x="0.99999994" y="0.9999999" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_ArmPit_In_ROOT</Name>
+          <Tag value="17890" />
+          <Index value="138" />
+          <ParentIndex value="97" />
+          <SiblingIndex value="140" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.12067562" y="2.6775524e-08" z="-0.04696" />
+          <Rotation x="-0.11123024" y="0.34785506" z="0.3225634" w="0.873257" />
+          <Scale x="1.0000001" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_ArmPit_In</Name>
+          <Tag value="8294" />
+          <Index value="139" />
+          <ParentIndex value="138" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="1.8626451e-09" y="-3.213063e-08" z="-2.0489097e-08" />
+          <Rotation x="5.066395e-07" y="-2.644956e-07" z="3.8184226e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_ArmPit_Out_ROOT</Name>
+          <Tag value="33504" />
+          <Index value="140" />
+          <ParentIndex value="97" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.12067552" y="2.712477e-08" z="-0.04696011" />
+          <Rotation x="0.034881588" y="-0.05204408" z="0.33941677" w="0.93854725" />
+          <Scale x="1.0000001" y="1.0000001" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_ArmPit_Out</Name>
+          <Tag value="47119" />
+          <Index value="141" />
+          <ParentIndex value="140" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="1.1117663e-08" y="-1.071021e-08" z="1.3969839e-09" />
+          <Rotation x="-2.6170167e-07" y="5.129259e-07" z="-1.3576791e-06" w="1.0" />
+          <Scale x="1.0" y="0.99999994" z="0.9999999" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_Neck_1</Name>
+          <Tag value="39317" />
+          <Index value="142" />
+          <ParentIndex value="51" />
+          <SiblingIndex value="209" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.12326934" y="-0.030311968" z="-1.5444195e-05" />
+          <Rotation x="1.0193244e-05" y="7.40495e-05" z="0.10911459" w="0.9940293" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_Head</Name>
+          <Tag value="31086" />
+          <Index value="143" />
+          <ParentIndex value="142" />
+          <SiblingIndex value="201" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.045933906" y="-0.008533305" z="-1.0998461e-06" />
+          <Rotation x="-1.9026691e-05" y="-0.00024691853" z="-0.11966683" w="0.9928141" />
+          <Scale x="1.0000001" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>IK_Head</Name>
+          <Tag value="12844" />
+          <Index value="144" />
+          <ParentIndex value="143" />
+          <SiblingIndex value="145" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="-6.321472e-09" y="3.5844954e-09" z="1.1937118e-12" />
+          <Rotation x="4.299872e-06" y="0.00053415896" z="1.1652996e-05" w="0.99999994" />
+          <Scale x="0.99999994" y="0.99999994" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_facialRoot</Name>
+          <Tag value="65068" />
+          <Index value="145" />
+          <ParentIndex value="143" />
+          <SiblingIndex value="198" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="-6.4154135e-09" y="-3.92391e-09" z="-2.9999885e-07" />
+          <Rotation x="-0.49792075" y="-0.5020237" z="-0.4979207" w="0.50211763" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_jaw</Name>
+          <Tag value="2849" />
+          <Index value="146" />
+          <ParentIndex value="145" />
+          <SiblingIndex value="153" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="-6.4000706e-06" y="0.0057145916" z="0.011475314" />
+          <Rotation x="0.00043019652" y="-3.017711e-10" z="-5.0066353e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_L_lipLowerSDK</Name>
+          <Tag value="47585" />
+          <Index value="147" />
+          <ParentIndex value="146" />
+          <SiblingIndex value="149" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ, Unk0</Flags>
+          <Translation x="0.006169801" y="0.007461219" z="0.075899415" />
+          <Rotation x="0.07230569" y="0.18771628" z="0.021603098" w="0.9793201" />
+          <Scale x="1.0" y="1.0000001" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_L_lipLowerAnalog</Name>
+          <Tag value="9290" />
+          <Index value="148" />
+          <ParentIndex value="147" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="-4.656613e-10" y="1.724402e-09" z="-6.7520887e-09" />
+          <Rotation x="3.98606e-07" y="2.4889596e-07" z="1.9883736e-07" w="1.0" />
+          <Scale x="1.0" y="1.0000001" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_lipLowerSDK</Name>
+          <Tag value="29317" />
+          <Index value="149" />
+          <ParentIndex value="146" />
+          <SiblingIndex value="151" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ, Unk0</Flags>
+          <Translation x="-1.8300008e-05" y="0.0074571096" z="0.07683051" />
+          <Rotation x="0.052336972" y="-1.0392859e-09" z="-6.986217e-11" w="0.99862957" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_lipLowerAnalog</Name>
+          <Tag value="55675" />
+          <Index value="150" />
+          <ParentIndex value="149" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="-1.2732926e-11" y="-6.0335923e-09" z="4.98142e-09" />
+          <Rotation x="-6.668257e-07" y="-7.4578566e-11" z="-9.50422e-11" w="1.0" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_R_lipLowerSDK</Name>
+          <Tag value="41012" />
+          <Index value="151" />
+          <ParentIndex value="146" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ, Unk0</Flags>
+          <Translation x="-0.0062060007" y="0.007453212" z="0.07589712" />
+          <Rotation x="0.07230489" y="-0.18771645" z="-0.021602886" w="0.9793201" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_R_lipLowerAnalog</Name>
+          <Tag value="49881" />
+          <Index value="152" />
+          <ParentIndex value="151" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="-2.0954758e-09" y="-3.5724952e-09" z="-9.313226e-09" />
+          <Rotation x="1.040753e-06" y="-8.614734e-09" z="-8.1490725e-09" w="1.0" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_L_eyeball</Name>
+          <Tag value="5956" />
+          <Index value="153" />
+          <ParentIndex value="145" />
+          <SiblingIndex value="154" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.0198993" y="0.0673733" z="0.0110172" />
+          <Rotation x="0.0004273468" y="-2.0156614e-07" z="-4.6574138e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_L_eyelidLower</Name>
+          <Tag value="39308" />
+          <Index value="154" />
+          <ParentIndex value="145" />
+          <SiblingIndex value="159" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="0.019899296" y="0.06737331" z="0.011017203" />
+          <Rotation x="0.16547093" y="2.9251273e-09" z="-9.627199e-07" w="0.9862147" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_L_eyelidLowerOuterSDK</Name>
+          <Tag value="65100" />
+          <Index value="155" />
+          <ParentIndex value="154" />
+          <SiblingIndex value="157" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.0049798973" y="-0.0012337079" z="0.011157908" />
+          <Rotation x="0.0043202043" y="0.16499104" z="0.025818385" w="0.9859476" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_L_eyelidLowerOuterAnalog</Name>
+          <Tag value="47530" />
+          <Index value="156" />
+          <ParentIndex value="155" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="-1.8626451e-09" y="-4.8894435e-09" z="-5.5879354e-09" />
+          <Rotation x="-1.6298147e-08" y="-1.359731e-07" z="-7.4505815e-09" w="1.0" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_L_eyelidLowerInnerSDK</Name>
+          <Tag value="61777" />
+          <Index value="157" />
+          <ParentIndex value="154" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="-0.004369203" y="-0.0007655059" z="0.011540301" />
+          <Rotation x="0.0030409563" y="-0.08710232" z="-0.034766305" w="0.9955879" />
+          <Scale x="0.99999994" y="1.0000001" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_L_eyelidLowerInnerAnalog</Name>
+          <Tag value="33346" />
+          <Index value="158" />
+          <ParentIndex value="157" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="2.3283064e-10" y="-6.170012e-09" z="-3.4924597e-09" />
+          <Rotation x="1.9255097e-07" y="1.5925616e-07" z="1.8626451e-08" w="1.0" />
+          <Scale x="1.0" y="0.99999994" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_L_eyelidUpper</Name>
+          <Tag value="38849" />
+          <Index value="159" />
+          <ParentIndex value="145" />
+          <SiblingIndex value="164" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="0.019899298" y="0.06737331" z="0.0110172" />
+          <Rotation x="-0.1387487" y="1.11670836e-07" z="-6.739313e-07" w="0.99032766" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_L_eyelidUpperOuterSDK</Name>
+          <Tag value="44821" />
+          <Index value="160" />
+          <ParentIndex value="159" />
+          <SiblingIndex value="162" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.004876204" y="-0.00020128144" z="0.01099549" />
+          <Rotation x="0.020420086" y="0.12891921" z="-0.1550947" w="0.97923875" />
+          <Scale x="0.9999999" y="0.99999994" z="0.9999998" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_L_eyelidUpperOuterAnalog</Name>
+          <Tag value="26618" />
+          <Index value="161" />
+          <ParentIndex value="160" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="-5.122274e-09" y="-4.1909516e-09" z="2.7939677e-09" />
+          <Rotation x="-1.9744036e-07" y="-1.1175869e-08" z="1.6391276e-07" w="1.0" />
+          <Scale x="1.0000001" y="1.0000001" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_L_eyelidUpperInnerSDK</Name>
+          <Tag value="54081" />
+          <Index value="162" />
+          <ParentIndex value="159" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="-0.0050688996" y="0.00022580323" z="0.011559687" />
+          <Rotation x="-0.1389812" y="0.0072837872" z="0.051826585" w="0.98891115" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_L_eyelidUpperInnerAnalog</Name>
+          <Tag value="61586" />
+          <Index value="163" />
+          <ParentIndex value="162" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="-2.2118911e-09" y="-3.0733645e-08" z="1.0833446e-08" />
+          <Rotation x="-2.0235527e-06" y="1.2607052e-07" z="3.688037e-07" w="1.0" />
+          <Scale x="1.0" y="1.0000001" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_forehead</Name>
+          <Tag value="37400" />
+          <Index value="164" />
+          <ParentIndex value="145" />
+          <SiblingIndex value="165" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="-8.080001e-05" y="0.09029595" z="0.07592831" />
+          <Rotation x="-0.060618684" y="1.01036505e-07" z="-5.007065e-07" w="0.998161" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_L_foreheadInner</Name>
+          <Tag value="2115" />
+          <Index value="165" />
+          <ParentIndex value="145" />
+          <SiblingIndex value="167" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ, Unk0</Flags>
+          <Translation x="0.016939199" y="0.10835966" z="0.08500712" />
+          <Rotation x="-0.069284625" y="0.03470999" z="-0.0036334107" w="0.9969863" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_L_foreheadInnerBulge</Name>
+          <Tag value="30332" />
+          <Index value="166" />
+          <ParentIndex value="165" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.00032659923" y="-0.0075425566" z="-0.004410903" />
+          <Rotation x="0.38372898" y="-0.07898296" z="0.12675264" w="0.911289" />
+          <Scale x="0.9999998" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_L_foreheadOuter</Name>
+          <Tag value="36299" />
+          <Index value="167" />
+          <ParentIndex value="145" />
+          <SiblingIndex value="168" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="0.0492153" y="0.10567744" z="0.0747481" />
+          <Rotation x="-0.14723088" y="0.37996352" z="-0.1895376" w="0.8933232" />
+          <Scale x="1.0000001" y="1.0000001" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_skull</Name>
+          <Tag value="16929" />
+          <Index value="168" />
+          <ParentIndex value="145" />
+          <SiblingIndex value="174" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="1.8000005e-06" y="0.06657252" z="0.022952203" />
+          <Rotation x="-0.2108418" y="2.0397289e-07" z="-4.0170173e-07" w="0.9775203" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_foreheadUpper</Name>
+          <Tag value="63446" />
+          <Index value="169" />
+          <ParentIndex value="168" />
+          <SiblingIndex value="170" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="-0.00031040065" y="6.2077906e-06" z="0.074565224" />
+          <Rotation x="0.020878838" y="-3.8207107e-10" z="-5.4581582e-12" w="0.999782" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_L_foreheadUpperInner</Name>
+          <Tag value="53011" />
+          <Index value="170" />
+          <ParentIndex value="168" />
+          <SiblingIndex value="171" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="0.018094394" y="0.0017840051" z="0.06943202" />
+          <Rotation x="-0.013884968" y="0.19894923" z="-0.043798618" w="0.97893214" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_L_foreheadUpperOuter</Name>
+          <Tag value="20635" />
+          <Index value="171" />
+          <ParentIndex value="168" />
+          <SiblingIndex value="172" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="0.035138596" y="0.0039682062" z="0.057580724" />
+          <Rotation x="-0.08811195" y="0.38466117" z="-0.08992599" w="0.9144317" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_R_foreheadUpperInner</Name>
+          <Tag value="52979" />
+          <Index value="172" />
+          <ParentIndex value="168" />
+          <SiblingIndex value="173" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="-0.018094499" y="0.0008536915" z="0.07101961" />
+          <Rotation x="-0.013885309" y="-0.1989492" z="0.04379952" w="0.9789321" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_R_foreheadUpperOuter</Name>
+          <Tag value="20603" />
+          <Index value="173" />
+          <ParentIndex value="168" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="-0.0362237" y="0.0029125249" z="0.058971517" />
+          <Rotation x="-0.088111" y="-0.38466167" z="0.089926824" w="0.9144315" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_R_foreheadInner</Name>
+          <Tag value="3651" />
+          <Index value="174" />
+          <ParentIndex value="145" />
+          <SiblingIndex value="176" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ, Unk0</Flags>
+          <Translation x="-0.0171099" y="0.10833773" z="0.085000716" />
+          <Rotation x="-0.069286495" y="-0.0347097" z="0.0036327657" w="0.99698627" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_R_foreheadInnerBulge</Name>
+          <Tag value="30364" />
+          <Index value="175" />
+          <ParentIndex value="174" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="-0.0003265976" y="-0.007541016" z="-0.0044111083" />
+          <Rotation x="0.38372886" y="0.07898323" z="-0.12675197" w="0.9112891" />
+          <Scale x="1.0" y="1.0000001" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_R_foreheadOuter</Name>
+          <Tag value="36811" />
+          <Index value="176" />
+          <ParentIndex value="145" />
+          <SiblingIndex value="177" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="-0.049378704" y="0.105613954" z="0.07472961" />
+          <Rotation x="-0.14723068" y="-0.37996295" z="0.1895369" w="0.8933236" />
+          <Scale x="0.99999994" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_R_eyeball</Name>
+          <Tag value="6468" />
+          <Index value="177" />
+          <ParentIndex value="145" />
+          <SiblingIndex value="178" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="-0.019989502" y="0.0673476" z="0.011009698" />
+          <Rotation x="0.00042735622" y="-2.0156202e-07" z="-5.02993e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_R_eyelidUpper</Name>
+          <Tag value="32276" />
+          <Index value="178" />
+          <ParentIndex value="145" />
+          <SiblingIndex value="183" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="-0.0199895" y="0.067347616" z="0.011009698" />
+          <Rotation x="-0.13874853" y="1.685814e-08" z="-6.606383e-07" w="0.99032766" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_R_eyelidUpperOuterSDK</Name>
+          <Tag value="45333" />
+          <Index value="179" />
+          <ParentIndex value="178" />
+          <SiblingIndex value="181" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="-0.004876106" y="-0.00020198597" z="0.010994589" />
+          <Rotation x="0.020419057" y="-0.1289189" z="0.15509644" w="0.9792385" />
+          <Scale x="1.0" y="0.9999999" z="0.9999999" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_R_eyelidUpperOuterAnalog</Name>
+          <Tag value="62042" />
+          <Index value="180" />
+          <ParentIndex value="179" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="7.916242e-09" y="1.21071935e-08" z="-3.259629e-09" />
+          <Rotation x="-1.8067658e-07" y="1.5832484e-07" z="9.313226e-10" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_R_eyelidUpperInnerSDK</Name>
+          <Tag value="54593" />
+          <Index value="181" />
+          <ParentIndex value="178" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="0.005068896" y="0.00022760616" z="0.011559691" />
+          <Rotation x="-0.13898215" y="-0.007283994" z="-0.051826354" w="0.9889111" />
+          <Scale x="1.0" y="0.9999999" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_R_eyelidUpperInnerAnalog</Name>
+          <Tag value="31843" />
+          <Index value="182" />
+          <ParentIndex value="181" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="1.0477379e-09" y="-1.3737008e-08" z="-1.3270892e-08" />
+          <Rotation x="-1.3614681e-07" y="1.7724233e-08" z="3.2037497e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="0.9999999" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_R_eyelidLower</Name>
+          <Tag value="32735" />
+          <Index value="183" />
+          <ParentIndex value="145" />
+          <SiblingIndex value="188" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="-0.019989502" y="0.067347616" z="0.011009694" />
+          <Rotation x="0.16547045" y="5.913915e-09" z="-9.811015e-07" w="0.98621476" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_R_eyelidLowerOuterSDK</Name>
+          <Tag value="445" />
+          <Index value="184" />
+          <ParentIndex value="183" />
+          <SiblingIndex value="186" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="-0.0049797995" y="-0.0012377122" z="0.011159396" />
+          <Rotation x="0.004320348" y="-0.16499126" z="-0.025817381" w="0.9859476" />
+          <Scale x="1.0" y="1.0000001" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_R_eyelidLowerOuterAnalog</Name>
+          <Tag value="17787" />
+          <Index value="185" />
+          <ParentIndex value="184" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="-5.5879354e-09" y="-1.0477379e-09" z="-3.7252903e-09" />
+          <Rotation x="8.97795e-07" y="3.986061e-07" z="-4.284084e-08" w="1.0" />
+          <Scale x="1.0" y="1.0" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_R_eyelidLowerInnerSDK</Name>
+          <Tag value="62289" />
+          <Index value="186" />
+          <ParentIndex value="183" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="0.004369202" y="-0.0007702018" z="0.0115426" />
+          <Rotation x="0.00304252" y="0.087102555" z="0.034767576" w="0.9955878" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_R_eyelidLowerInnerAnalog</Name>
+          <Tag value="3603" />
+          <Index value="187" />
+          <ParentIndex value="186" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="-1.8626451e-09" y="8.265488e-09" z="1.1641532e-09" />
+          <Rotation x="-1.5250407e-07" y="6.519258e-09" z="1.8626451e-08" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_L_lipUpperSDK</Name>
+          <Tag value="36656" />
+          <Index value="188" />
+          <ParentIndex value="145" />
+          <SiblingIndex value="190" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ, Unk0</Flags>
+          <Translation x="0.0061616004" y="0.01562621" z="0.088417724" />
+          <Rotation x="-0.06425176" y="0.18085353" z="-0.02783223" w="0.98101443" />
+          <Scale x="1.0000001" y="0.9999999" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_L_lipUpperAnalog</Name>
+          <Tag value="45519" />
+          <Index value="189" />
+          <ParentIndex value="188" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="1.8626451e-09" y="8.789357e-09" z="-1.3969839e-09" />
+          <Rotation x="1.2903474e-06" y="8.1490725e-08" z="3.7997967e-07" w="1.0" />
+          <Scale x="0.99999994" y="0.9999999" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_lipUpperSDK</Name>
+          <Tag value="6004" />
+          <Index value="190" />
+          <ParentIndex value="145" />
+          <SiblingIndex value="192" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ, Unk0</Flags>
+          <Translation x="-2.6500122e-05" y="0.0156212235" z="0.08954181" />
+          <Rotation x="-0.069327876" y="1.0117526e-07" z="-5.0086913e-07" w="0.99759394" />
+          <Scale x="1.0" y="0.9999999" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_lipUpperAnalog</Name>
+          <Tag value="57444" />
+          <Index value="191" />
+          <ParentIndex value="190" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="-6.366463e-12" y="9.270291e-09" z="1.5617237e-08" />
+          <Rotation x="6.7053674e-07" y="1.555236e-10" z="9.9938916e-08" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_L_lipCornerSDK</Name>
+          <Tag value="2844" />
+          <Index value="192" />
+          <ParentIndex value="145" />
+          <SiblingIndex value="194" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ, Unk0</Flags>
+          <Translation x="0.015239401" y="0.014474724" z="0.083677344" />
+          <Rotation x="0.00041022664" y="0.3007059" z="0.00012880695" w="0.9537169" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_L_lipCornerAnalog</Name>
+          <Tag value="58728" />
+          <Index value="193" />
+          <ParentIndex value="192" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="1.304943e-08" y="-1.029548e-09" z="-9.858923e-09" />
+          <Rotation x="1.4037869e-07" y="-3.2778047e-07" z="1.08291715e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_R_lipUpperSDK</Name>
+          <Tag value="30083" />
+          <Index value="194" />
+          <ParentIndex value="145" />
+          <SiblingIndex value="196" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ, Unk0</Flags>
+          <Translation x="-0.006214201" y="0.015618211" z="0.08841534" />
+          <Rotation x="-0.06425154" y="-0.18085308" z="0.02783211" w="0.98101443" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_R_lipUpperAnalog</Name>
+          <Tag value="20943" />
+          <Index value="195" />
+          <ParentIndex value="194" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="-9.313226e-10" y="-1.7898856e-09" z="-3.0267984e-09" />
+          <Rotation x="8.272473e-07" y="1.8347055e-07" z="-4.931353e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_R_lipCornerSDK</Name>
+          <Tag value="2876" />
+          <Index value="196" />
+          <ParentIndex value="145" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ, Unk0</Flags>
+          <Translation x="-0.015288802" y="0.014455015" z="0.08367163" />
+          <Rotation x="0.00040875253" y="-0.3007056" z="-0.00012926971" w="0.95371693" />
+          <Scale x="1.0000001" y="1.0" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FACIAL_R_lipCornerAnalog</Name>
+          <Tag value="60942" />
+          <Index value="197" />
+          <ParentIndex value="196" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="5.529728e-10" y="1.3018052e-08" z="-5.9139893e-09" />
+          <Rotation x="1.044672e-06" y="6.782805e-07" z="-5.055226e-07" w="1.0" />
+          <Scale x="1.0000001" y="1.0" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_Hair_Squisher</Name>
+          <Tag value="41750" />
+          <Index value="198" />
+          <ParentIndex value="143" />
+          <SiblingIndex value="199" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="0.0720303" y="1.7947748e-08" z="9.600107e-06" />
+          <Rotation x="-3.500169e-06" y="1.1464267e-06" z="7.8596685e-11" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_Hair_Scale</Name>
+          <Tag value="50788" />
+          <Index value="199" />
+          <ParentIndex value="143" />
+          <SiblingIndex value="200" />
+          <Flags>RotX, RotY, RotZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="0.0720303" y="1.7947748e-08" z="9.600107e-06" />
+          <Rotation x="-3.500168e-06" y="1.3866883e-06" z="2.8827074e-10" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_Hair_Crown</Name>
+          <Tag value="5749" />
+          <Index value="200" />
+          <ParentIndex value="143" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="0.0720303" y="1.7947748e-08" z="9.600107e-06" />
+          <Rotation x="-3.500168e-06" y="1.3866883e-06" z="2.8827074e-10" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>RB_Neck_1</Name>
+          <Tag value="14728" />
+          <Index value="201" />
+          <ParentIndex value="142" />
+          <SiblingIndex value="202" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.038753305" y="3.2569794e-10" z="-4.9340088e-11" />
+          <Rotation x="4.8874604e-06" y="2.9118835e-08" z="-8.581286e-08" w="1.0" />
+          <Scale x="1.0000001" y="1.0000001" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SPR_FireManCollar</Name>
+          <Tag value="50493" />
+          <Index value="202" />
+          <ParentIndex value="142" />
+          <SiblingIndex value="203" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.08752031" y="-7.0705903e-07" z="-1.11640475e-10" />
+          <Rotation x="2.1294956e-05" y="-4.153901e-05" z="-0.11966723" w="0.99281406" />
+          <Scale x="1.0" y="1.0000001" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>Trap_R_Rot_Fix</Name>
+          <Tag value="15719" />
+          <Index value="203" />
+          <ParentIndex value="142" />
+          <SiblingIndex value="206" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.0381139" y="-0.00022200875" z="-0.030185843" />
+          <Rotation x="0.047921743" y="0.89080566" z="-0.11521089" w="0.43691567" />
+          <Scale x="1.0" y="1.0000001" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>Trap_R_Support</Name>
+          <Tag value="2123" />
+          <Index value="204" />
+          <ParentIndex value="203" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="1.8626451e-09" y="1.071021e-08" z="1.3969839e-09" />
+          <Rotation x="-6.7055225e-07" y="1.2316741e-06" z="-1.0114163e-06" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_Trap</Name>
+          <Tag value="47006" />
+          <Index value="205" />
+          <ParentIndex value="204" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="2.3283064e-09" y="-3.4924597e-09" z="6.2864274e-09" />
+          <Rotation x="-2.393499e-07" y="-3.4719708e-06" z="2.0535663e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>Trap_L_Rot_Fix</Name>
+          <Tag value="46951" />
+          <Index value="206" />
+          <ParentIndex value="142" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.03811379" y="-0.00022209552" z="0.030185837" />
+          <Rotation x="-0.058989663" y="-0.8875992" z="-0.13777213" w="0.43555343" />
+          <Scale x="0.99999994" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>Trap_L_Support</Name>
+          <Tag value="34093" />
+          <Index value="207" />
+          <ParentIndex value="206" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="-3.259629e-09" y="9.462724e-10" z="0.0" />
+          <Rotation x="0.025369033" y="1.8021072e-05" z="1.6680154e-06" w="0.99967813" />
+          <Scale x="1.0000001" y="1.0000001" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_Trap</Name>
+          <Tag value="8906" />
+          <Index value="208" />
+          <ParentIndex value="207" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="-2.7939677e-09" y="2.3748726e-08" z="-8.614734e-09" />
+          <Rotation x="9.853393e-07" y="-1.6974984e-05" z="-1.7974526e-07" w="1.0" />
+          <Scale x="1.0000001" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SM_CollarStraps_ROOT</Name>
+          <Tag value="63769" />
+          <Index value="209" />
+          <ParentIndex value="51" />
+          <SiblingIndex value="211" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.22873455" y="0.09817267" z="-4.3329546e-06" />
+          <Rotation x="-5.400693e-10" y="-6.5840504e-06" z="1.9372353e-06" w="1.0" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SM_CollarStraps</Name>
+          <Tag value="60773" />
+          <Index value="210" />
+          <ParentIndex value="209" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="-1.1916352e-08" y="-8.515375e-10" z="3.637979e-12" />
+          <Rotation x="0.0075238976" y="9.936907e-05" z="-1.2032482e-06" w="0.9999717" />
+          <Scale x="1.0" y="1.0" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SPR_ScubaTank</Name>
+          <Tag value="37547" />
+          <Index value="211" />
+          <ParentIndex value="51" />
+          <SiblingIndex value="212" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.18985906" y="-0.071254976" z="-5.13697e-06" />
+          <Rotation x="-0.71149117" y="-0.7026951" z="-2.974061e-06" w="2.3985485e-06" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SPR_FireTank</Name>
+          <Tag value="21755" />
+          <Index value="212" />
+          <ParentIndex value="51" />
+          <SiblingIndex value="213" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.18985906" y="-0.071254976" z="-5.13697e-06" />
+          <Rotation x="-0.71149117" y="-0.7026951" z="-2.974061e-06" w="2.3985485e-06" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>Hanress_Hook</Name>
+          <Tag value="42114" />
+          <Index value="213" />
+          <ParentIndex value="51" />
+          <SiblingIndex value="214" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.21750227" y="-0.12799901" z="9.59661e-05" />
+          <Rotation x="0.706887" y="-0.017637039" z="0.70688725" w="0.017613508" />
+          <Scale x="1.0000015" y="0.99999976" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>RB_Neck</Name>
+          <Tag value="39896" />
+          <Index value="214" />
+          <ParentIndex value="51" />
+          <SiblingIndex value="215" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.23731118" y="0.004691849" z="-4.7319418e-06" />
+          <Rotation x="5.3905837e-06" y="1.7383277e-07" z="0.10911494" w="0.99402916" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>BagRoot</Name>
+          <Tag value="44297" />
+          <Index value="215" />
+          <ParentIndex value="51" />
+          <SiblingIndex value="221" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.11003073" y="0.0038830407" z="-4.7456588e-06" />
+          <Rotation x="4.9994387e-06" y="6.725145e-09" z="7.455745e-08" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>BagPivotROOT</Name>
+          <Tag value="47158" />
+          <Index value="216" />
+          <ParentIndex value="215" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="-0.108452365" y="-0.12885532" z="-0.023905909" />
+          <Rotation x="-0.01470861" y="0.097029366" z="0.1491714" w="0.9839294" />
+          <Scale x="1.0" y="1.0" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>BagPivot</Name>
+          <Tag value="19729" />
+          <Index value="217" />
+          <ParentIndex value="216" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="0.0" y="1.282956e-08" z="-9.313226e-10" />
+          <Rotation x="5.5059724e-07" y="-3.2642856e-07" z="-1.1772909e-06" w="1.0" />
+          <Scale x="1.0" y="0.9999999" z="0.9999999" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>BagBody</Name>
+          <Tag value="43885" />
+          <Index value="218" />
+          <ParentIndex value="217" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="-0.124432" y="-0.00641252" z="-0.0004054199" />
+          <Rotation x="0.03159919" y="5.5300154e-07" z="-5.4606954e-08" w="0.99950063" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>BagBone_R</Name>
+          <Tag value="2359" />
+          <Index value="219" />
+          <ParentIndex value="218" />
+          <SiblingIndex value="220" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="3.4096956e-09" y="1.2691544e-08" z="-1.906301e-09" />
+          <Rotation x="0.1731914" y="0.66683596" z="-0.010331848" w="0.724726" />
+          <Scale x="0.99999994" y="0.9999999" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>BagBone_L</Name>
+          <Tag value="2449" />
+          <Index value="220" />
+          <ParentIndex value="218" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="3.4096956e-09" y="1.2691544e-08" z="-1.906301e-09" />
+          <Rotation x="0.7596139" y="-0.09477614" z="0.62806666" w="0.13977297" />
+          <Scale x="0.9999995" y="1.0000001" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SM_Torch</Name>
+          <Tag value="2262" />
+          <Index value="221" />
+          <ParentIndex value="51" />
+          <SiblingIndex value="225" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.10812821" y="0.1470331" z="0.089625366" />
+          <Rotation x="0.22534615" y="-0.08538991" z="-0.13480103" w="0.96112245" />
+          <Scale x="0.99999994" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FX_Light</Name>
+          <Tag value="35161" />
+          <Index value="222" />
+          <ParentIndex value="221" />
+          <SiblingIndex value="223" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.053385627" y="0.041678242" z="9.313226e-09" />
+          <Rotation x="5.141047e-07" y="-0.007529382" z="-5.4949595e-07" w="0.99997175" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FX_Light_Scale</Name>
+          <Tag value="20536" />
+          <Index value="223" />
+          <ParentIndex value="221" />
+          <SiblingIndex value="224" />
+          <Flags>RotX, RotY, RotZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="0.053385627" y="0.041678242" z="9.313226e-09" />
+          <Rotation x="5.141047e-07" y="-0.007529382" z="-5.4949595e-07" w="0.99997175" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>FX_Light_Switch</Name>
+          <Tag value="57742" />
+          <Index value="224" />
+          <ParentIndex value="221" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, ScaleX, ScaleY, ScaleZ</Flags>
+          <Translation x="0.053385627" y="0.041678242" z="9.313226e-09" />
+          <Rotation x="5.1315874e-07" y="2.9988587e-07" z="-5.48549e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_CollarBack</Name>
+          <Tag value="6035" />
+          <Index value="225" />
+          <ParentIndex value="51" />
+          <SiblingIndex value="226" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.27359906" y="-0.042671356" z="-5.027966e-06" />
+          <Rotation x="4.9983423e-06" y="-9.5127916e-08" z="0.09259697" w="0.9957037" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_Collar_01</Name>
+          <Tag value="48084" />
+          <Index value="226" />
+          <ParentIndex value="51" />
+          <SiblingIndex value="227" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.23604035" y="0.08711946" z="-0.03912834" />
+          <Rotation x="-0.7070759" y="-0.0065066083" z="-0.70707774" w="0.006511206" />
+          <Scale x="1.0" y="0.9999998" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_Collar_03</Name>
+          <Tag value="48086" />
+          <Index value="227" />
+          <ParentIndex value="51" />
+          <SiblingIndex value="228" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.28882244" y="-0.047639474" z="-0.039728735" />
+          <Rotation x="0.7071042" y="-0.0005215653" z="0.7071091" w="0.00049206655" />
+          <Scale x="0.99999994" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_Collar_01</Name>
+          <Tag value="30887" />
+          <Index value="228" />
+          <ParentIndex value="51" />
+          <SiblingIndex value="229" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.23604032" y="0.08711827" z="0.039121874" />
+          <Rotation x="-0.7069867" y="-0.013000986" z="-0.7069877" w="0.013005688" />
+          <Scale x="1.0000004" y="0.9999999" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_Collar_03</Name>
+          <Tag value="30889" />
+          <Index value="229" />
+          <ParentIndex value="51" />
+          <SiblingIndex value="230" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.2888213" y="-0.047639858" z="0.039721068" />
+          <Rotation x="-0.70707226" y="-0.006885897" z="-0.7070743" w="0.006881595" />
+          <Scale x="1.0" y="0.99999976" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_Collar_02</Name>
+          <Tag value="30888" />
+          <Index value="230" />
+          <ParentIndex value="51" />
+          <SiblingIndex value="231" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.27058926" y="0.022084657" z="0.07885147" />
+          <Rotation x="-0.70686066" y="-0.01865166" z="-0.7068607" w="0.018655308" />
+          <Scale x="1.0000018" y="0.9999999" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_Collar_02</Name>
+          <Tag value="48085" />
+          <Index value="231" />
+          <ParentIndex value="51" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.27059007" y="0.02208616" z="-0.078858525" />
+          <Rotation x="-0.7071067" y="6.743272e-06" z="-0.7071068" w="2.1092458e-07" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SPR_R_Pouch</Name>
+          <Tag value="54352" />
+          <Index value="232" />
+          <ParentIndex value="50" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.039442804" y="0.13256198" z="-0.081157364" />
+          <Rotation x="-0.18384923" y="0.682788" z="-0.18217607" w="0.68323636" />
+          <Scale x="1.0" y="1.0" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SPR_L_Pouch</Name>
+          <Tag value="8904" />
+          <Index value="233" />
+          <ParentIndex value="49" />
+          <SiblingIndex value="234" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.09475368" y="0.11624425" z="0.100469805" />
+          <Rotation x="0.15083115" y="0.6908699" z="0.15526876" w="0.6898118" />
+          <Scale x="1.0" y="0.99999976" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SPR_BackStraps_SpecOPs</Name>
+          <Tag value="22084" />
+          <Index value="234" />
+          <ParentIndex value="49" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.08031888" y="-0.15572312" z="0.012382401" />
+          <Rotation x="0.7068896" y="-0.017598828" z="0.70688933" w="0.017459296" />
+          <Scale x="1.0000015" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SM_LifeSaver_Front</Name>
+          <Tag value="37920" />
+          <Index value="235" />
+          <ParentIndex value="48" />
+          <SiblingIndex value="236" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.029744327" y="0.16593032" z="2.6095431e-06" />
+          <Rotation x="0.64591026" y="0.76341337" z="-6.7344973e-07" w="3.3065277e-07" />
+          <Scale x="1.0000001" y="1.0000001" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SM_LifeSaver_Back</Name>
+          <Tag value="8487" />
+          <Index value="236" />
+          <ParentIndex value="48" />
+          <SiblingIndex value="237" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.03653044" y="-0.12521611" z="2.815506e-06" />
+          <Rotation x="0.70070994" y="0.7134463" z="-4.255277e-07" w="2.2395966e-07" />
+          <Scale x="1.0000001" y="1.0000001" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SM_R_Pouches_ROOT</Name>
+          <Tag value="10594" />
+          <Index value="237" />
+          <ParentIndex value="48" />
+          <SiblingIndex value="239" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.04492098" y="0.005824399" z="-0.19882275" />
+          <Rotation x="0.7071053" y="-0.0005466436" z="0.7071079" w="0.0005287329" />
+          <Scale x="1.0" y="1.0000001" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SM_R_Pouches</Name>
+          <Tag value="16705" />
+          <Index value="238" />
+          <ParentIndex value="237" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="2.3409712e-08" y="1.1117663e-08" z="-2.620368e-08" />
+          <Rotation x="2.83015e-06" y="-3.310156e-09" z="-3.509368e-06" w="1.0" />
+          <Scale x="1.0" y="0.99999994" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SM_L_Pouches_ROOT</Name>
+          <Tag value="10754" />
+          <Index value="239" />
+          <ParentIndex value="48" />
+          <SiblingIndex value="241" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.044920865" y="0.005824563" z="0.18625776" />
+          <Rotation x="0.70710593" y="-0.00050871226" z="0.70710737" w="0.00050175877" />
+          <Scale x="1.0" y="1.0000002" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SM_L_Pouches</Name>
+          <Tag value="19265" />
+          <Index value="240" />
+          <ParentIndex value="239" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="-1.8158346e-09" y="-8.0035534e-11" z="-1.3765202e-08" />
+          <Rotation x="1.0425645e-06" y="8.339086e-09" z="-6.773462e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>Harness_R_1</Name>
+          <Tag value="41714" />
+          <Index value="241" />
+          <ParentIndex value="48" />
+          <SiblingIndex value="244" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="-0.30702353" y="0.036833562" z="-0.21165057" />
+          <Rotation x="0.7071063" y="-0.00010188997" z="0.70710737" w="9.282842e-05" />
+          <Scale x="1.0" y="0.99999994" z="0.9999999" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>Harness_R_2</Name>
+          <Tag value="41715" />
+          <Index value="242" />
+          <ParentIndex value="241" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="0.09948047" y="-0.0758699" z="0.33306456" />
+          <Rotation x="-2.9802553e-07" y="3.2304172e-08" z="5.960494e-07" w="1.0" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>Harness_R_3</Name>
+          <Tag value="41716" />
+          <Index value="243" />
+          <ParentIndex value="242" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="-4.919002e-09" y="-5.171387e-09" z="-3.556852e-08" />
+          <Rotation x="-0.068246976" y="0.2232614" z="-0.28429827" w="0.929877" />
+          <Scale x="1.0" y="0.9999998" z="0.99999994" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>Harness_L_1</Name>
+          <Tag value="10851" />
+          <Index value="244" />
+          <ParentIndex value="48" />
+          <SiblingIndex value="247" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="-0.30702463" y="0.03683295" z="0.21130683" />
+          <Rotation x="-0.70710546" y="-0.00042041388" z="-0.70710784" w="0.00043643115" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>Harness_L_2</Name>
+          <Tag value="10852" />
+          <Index value="245" />
+          <ParentIndex value="244" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="-0.099069305" y="-0.075870305" z="0.33306453" />
+          <Rotation x="-8.9403534e-07" y="-1.5492567e-09" z="-5.21538e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>Harness_L_3</Name>
+          <Tag value="10853" />
+          <Index value="246" />
+          <ParentIndex value="245" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.0024775078" y="0.012375419" z="0.0034799166" />
+          <Rotation x="0.052037176" y="-0.17281286" z="0.32644045" w="0.92782784" />
+          <Scale x="1.0" y="0.9999998" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_L_ShirtFront</Name>
+          <Tag value="46872" />
+          <Index value="247" />
+          <ParentIndex value="48" />
+          <SiblingIndex value="248" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.04659499" y="0.09899358" z="0.07662979" />
+          <Rotation x="0.011897056" y="-0.99894124" z="-0.019975374" w="0.039697282" />
+          <Scale x="1.0" y="0.9999998" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_R_ShirtFront</Name>
+          <Tag value="52999" />
+          <Index value="248" />
+          <ParentIndex value="48" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="0.04659506" y="0.09899387" z="-0.07641235" />
+          <Rotation x="-0.020291725" y="0.99882627" z="-0.020311717" w="0.03901023" />
+          <Scale x="0.99999994" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>IK_Root</Name>
+          <Tag value="56604" />
+          <Index value="249" />
+          <ParentIndex value="0" />
+          <SiblingIndex value="250" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="2.0000002e-08" y="0.0026666" z="-0.24273512" />
+          <Rotation x="0.0" y="0.0" z="0.0" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>MH_BlushSlider</Name>
+          <Tag value="41166" />
+          <Index value="250" />
+          <ParentIndex value="0" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="2.0000002e-08" y="-0.023725297" z="-0.9812906" />
+          <Rotation x="0.0" y="0.0" z="1.0" w="0.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+      </Bones>
+    </Skeleton>
+  <DrawableModelsHigh>
+   <Item>
+    <RenderMask value="255" />
+    <Flags value="1" />
+    <HasSkin value="1" />
+    <BoneIndex value="0" />
+    <Unknown1 value="1" />
+    <Geometries>
+     <Item>
+      <ShaderIndex value="0" />
+      <BoundingBoxMin x="-12" y="-12" z="0" w="-12" />
+      <BoundingBoxMax x="12" y="12" z="0" w="12" />
+      <BoneIDs>0</BoneIDs>
+      <VertexBuffer>
+       <Flags value="0" />
+       <Layout type="GTAV1">
+        <Position />
+        <BlendWeights />
+        <BlendIndices />
+        <Normal />
+        <Colour0 />
+        <TexCoord0 />
+       </Layout>
+       <Data>
+        12 12 0   0 0 255 0   0 0 0 0   0 0 1   255 255 255 255   0 0
+        -12 12 0   0 0 255 0   0 0 0 0   0 0 1   255 255 255 255   1 0
+        -12 -12 0   0 0 255 0   0 0 0 0   0 0 1   255 255 255 255   1 1
+        12 -12 0   0 0 255 0   0 0 0 0   0 0 1   255 255 255 255   0 1
+       </Data>
+      </VertexBuffer>
+      <IndexBuffer>
+       <Data>2 1 0 2 0 3</Data>
+      </IndexBuffer>
+     </Item>
+    </Geometries>
+   </Item>
+  </DrawableModelsHigh>
+ </Drawable>
+ <Lights />
+</Fragment>

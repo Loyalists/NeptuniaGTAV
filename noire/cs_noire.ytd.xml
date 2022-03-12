@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureDictionary>
+ <Item>
+  <Name>uppr_spec_000</Name>
+  <Unk32 value="128" />
+  <Usage>SPECULAR</Usage>
+  <UsageFlags>X64, Y64, X256, Y512, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="512" />
+  <MipLevels value="8" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>uppr_spec_000.dds</FileName>
+ </Item>
+ <Item>
+  <Name>accs_normal_000</Name>
+  <Unk32 value="128" />
+  <Usage>UNKNOWN</Usage>
+  <UsageFlags>X32, X64, X128</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="256" />
+  <Height value="256" />
+  <MipLevels value="7" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>accs_normal_000.dds</FileName>
+ </Item>
+ <Item>
+  <Name>uppr_normal_000</Name>
+  <Unk32 value="128" />
+  <Usage>NORMAL</Usage>
+  <UsageFlags>X32, X64, X128, X512, X1024, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="1024" />
+  <Height value="1024" />
+  <MipLevels value="9" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>uppr_normal_000.dds</FileName>
+ </Item>
+ <Item>
+  <Name>accs_spec_000</Name>
+  <Unk32 value="128" />
+  <Usage>UNKNOWN</Usage>
+  <UsageFlags>X64, Y64, X256</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="256" />
+  <Height value="256" />
+  <MipLevels value="7" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>accs_spec_000.dds</FileName>
+ </Item>
+ <Item>
+  <Name>teef_spec_000</Name>
+  <Unk32 value="128" />
+  <Usage>SPECULAR</Usage>
+  <UsageFlags>X32, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="8" />
+  <Height value="8" />
+  <MipLevels value="2" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>teef_spec_000.dds</FileName>
+ </Item>
+ <Item>
+  <Name>head_diff_000_a_whi</Name>
+  <Unk32 value="128" />
+  <Usage>DIFFUSE</Usage>
+  <UsageFlags>X32, X64, X128, X512, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="512" />
+  <MipLevels value="8" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>head_diff_000_a_whi.dds</FileName>
+ </Item>
+ <Item>
+  <Name>accs_diff_000_a_uni</Name>
+  <Unk32 value="128" />
+  <Usage>UNKNOWN</Usage>
+  <UsageFlags>X32, X64, X128</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="256" />
+  <Height value="256" />
+  <MipLevels value="7" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>accs_diff_000_a_uni.dds</FileName>
+ </Item>
+ <Item>
+  <Name>hair_diff_000_a_whi</Name>
+  <Unk32 value="128" />
+  <Usage>DIFFUSE</Usage>
+  <UsageFlags>X64, Y64, X256, Y512, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="512" />
+  <MipLevels value="8" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>hair_diff_000_a_whi.dds</FileName>
+ </Item>
+ <Item>
+  <Name>uppr_diff_000_a_uni</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, X64, X128, X512, X1024, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="1024" />
+  <Height value="1024" />
+  <MipLevels value="9" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>uppr_diff_000_a_uni.dds</FileName>
+ </Item>
+ <Item>
+  <Name>lowr_diff_000_a_uni</Name>
+  <Unk32 value="128" />
+  <Usage>DEFAULT</Usage>
+  <UsageFlags>X32, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="8" />
+  <Height value="8" />
+  <MipLevels value="2" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>lowr_diff_000_a_uni.dds</FileName>
+ </Item>
+ <Item>
+  <Name>teef_diff_000_a_uni</Name>
+  <Unk32 value="128" />
+  <Usage>DIFFUSE</Usage>
+  <UsageFlags>X64, Y64, X256, Y512, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="512" />
+  <Height value="512" />
+  <MipLevels value="8" />
+  <Format>D3DFMT_DXT5</Format>
+  <FileName>teef_diff_000_a_uni.dds</FileName>
+ </Item>
+ <Item>
+  <Name>teef_normal_000</Name>
+  <Unk32 value="128" />
+  <Usage>NORMAL</Usage>
+  <UsageFlags>X32, UNK24</UsageFlags>
+  <ExtraFlags value="0" />
+  <Width value="8" />
+  <Height value="8" />
+  <MipLevels value="2" />
+  <Format>D3DFMT_DXT1</Format>
+  <FileName>teef_normal_000.dds</FileName>
+ </Item>
+</TextureDictionary>
