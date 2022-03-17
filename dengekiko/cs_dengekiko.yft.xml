@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Fragment>
- <Name>cs_dengekiko</Name>
- <BoundingSphereCenter x="0" y="0" z="0" />
- <BoundingSphereRadius value="16.970562" />
- <UnknownB0 value="0" />
- <UnknownB8 value="0" />
- <UnknownBC value="0" />
- <UnknownC0 value="256" />
- <UnknownC4 value="67" />
- <UnknownCC value="0" />
- <GravityFactor value="1" />
- <BuoyancyFactor value="1" />
- <Drawable>
-  <Name>skel</Name>
-  <Matrix>
+  <Name>cs_dengekiko</Name>
+  <BoundingSphereCenter x="0" y="0" z="0" />
+  <BoundingSphereRadius value="16.970562" />
+  <UnknownB0 value="0" />
+  <UnknownB8 value="0" />
+  <UnknownBC value="0" />
+  <UnknownC0 value="256" />
+  <UnknownC4 value="67" />
+  <UnknownCC value="0" />
+  <GravityFactor value="1" />
+  <BuoyancyFactor value="1" />
+  <Drawable>
+    <Name>skel</Name>
+    <Matrix>
    1 0 0
    0 1 0
    0 0 1
    0 0 0
   </Matrix>
-  <BoundingSphereCenter x="0" y="0" z="0" />
-  <BoundingSphereRadius value="16.970562" />
-  <BoundingBoxMin x="-12" y="-12" z="0" />
-  <BoundingBoxMax x="12" y="12" z="0" />
-  <LodDistHigh value="9998" />
-  <LodDistMed value="9998" />
-  <LodDistLow value="9998" />
-  <LodDistVlow value="9998" />
-  <FlagsHigh value="1" />
-  <FlagsMed value="0" />
-  <FlagsLow value="0" />
-  <FlagsVlow value="0" />
-  <Unknown9A value="0" />
-  <ShaderGroup>
-   <Unknown30 value="80" />
-   <Shaders>
-    <Item>
-     <Name>default</Name>
-     <FileName>default.sps</FileName>
-     <RenderBucket value="0" />
-     <Parameters>
-      <Item name="DiffuseSampler" type="Texture" />
-      <Item name="matMaterialColorScale" type="Vector" x="1" y="0" z="0" w="0" />
-      <Item name="HardAlphaBlend" type="Vector" x="1" y="0" z="0" w="0" />
-      <Item name="useTessellation" type="Vector" x="0" y="0" z="0" w="0" />
-      <Item name="wetnessMultiplier" type="Vector" x="1" y="0" z="0" w="0" />
-      <Item name="globalAnimUV1" type="Vector" x="0" y="1" z="0" w="0" />
-      <Item name="globalAnimUV0" type="Vector" x="1" y="0" z="0" w="0" />
-     </Parameters>
-    </Item>
-   </Shaders>
-  </ShaderGroup>
+    <BoundingSphereCenter x="0" y="0" z="0" />
+    <BoundingSphereRadius value="16.970562" />
+    <BoundingBoxMin x="-12" y="-12" z="0" />
+    <BoundingBoxMax x="12" y="12" z="0" />
+    <LodDistHigh value="9998" />
+    <LodDistMed value="9998" />
+    <LodDistLow value="9998" />
+    <LodDistVlow value="9998" />
+    <FlagsHigh value="1" />
+    <FlagsMed value="0" />
+    <FlagsLow value="0" />
+    <FlagsVlow value="0" />
+    <Unknown9A value="0" />
+    <ShaderGroup>
+      <Unknown30 value="80" />
+      <Shaders>
+        <Item>
+          <Name>default</Name>
+          <FileName>default.sps</FileName>
+          <RenderBucket value="0" />
+          <Parameters>
+            <Item name="DiffuseSampler" type="Texture" />
+            <Item name="matMaterialColorScale" type="Vector" x="1" y="0" z="0" w="0" />
+            <Item name="HardAlphaBlend" type="Vector" x="1" y="0" z="0" w="0" />
+            <Item name="useTessellation" type="Vector" x="0" y="0" z="0" w="0" />
+            <Item name="wetnessMultiplier" type="Vector" x="1" y="0" z="0" w="0" />
+            <Item name="globalAnimUV1" type="Vector" x="0" y="1" z="0" w="0" />
+            <Item name="globalAnimUV0" type="Vector" x="1" y="0" z="0" w="0" />
+          </Parameters>
+        </Item>
+      </Shaders>
+    </ShaderGroup>
     <Skeleton>
       <Unknown1C value="16777216" />
       <Unknown50 value="2728123906" />
       <Unknown54 value="489800791" />
-      <Unknown58 value="1926069140" />
+      <Unknown58 value="961258255" />
       <Bones>
         <Item>
           <Name>SKEL_ROOT</Name>
@@ -113,8 +113,8 @@
           <SiblingIndex value="10" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
           <Translation x="0.33642033" y="4.6170317e-07" z="4.4099987e-05" />
-          <Rotation x="-0.022584079" y="-0.028034834" z="0.51541287" w="0.8561855" />
-          <Scale x="0.99999994" y="1.0" z="1.0" />
+          <Rotation x="-0.027109146" y="-0.023687258" z="0.65625775" w="0.75367755" />
+          <Scale x="0.99999994" y="1.0" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -124,9 +124,9 @@
           <ParentIndex value="4" />
           <SiblingIndex value="7" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.13489279" y="-0.017371885" z="-5.8556907e-08" />
-          <Rotation x="-0.9545487" y="-0.29805502" z="-1.5262343e-07" w="1.6973641e-07" />
-          <Scale x="1.0" y="1.0000001" z="1.0000001" />
+          <Translation x="0.12081628" y="-0.062460363" z="-6.437767e-08" />
+          <Rotation x="-0.99180377" y="-0.12777121" z="-2.0455195e-07" w="1.5339482e-07" />
+          <Scale x="1.0000013" y="1.0000001" z="1.0000001" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -136,8 +136,8 @@
           <ParentIndex value="5" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.03990671" y="0.034006495" z="1.359731e-07" />
-          <Rotation x="8.229126e-07" y="-3.692403e-07" z="4.1351086e-07" w="1.0" />
+          <Translation x="0.039906673" y="0.03400645" z="1.3690442e-07" />
+          <Rotation x="8.104839e-07" y="-4.2875763e-07" z="3.4999175e-07" w="1.0" />
           <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -148,9 +148,9 @@
           <ParentIndex value="4" />
           <SiblingIndex value="8" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.18167205" y="-4.5634806e-08" z="1.4482066e-07" />
-          <Rotation x="0.9843179" y="0.17640373" z="1.4192388e-07" w="5.4167668e-08" />
-          <Scale x="1.0000024" y="1.0000004" z="1.0000001" />
+          <Translation x="0.17071591" y="-0.062135614" z="1.3923272e-07" />
+          <Rotation x="0.9999962" y="0.0027983445" z="1.4668389e-07" w="1.1036215e-07" />
+          <Scale x="1.0000001" y="1.0000002" z="1.0000001" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -160,9 +160,9 @@
           <ParentIndex value="4" />
           <SiblingIndex value="9" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.114453204" y="-0.072117776" z="3.4664408e-06" />
-          <Rotation x="-0.62913895" y="0.330239" z="0.61018646" w="0.3504267" />
-          <Scale x="1.0" y="1.0" z="1.0000001" />
+          <Translation x="0.08288511" y="-0.106913924" z="3.4602126e-06" />
+          <Rotation x="-0.5622354" y="0.43447086" z="0.5400654" w="0.4510608" />
+          <Scale x="1.0000001" y="1.0000002" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -172,9 +172,9 @@
           <ParentIndex value="4" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.114453204" y="-0.072117776" z="3.4664408e-06" />
-          <Rotation x="-0.62913895" y="0.330239" z="0.61018646" w="0.3504267" />
-          <Scale x="1.0" y="1.0" z="1.0000001" />
+          <Translation x="0.08288511" y="-0.106913924" z="3.4602126e-06" />
+          <Rotation x="-0.5622354" y="0.43447086" z="0.5400654" w="0.4510608" />
+          <Scale x="1.0000001" y="1.0000002" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -329,8 +329,8 @@
           <SiblingIndex value="28" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
           <Translation x="0.33641908" y="2.9685907e-07" z="-9.23872e-07" />
-          <Rotation x="0.022552153" y="0.02797995" z="0.5154167" w="0.8561858" />
-          <Scale x="0.99999994" y="1.0" z="1.0" />
+          <Rotation x="0.027068194" y="0.023638776" z="0.65626144" w="0.7536773" />
+          <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -340,9 +340,9 @@
           <ParentIndex value="22" />
           <SiblingIndex value="25" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.13489187" y="-0.017371928" z="-2.9918738e-08" />
-          <Rotation x="0.954549" y="0.29805404" z="-2.456699e-07" w="6.244468e-07" />
-          <Scale x="1.0000008" y="1.0000004" z="0.99999994" />
+          <Translation x="0.12081539" y="-0.062459935" z="-1.5599653e-08" />
+          <Rotation x="0.99180377" y="0.12777041" z="-3.9307778e-07" w="6.0627684e-07" />
+          <Scale x="1.0000029" y="1.0000001" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -352,9 +352,9 @@
           <ParentIndex value="23" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.054668553" y="0.03458183" z="0.00054321205" />
-          <Rotation x="0.0015289688" y="-0.039125245" z="5.8979425e-05" w="0.9992332" />
-          <Scale x="0.99999994" y="1.0000001" z="0.9999999" />
+          <Translation x="0.054668467" y="0.034581926" z="0.00054321485" />
+          <Rotation x="0.0015289721" y="-0.039125178" z="5.917081e-05" w="0.9992332" />
+          <Scale x="1.0" y="1.0000001" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -364,9 +364,9 @@
           <ParentIndex value="22" />
           <SiblingIndex value="26" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.18167076" y="2.2770837e-07" z="-2.188608e-08" />
-          <Rotation x="0.9843179" y="0.17640372" z="5.4522525e-07" w="5.8354453e-07" />
-          <Scale x="0.99999845" y="0.9999997" z="0.99999994" />
+          <Translation x="0.17071487" y="-0.062134765" z="-3.7252903e-09" />
+          <Rotation x="0.9999962" y="0.0027987522" z="4.540216e-07" w="6.9546803e-07" />
+          <Scale x="1.0" y="0.9999997" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -376,9 +376,9 @@
           <ParentIndex value="22" />
           <SiblingIndex value="27" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.11445243" y="-0.07211397" z="-4.4237822e-09" />
-          <Rotation x="-0.6101928" y="0.35044247" z="0.62912714" w="0.33023304" />
-          <Scale x="1.0000001" y="1.0000001" z="1.0" />
+          <Translation x="0.08288572" y="-0.10690994" z="2.561137e-09" />
+          <Rotation x="-0.540069" y="0.45107734" z="0.5622248" w="0.4344629" />
+          <Scale x="1.0" y="1.0000001" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -388,9 +388,9 @@
           <ParentIndex value="22" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.11445243" y="-0.07211397" z="-4.4237822e-09" />
-          <Rotation x="-0.6101928" y="0.35044247" z="0.62912714" w="0.33023304" />
-          <Scale x="1.0000001" y="1.0000001" z="1.0" />
+          <Translation x="0.08288572" y="-0.10690994" z="2.561137e-09" />
+          <Rotation x="-0.540069" y="0.45107734" z="0.5622248" w="0.4344629" />
+          <Scale x="1.0" y="1.0000001" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -641,7 +641,7 @@
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
           <Translation x="0.07794978" y="0.01449104" z="2.6090241e-15" />
-          <Rotation x="8.590434e-05" y="-4.5074344e-06" z="-0.04761059" w="0.99886596" />
+          <Rotation x="8.602551e-05" y="-8.628554e-06" z="-0.00042975016" w="1.0" />
           <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -652,9 +652,9 @@
           <ParentIndex value="48" />
           <SiblingIndex value="237" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.07011887" y="0.009001009" z="-1.5863342e-06" />
-          <Rotation x="2.371423e-06" y="-0.0005844222" z="0.04438765" w="0.99901426" />
-          <Scale x="1.0000001" y="1.0" z="1.0" />
+          <Translation x="0.044325303" y="0.0023290738" z="-1.1380395e-06" />
+          <Rotation x="-2.5635089e-05" y="-0.0005839308" z="-0.0027966073" w="0.99999595" />
+          <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -664,9 +664,9 @@
           <ParentIndex value="49" />
           <SiblingIndex value="235" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.07380064" y="-0.0050363685" z="-8.680385e-05" />
-          <Rotation x="9.915518e-06" y="0.0005842358" z="-0.023845296" w="0.9997155" />
-          <Scale x="0.99999994" y="1.0" z="1.0" />
+          <Translation x="0.04294646" y="-0.005235467" z="-5.0253526e-05" />
+          <Rotation x="2.4941857e-05" y="0.00058447866" z="0.0013376939" w="0.9999989" />
+          <Scale x="1.0" y="1.0" z="1.0000001" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -676,8 +676,8 @@
           <ParentIndex value="50" />
           <SiblingIndex value="234" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.048026197" y="0.002602968" z="-8.9935577e-07" />
-          <Rotation x="2.0233315e-07" y="-7.330583e-05" z="0.033286504" w="0.99944586" />
+          <Translation x="0.052975364" y="0.00020001827" z="-9.261538e-07" />
+          <Rotation x="-1.9667439e-06" y="-7.3724055e-05" z="0.008107277" w="0.99996716" />
           <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -688,9 +688,9 @@
           <ParentIndex value="51" />
           <SiblingIndex value="97" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.061919976" y="-0.04805678" z="0.03343011" />
-          <Rotation x="0.009973607" y="-0.7367399" z="-0.013817044" w="0.67596155" />
-          <Scale x="1.0000001" y="1.0000001" z="1.0000001" />
+          <Translation x="0.11422153" y="-0.048707295" z="0.03342155" />
+          <Rotation x="0.0099737365" y="-0.73673993" z="-0.013816967" w="0.6759615" />
+          <Scale x="1.0000001" y="1.0000001" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -700,8 +700,8 @@
           <ParentIndex value="52" />
           <SiblingIndex value="90" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
-          <Translation x="0.059858408" y="0.0021035061" z="0.005541506" />
-          <Rotation x="-0.018953469" y="0.042814605" z="0.014502697" w="0.99879795" />
+          <Translation x="0.059858404" y="0.0021035187" z="0.005541545" />
+          <Rotation x="-0.018953564" y="0.042814594" z="0.014502734" w="0.99879795" />
           <Scale x="1.0" y="1.0000001" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -712,9 +712,9 @@
           <ParentIndex value="53" />
           <SiblingIndex value="86" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
-          <Translation x="0.21060069" y="-0.00010312954" z="3.808143e-05" />
-          <Rotation x="2.4379992e-06" y="-0.00021663873" z="0.0035446025" w="0.9999937" />
-          <Scale x="0.99999994" y="1.0000001" z="1.0" />
+          <Translation x="0.21060069" y="-0.00010312977" z="3.8089827e-05" />
+          <Rotation x="2.439833e-06" y="-0.0002166387" z="0.0035447665" w="0.9999937" />
+          <Scale x="0.9999999" y="1.0000001" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -724,9 +724,9 @@
           <ParentIndex value="54" />
           <SiblingIndex value="80" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
-          <Translation x="0.19195877" y="-1.929584e-08" z="-3.005047e-06" />
-          <Rotation x="0.1602209" y="-0.063296676" z="-0.03725502" w="0.9843449" />
-          <Scale x="0.99999994" y="0.9999999" z="1.0" />
+          <Translation x="0.19195881" y="-7.824565e-08" z="-3.0154588e-06" />
+          <Rotation x="0.1602209" y="-0.06329669" z="-0.037255187" w="0.9843449" />
+          <Scale x="0.99999994" y="0.99999994" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -736,9 +736,9 @@
           <ParentIndex value="55" />
           <SiblingIndex value="61" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.023694076" y="0.024034455" z="0.0009285761" />
-          <Rotation x="-0.077906094" y="0.009842335" z="0.3399247" w="0.9371686" />
-          <Scale x="0.99999994" y="1.0" z="0.99999994" />
+          <Translation x="0.02369405" y="0.024034452" z="0.0009285668" />
+          <Rotation x="-0.07790609" y="0.009842306" z="0.33992466" w="0.93716866" />
+          <Scale x="1.0" y="1.0000001" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -748,9 +748,9 @@
           <ParentIndex value="56" />
           <SiblingIndex value="60" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.023639323" y="0.0017071383" z="0.0001507334" />
-          <Rotation x="0.008746279" y="0.06254735" z="-0.18040696" w="0.9815624" />
-          <Scale x="1.0" y="0.99999994" z="0.9999999" />
+          <Translation x="0.023639336" y="0.0017071455" z="0.00015076098" />
+          <Rotation x="0.0087462785" y="0.062547356" z="-0.18040684" w="0.9815625" />
+          <Scale x="0.99999994" y="1.0" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -760,9 +760,9 @@
           <ParentIndex value="57" />
           <SiblingIndex value="59" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.023795573" y="-0.0009605838" z="-8.494151e-05" />
-          <Rotation x="0.0021010626" y="0.00994049" z="-0.06671398" w="0.9977204" />
-          <Scale x="0.99999994" y="1.0" z="1.0000001" />
+          <Translation x="0.023795567" y="-0.0009606052" z="-8.491945e-05" />
+          <Rotation x="0.0021010574" y="0.009940508" z="-0.06671408" w="0.9977204" />
+          <Scale x="0.99999994" y="1.0000001" z="1.0000001" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -772,9 +772,9 @@
           <ParentIndex value="57" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="0.011461217" y="1.5832484e-08" z="7.7695586e-07" />
-          <Rotation x="5.934853e-07" y="-2.6668422e-06" z="-1.65659e-07" w="1.0" />
-          <Scale x="0.99999994" y="1.0" z="1.0" />
+          <Translation x="0.011461152" y="8.381903e-09" z="8.030329e-07" />
+          <Rotation x="5.983747e-07" y="-2.6500784e-06" z="-2.401648e-07" w="1.0" />
+          <Scale x="1.0" y="1.0000001" z="1.0000001" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -784,9 +784,9 @@
           <ParentIndex value="56" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="0.030994462" y="-0.017718501" z="0.01044695" />
-          <Rotation x="5.4901466e-07" y="-2.9057267e-06" z="-6.3871266e-07" w="1.0" />
-          <Scale x="0.9999999" y="1.0" z="1.0" />
+          <Translation x="0.030994505" y="-0.017718492" z="0.010446978" />
+          <Rotation x="5.7509175e-07" y="-2.894551e-06" z="-5.6991126e-07" w="1.0" />
+          <Scale x="0.99999994" y="0.99999994" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -796,9 +796,9 @@
           <ParentIndex value="55" />
           <SiblingIndex value="65" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.065831736" y="0.021055106" z="-0.01510863" />
-          <Rotation x="-0.7052833" y="0.0026551173" z="0.0655003" w="0.7058882" />
-          <Scale x="0.9999999" y="1.0" z="0.9999999" />
+          <Translation x="0.065831706" y="0.021055099" z="-0.015108653" />
+          <Rotation x="-0.7052833" y="0.002655112" z="0.065500304" w="0.7058882" />
+          <Scale x="0.99999994" y="1.0" z="1.0000001" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -808,9 +808,9 @@
           <ParentIndex value="61" />
           <SiblingIndex value="64" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.021055842" y="-7.450581e-09" z="1.4901161e-08" />
-          <Rotation x="-0.025504496" y="-0.0028007878" z="0.020583715" w="0.99945885" />
-          <Scale x="0.99999994" y="1.0000001" z="1.0000001" />
+          <Translation x="0.021055844" y="1.6763806e-08" z="9.313226e-09" />
+          <Rotation x="-0.025504505" y="-0.002800783" z="0.020583713" w="0.9994589" />
+          <Scale x="0.9999999" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -820,8 +820,8 @@
           <ParentIndex value="62" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.013645684" y="-5.592592e-07" z="-7.450581e-09" />
-          <Rotation x="-0.007108013" y="-0.009269766" z="0.0010076705" w="0.9999313" />
+          <Translation x="0.013645687" y="-5.598413e-07" z="-5.5879354e-09" />
+          <Rotation x="-0.007108032" y="-0.009269767" z="0.0010076581" w="0.9999313" />
           <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -832,9 +832,9 @@
           <ParentIndex value="61" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="0.012173992" y="0.0" z="1.6763806e-08" />
-          <Rotation x="5.183392e-07" y="6.069895e-07" z="8.9767855e-07" w="1.0" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="0.012173993" y="2.514571e-08" z="1.1175871e-08" />
+          <Rotation x="4.8830407e-07" y="6.072223e-07" z="8.810312e-07" w="1.0" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -844,9 +844,9 @@
           <ParentIndex value="55" />
           <SiblingIndex value="68" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.067517176" y="0.0050926954" z="-0.010359581" />
-          <Rotation x="-0.7408595" y="0.01126154" z="0.05943226" w="0.6689306" />
-          <Scale x="1.0" y="1.0" z="0.99999994" />
+          <Translation x="0.067517206" y="0.0050926954" z="-0.010359587" />
+          <Rotation x="-0.7408595" y="0.011261538" z="0.059432272" w="0.6689306" />
+          <Scale x="1.0" y="1.0" z="1.0000001" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -856,8 +856,8 @@
           <ParentIndex value="65" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.025669452" y="1.8626451e-08" z="-9.080395e-09" />
-          <Rotation x="-0.010858033" y="0.0024311717" z="0.012783461" w="0.9998564" />
+          <Translation x="0.025669452" y="6.519258e-09" z="-1.6298145e-09" />
+          <Rotation x="-0.010858078" y="0.002431176" z="0.012783439" w="0.9998564" />
           <Scale x="0.9999998" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -868,9 +868,9 @@
           <ParentIndex value="66" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.0166344" y="9.126961e-08" z="6.5774657e-09" />
-          <Rotation x="-0.020924667" y="-0.025290465" z="-0.028510733" w="0.9990544" />
-          <Scale x="0.99999994" y="1.0" z="0.99999994" />
+          <Translation x="0.01663439" y="9.5460564e-08" z="5.7043508e-09" />
+          <Rotation x="-0.020924686" y="-0.025290463" z="-0.028510714" w="0.9990544" />
+          <Scale x="0.9999999" y="0.9999999" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -880,9 +880,9 @@
           <ParentIndex value="55" />
           <SiblingIndex value="71" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.06426674" y="-0.008056758" z="-0.0033124667" />
-          <Rotation x="-0.7666438" y="0.0066993902" z="0.075078115" w="0.63763285" />
-          <Scale x="0.99999994" y="0.99999994" z="0.99999976" />
+          <Translation x="0.06426672" y="-0.008056767" z="-0.0033124648" />
+          <Rotation x="-0.7666438" y="0.0066993576" z="0.07507809" w="0.637633" />
+          <Scale x="1.0" y="1.0" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -892,9 +892,9 @@
           <ParentIndex value="68" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.029842736" y="5.186489e-05" z="3.6209822e-06" />
-          <Rotation x="0.0013059856" y="0.003562564" z="0.0070802206" w="0.99996775" />
-          <Scale x="0.9999999" y="1.0" z="1.0000001" />
+          <Translation x="0.029842779" y="5.1856507e-05" z="3.6302954e-06" />
+          <Rotation x="0.001305899" y="0.0035625612" z="0.0070802895" w="0.9999678" />
+          <Scale x="0.99999994" y="1.0000001" z="1.0000001" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -904,8 +904,8 @@
           <ParentIndex value="69" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.01721769" y="8.312054e-08" z="-1.8626451e-09" />
-          <Rotation x="-0.02779662" y="0.0010183502" z="-0.008033656" w="0.9995808" />
+          <Translation x="0.017217757" y="8.009374e-08" z="2.7939677e-09" />
+          <Rotation x="-0.027796611" y="0.0010183515" z="-0.0080337" w="0.9995808" />
           <Scale x="1.0000001" y="1.0000001" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -916,9 +916,9 @@
           <ParentIndex value="55" />
           <SiblingIndex value="74" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.058262814" y="-0.019214798" z="0.005506914" />
-          <Rotation x="-0.7948548" y="-0.04202411" z="0.06406148" w="0.60194355" />
-          <Scale x="1.0" y="1.0" z="0.99999994" />
+          <Translation x="0.05826285" y="-0.01921481" z="0.005506901" />
+          <Rotation x="-0.79485476" y="-0.042024102" z="0.06406149" w="0.6019437" />
+          <Scale x="1.0" y="1.0" z="1.0000001" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -928,9 +928,9 @@
           <ParentIndex value="71" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.024769312" y="3.4924597e-10" z="-2.910383e-09" />
-          <Rotation x="-0.006077561" y="-0.00046659182" z="0.014039621" w="0.9998829" />
-          <Scale x="1.0000001" y="1.0" z="1.0000001" />
+          <Translation x="0.024769317" y="-9.487849e-09" z="-4.4237822e-09" />
+          <Rotation x="-0.0060775466" y="-0.00046658597" z="0.014039574" w="0.9998829" />
+          <Scale x="1.0000001" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -940,9 +940,9 @@
           <ParentIndex value="72" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.012995418" y="-4.693211e-07" z="1.0477379e-09" />
-          <Rotation x="-0.02111525" y="-0.006547172" z="-0.027932493" w="0.9993653" />
-          <Scale x="0.9999998" y="0.9999998" z="0.99999976" />
+          <Translation x="0.012995462" y="-4.6670175e-07" z="-2.3283064e-09" />
+          <Rotation x="-0.02111525" y="-0.0065471767" z="-0.027932452" w="0.9993653" />
+          <Scale x="0.9999999" y="0.9999999" z="0.9999999" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -952,9 +952,9 @@
           <ParentIndex value="55" />
           <SiblingIndex value="75" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.035663575" y="-3.7252903e-09" z="2.7278438e-06" />
-          <Rotation x="-1.05006634e-07" y="-7.84481e-05" z="2.1047893e-07" w="1.0" />
-          <Scale x="0.99999994" y="0.99999994" z="0.99999994" />
+          <Translation x="0.035663553" y="-1.6763806e-08" z="2.7297065e-06" />
+          <Rotation x="-1.208391e-07" y="-7.8452285e-05" z="2.030283e-07" w="1.0" />
+          <Scale x="1.0" y="1.0000001" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -964,9 +964,9 @@
           <ParentIndex value="55" />
           <SiblingIndex value="76" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.035663575" y="-3.7252903e-09" z="2.7278438e-06" />
-          <Rotation x="-1.05006634e-07" y="-7.84481e-05" z="2.1047893e-07" w="1.0" />
-          <Scale x="0.99999994" y="0.99999994" z="0.99999994" />
+          <Translation x="0.035663553" y="-1.6763806e-08" z="2.7297065e-06" />
+          <Rotation x="-1.208391e-07" y="-7.8452285e-05" z="2.030283e-07" w="1.0" />
+          <Scale x="1.0" y="1.0000001" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -976,9 +976,9 @@
           <ParentIndex value="55" />
           <SiblingIndex value="77" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.02383826" y="-1.8626451e-08" z="-2.8964132e-07" />
-          <Rotation x="-4.838221e-07" y="6.2165786e-06" z="2.7008358e-07" w="1.0" />
-          <Scale x="0.99999994" y="0.99999994" z="1.0" />
+          <Translation x="0.023838237" y="-2.6077032e-08" z="-2.8964132e-07" />
+          <Rotation x="-4.965113e-07" y="6.19702e-06" z="3.0733645e-07" w="1.0" />
+          <Scale x="1.0" y="1.0000001" z="1.0000001" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -988,9 +988,9 @@
           <ParentIndex value="55" />
           <SiblingIndex value="78" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.049427994" y="0.009405265" z="0.004035637" />
-          <Rotation x="-1.0868109e-06" y="6.171321e-06" z="-0.3826834" w="0.92387956" />
-          <Scale x="0.99999994" y="0.9999998" z="1.0" />
+          <Translation x="0.049427968" y="0.009405261" z="0.004035635" />
+          <Rotation x="-1.1033173e-06" y="6.1909773e-06" z="-0.38268346" w="0.92387956" />
+          <Scale x="1.0" y="1.0000001" z="1.0000001" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1000,9 +1000,9 @@
           <ParentIndex value="55" />
           <SiblingIndex value="79" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="0.06561819" y="0.03460884" z="-0.0075984322" />
-          <Rotation x="-0.27495274" y="-0.16040614" z="0.10551069" w="0.94209254" />
-          <Scale x="1.0" y="1.0" z="0.99999994" />
+          <Translation x="0.06561816" y="0.03460885" z="-0.007598443" />
+          <Rotation x="-0.27495274" y="-0.16040616" z="0.105510674" w="0.94209254" />
+          <Scale x="1.0000001" y="1.0000001" z="1.0000001" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1012,9 +1012,9 @@
           <ParentIndex value="55" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="0.041965306" y="-0.02759311" z="0.009779761" />
-          <Rotation x="-0.8335522" y="0.070923775" z="-0.1148094" w="0.5357048" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="0.041965283" y="-0.02759314" z="0.009779766" />
+          <Rotation x="-0.8335522" y="0.07092372" z="-0.114809446" w="0.53570473" />
+          <Scale x="1.0" y="1.0000001" z="1.0000002" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1024,9 +1024,9 @@
           <ParentIndex value="54" />
           <SiblingIndex value="82" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.07850566" y="-7.3148112e-06" z="-6.265147e-06" />
-          <Rotation x="-3.3168575e-07" y="-5.433499e-05" z="-2.462711e-07" w="1.0" />
-          <Scale x="0.99999994" y="1.0" z="1.0" />
+          <Translation x="0.07850567" y="-7.348164e-06" z="-6.2884046e-06" />
+          <Rotation x="-3.307648e-07" y="-5.433498e-05" z="-4.1046152e-07" w="1.0" />
+          <Scale x="0.99999994" y="0.99999994" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1036,9 +1036,9 @@
           <ParentIndex value="80" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.08060719" y="-1.5415571e-06" z="0.000103095816" />
-          <Rotation x="-8.2851534e-07" y="4.4579065e-05" z="3.2835447e-07" w="1.0" />
-          <Scale x="0.99999994" y="0.9999999" z="0.9999999" />
+          <Translation x="0.08060716" y="-1.530716e-06" z="0.00010310081" />
+          <Rotation x="-8.2851295e-07" y="4.457906e-05" z="3.283508e-07" w="1.0" />
+          <Scale x="0.99999994" y="0.99999994" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1048,9 +1048,9 @@
           <ParentIndex value="54" />
           <SiblingIndex value="83" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.17660935" y="1.6298145e-08" z="1.6985077e-05" />
-          <Rotation x="-5.6477516e-09" y="0.00014590207" z="-3.2837227e-07" w="1.0" />
-          <Scale x="0.9999998" y="1.0" z="0.9999999" />
+          <Translation x="0.17660937" y="-4.512549e-08" z="1.6959757e-05" />
+          <Rotation x="-3.7630263e-09" y="0.00014590207" z="-4.925676e-07" w="1.0" />
+          <Scale x="0.9999998" y="0.99999994" z="0.9999998" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1060,9 +1060,9 @@
           <ParentIndex value="54" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.20884551" y="-1.743465e-07" z="-1.8145749e-05" />
-          <Rotation x="-8.291181e-09" y="2.1902957e-05" z="-2.2595263e-12" w="1.0" />
-          <Scale x="0.99999994" y="1.0" z="0.99999994" />
+          <Translation x="0.20884553" y="-2.462184e-07" z="-1.8171784e-05" />
+          <Rotation x="-6.426538e-09" y="2.190296e-05" z="-1.6418429e-07" w="1.0" />
+          <Scale x="0.99999994" y="0.9999999" z="0.9999999" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1072,8 +1072,8 @@
           <ParentIndex value="83" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
-          <Translation x="1.629096e-07" y="7.683411e-09" z="2.2722588e-08" />
-          <Rotation x="-3.034316e-09" y="5.2577827e-05" z="3.35705e-06" w="1.0" />
+          <Translation x="1.0340875e-07" y="7.0867827e-09" z="2.661477e-08" />
+          <Rotation x="-5.3602918e-09" y="5.257783e-05" z="3.3582417e-06" w="1.0" />
           <Scale x="0.99999994" y="1.0" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -1084,8 +1084,8 @@
           <ParentIndex value="84" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="2.7059286e-08" y="9.429641e-09" z="2.9631337e-08" />
-          <Rotation x="-7.0903456e-09" y="-1.7419461e-05" z="7.8728135e-11" w="1.0" />
+          <Translation x="-3.254354e-08" y="4.3510227e-09" z="3.340392e-08" />
+          <Rotation x="-7.0879382e-09" y="-1.7419454e-05" z="1.1283419e-10" w="1.0" />
           <Scale x="0.99999994" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -1096,8 +1096,8 @@
           <ParentIndex value="53" />
           <SiblingIndex value="87" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="-1.5777914e-08" y="9.930227e-08" z="1.8723586e-07" />
-          <Rotation x="3.1602343e-07" y="-0.0003100496" z="1.6915011e-07" w="0.99999994" />
+          <Translation x="-1.5810656e-08" y="9.825453e-08" z="2.0030711e-07" />
+          <Rotation x="3.1831485e-07" y="-0.00031004954" z="1.7084257e-07" w="0.99999994" />
           <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -1108,8 +1108,8 @@
           <ParentIndex value="53" />
           <SiblingIndex value="88" />
           <Flags>RotX, RotY, RotZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="0.16275014" y="0.009000576" z="2.0625157e-07" />
-          <Rotation x="-1.0486474e-09" y="4.5810782e-05" z="-4.7274295e-07" w="1.0" />
+          <Translation x="0.16275014" y="0.009000579" z="2.009183e-07" />
+          <Rotation x="1.7381581e-09" y="4.5810903e-05" z="-6.3049185e-07" w="1.0" />
           <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -1120,8 +1120,8 @@
           <ParentIndex value="53" />
           <SiblingIndex value="89" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.16608465" y="0.05351046" z="0.011220497" />
-          <Rotation x="-9.460905e-09" y="4.0222712e-05" z="-4.7281048e-07" w="1.0" />
+          <Translation x="0.16608463" y="0.05351046" z="0.011220506" />
+          <Rotation x="7.159997e-10" y="4.022284e-05" z="-3.1539093e-07" w="1.0" />
           <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -1132,8 +1132,8 @@
           <ParentIndex value="53" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="-1.5250407e-08" y="3.03844e-08" z="6.21003e-09" />
-          <Rotation x="1.5914901e-07" y="5.195128e-05" z="-2.2414713e-07" w="1.0" />
+          <Translation x="-1.5283149e-08" y="2.9336661e-08" z="1.9164872e-08" />
+          <Rotation x="1.6283656e-07" y="5.1951403e-05" z="-2.2268125e-07" w="1.0" />
           <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -1144,9 +1144,9 @@
           <ParentIndex value="52" />
           <SiblingIndex value="93" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="-6.4028427e-09" y="1.1525117e-08" z="-1.1059456e-08" />
-          <Rotation x="2.2854074e-06" y="-8.014056e-05" z="-4.1894964e-08" w="1.0" />
-          <Scale x="1.0" y="1.0000001" z="1.0" />
+          <Translation x="8.1490725e-10" y="1.816079e-08" z="-2.7066562e-09" />
+          <Rotation x="2.1930318e-06" y="-8.01572e-05" z="8.585631e-10" w="1.0" />
+          <Scale x="0.99999994" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1156,9 +1156,9 @@
           <ParentIndex value="90" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.21167815" y="-1.792796e-08" z="-3.3663207e-05" />
-          <Rotation x="0.9758575" y="0.18104075" z="-0.12109066" w="0.016231734" />
-          <Scale x="1.0000001" y="1.0" z="1.0000001" />
+          <Translation x="0.21167816" y="-2.9220246e-08" z="-3.3657736e-05" />
+          <Rotation x="0.9758575" y="0.18104072" z="-0.121090636" w="0.016231716" />
+          <Scale x="1.0000002" y="1.0000001" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1168,9 +1168,9 @@
           <ParentIndex value="91" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.019078443" y="0.0837891" z="-0.050040804" />
-          <Rotation x="-1.4810948e-07" y="9.4290084e-07" z="-0.15932137" w="0.9872268" />
-          <Scale x="1.0" y="1.0" z="0.99999994" />
+          <Translation x="0.019078465" y="0.0837891" z="-0.050040767" />
+          <Rotation x="-1.5070377e-07" y="9.160148e-07" z="-0.15932134" w="0.9872268" />
+          <Scale x="0.9999998" y="0.9999998" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1180,9 +1180,9 @@
           <ParentIndex value="52" />
           <SiblingIndex value="95" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.18144497" y="-4.773028e-09" z="0.070601605" />
-          <Rotation x="0.3478419" y="0.11123638" z="-0.87326175" w="0.32256228" />
-          <Scale x="0.9999998" y="0.9999998" z="1.0000001" />
+          <Translation x="0.18144494" y="3.1199306e-08" z="0.070601605" />
+          <Rotation x="0.3478419" y="0.11123637" z="-0.87326187" w="0.3225623" />
+          <Scale x="1.0000006" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1192,9 +1192,9 @@
           <ParentIndex value="93" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="6.472692e-08" y="-4.9360096e-08" z="6.146729e-08" />
-          <Rotation x="1.6381966e-06" y="2.8684738e-07" z="1.1231751e-06" w="1.0" />
-          <Scale x="0.9999999" y="0.99999994" z="0.99999994" />
+          <Translation x="5.2619725e-08" y="-1.5832484e-08" z="7.0780516e-08" />
+          <Rotation x="1.706183e-06" y="2.3841858e-07" z="1.0197982e-06" w="1.0" />
+          <Scale x="0.99999994" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1204,9 +1204,9 @@
           <ParentIndex value="52" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.18144497" y="-4.773028e-09" z="0.070601605" />
-          <Rotation x="-0.052057244" y="-0.034875" z="-0.93854666" w="0.3394172" />
-          <Scale x="0.99999934" y="1.0" z="1.0" />
+          <Translation x="0.18144494" y="3.1199306e-08" z="0.070601605" />
+          <Rotation x="-0.052057263" y="-0.034875024" z="-0.93854654" w="0.33941737" />
+          <Scale x="0.99999917" y="0.9999998" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1216,9 +1216,9 @@
           <ParentIndex value="95" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="7.8231096e-08" y="-5.029142e-08" z="1.3969839e-09" />
-          <Rotation x="1.4394755e-06" y="-9.1968104e-08" z="-1.6435515e-06" w="1.0" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="8.568168e-08" y="-6.891787e-08" z="9.429641e-09" />
+          <Rotation x="1.4787075e-06" y="-1.0977965e-07" z="-1.7272542e-06" w="1.0" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1228,9 +1228,9 @@
           <ParentIndex value="51" />
           <SiblingIndex value="142" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.06191078" y="-0.04806796" z="-0.033434518" />
-          <Rotation x="-0.009975056" y="0.7368281" z="-0.0138136735" w="0.67586553" />
-          <Scale x="1.0000001" y="1.0000002" z="1.0" />
+          <Translation x="0.114212364" y="-0.04871847" z="-0.03344308" />
+          <Rotation x="-0.009975113" y="0.73682797" z="-0.013813569" w="0.67586565" />
+          <Scale x="1.0000001" y="0.9999999" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1240,9 +1240,9 @@
           <ParentIndex value="97" />
           <SiblingIndex value="135" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
-          <Translation x="0.059858922" y="0.0020835586" z="-0.005547199" />
-          <Rotation x="0.018954726" y="-0.042729802" z="0.01450439" w="0.9988015" />
-          <Scale x="0.9999999" y="0.99999994" z="0.9999999" />
+          <Translation x="0.059858922" y="0.0020835425" z="-0.00554719" />
+          <Rotation x="0.01895478" y="-0.04272979" z="0.014504382" w="0.9988015" />
+          <Scale x="0.9999999" y="0.99999994" z="0.9999998" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1252,8 +1252,8 @@
           <ParentIndex value="98" />
           <SiblingIndex value="131" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
-          <Translation x="0.21060094" y="-0.000103216735" z="-9.792791e-06" />
-          <Rotation x="7.0074548e-06" y="8.963733e-05" z="0.0035343426" w="0.99999374" />
+          <Translation x="0.21060094" y="-0.00010322116" z="-9.781477e-06" />
+          <Rotation x="7.0079163e-06" y="8.963731e-05" z="0.0035343412" w="0.99999374" />
           <Scale x="1.0" y="0.9999999" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -1264,8 +1264,8 @@
           <ParentIndex value="99" />
           <SiblingIndex value="102" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.07850478" y="-0.00010407227" z="-9.494834e-06" />
-          <Rotation x="-1.7105728e-08" y="-2.198857e-05" z="4.1044697e-07" w="1.0" />
+          <Translation x="0.0785048" y="-0.00010407914" z="-9.480358e-06" />
+          <Rotation x="-1.4319099e-08" y="-2.1988553e-05" z="4.104493e-07" w="1.0" />
           <Scale x="1.0" y="0.99999994" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -1276,8 +1276,8 @@
           <ParentIndex value="100" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.08061287" y="-2.9022864e-05" z="1.705745e-05" />
-          <Rotation x="2.324695e-09" y="-4.7016896e-05" z="3.283567e-07" w="1.0" />
+          <Translation x="0.08061289" y="-2.9025046e-05" z="1.7060403e-05" />
+          <Rotation x="2.3169928e-09" y="-4.7016918e-05" z="3.2837443e-07" w="1.0" />
           <Scale x="1.0" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -1288,9 +1288,9 @@
           <ParentIndex value="99" />
           <SiblingIndex value="103" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.1766216" y="2.8454815e-07" z="-4.140621e-05" />
-          <Rotation x="-4.894529e-09" y="-0.00026779267" z="3.2835828e-07" w="1.0" />
-          <Scale x="1.0" y="0.99999994" z="0.99999994" />
+          <Translation x="0.17662163" y="2.727029e-07" z="-4.140282e-05" />
+          <Rotation x="-2.113535e-09" y="-0.0002677926" z="3.2834475e-07" w="1.0" />
+          <Scale x="1.0" y="0.9999999" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1300,8 +1300,8 @@
           <ParentIndex value="99" />
           <SiblingIndex value="106" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.20886013" y="1.0378426e-07" z="-4.211586e-05" />
-          <Rotation x="-3.3694087e-07" y="0.00020946958" z="3.2829155e-07" w="1.0" />
+          <Translation x="0.20886016" y="8.7195076e-08" z="-4.2111104e-05" />
+          <Rotation x="-3.332176e-07" y="0.00020946958" z="3.2828e-07" w="1.0" />
           <Scale x="1.0" y="0.99999994" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -1312,8 +1312,8 @@
           <ParentIndex value="103" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
-          <Translation x="1.73859e-08" y="-2.3865141e-08" z="7.9890015e-09" />
-          <Rotation x="-1.1517353e-06" y="9.997832e-05" z="7.3817114e-07" w="1.0" />
+          <Translation x="1.4548277e-08" y="-2.8318027e-08" z="1.2863893e-08" />
+          <Rotation x="-1.1512709e-06" y="9.997835e-05" z="7.045562e-07" w="1.0" />
           <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -1324,9 +1324,9 @@
           <ParentIndex value="104" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="1.9623258e-08" y="3.8708095e-08" z="1.5628757e-08" />
-          <Rotation x="1.0373e-08" y="-0.0001957418" z="2.6898306e-10" w="1.0" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="1.963781e-08" y="3.1897798e-08" z="2.066372e-08" />
+          <Rotation x="9.433668e-09" y="-0.00019574174" z="2.8313707e-10" w="1.0" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1336,9 +1336,9 @@
           <ParentIndex value="99" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
-          <Translation x="0.19197208" y="9.4471034e-08" z="-1.5813152e-05" />
-          <Rotation x="-0.16002007" y="0.06663334" z="-0.036471214" w="0.9841867" />
-          <Scale x="0.9999999" y="0.99999994" z="1.0" />
+          <Translation x="0.1919721" y="8.608913e-08" z="-1.5794387e-05" />
+          <Rotation x="-0.16002002" y="0.06663332" z="-0.036471374" w="0.9841867" />
+          <Scale x="0.99999994" y="0.9999999" z="0.9999999" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1348,9 +1348,9 @@
           <ParentIndex value="106" />
           <SiblingIndex value="112" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.02376868" y="0.023842975" z="-0.00083694886" />
-          <Rotation x="0.09238242" y="-0.022112906" z="0.35482854" w="0.93009317" />
-          <Scale x="0.9999999" y="1.0000001" z="0.99999994" />
+          <Translation x="0.0237687" y="0.023842987" z="-0.00083693303" />
+          <Rotation x="0.0923824" y="-0.022112837" z="0.35482863" w="0.9300931" />
+          <Scale x="0.99999994" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1360,9 +1360,9 @@
           <ParentIndex value="107" />
           <SiblingIndex value="111" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.02369541" y="0.00084082154" z="-0.00079074514" />
-          <Rotation x="-0.0053012962" y="-0.05025849" z="-0.19360824" w="0.97977644" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="0.023695506" y="0.00084077683" z="-0.00079074525" />
+          <Rotation x="-0.0053012585" y="-0.050258506" z="-0.19360818" w="0.97977644" />
+          <Scale x="0.99999994" y="0.9999999" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1372,9 +1372,9 @@
           <ParentIndex value="108" />
           <SiblingIndex value="110" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.023764178" y="-0.0010944009" z="0.00037887978" />
-          <Rotation x="0.0010392653" y="0.012663591" z="-0.11554261" w="0.9932213" />
-          <Scale x="0.99999994" y="0.99999994" z="0.99999994" />
+          <Translation x="0.023764176" y="-0.0010944409" z="0.00037886907" />
+          <Rotation x="0.0010392606" y="0.012663568" z="-0.11554259" w="0.9932213" />
+          <Scale x="1.0" y="0.99999994" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1384,8 +1384,8 @@
           <ParentIndex value="108" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="0.00990716" y="9.313226e-10" z="1.3870886e-07" />
-          <Rotation x="-1.6950071e-07" y="-2.9089863e-06" z="-1.4138641e-07" w="1.0" />
+          <Translation x="0.009907158" y="-2.4214387e-08" z="1.2427336e-07" />
+          <Rotation x="-1.8510036e-07" y="-2.9173682e-06" z="-1.5064143e-07" w="1.0" />
           <Scale x="0.99999994" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -1396,9 +1396,9 @@
           <ParentIndex value="107" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="0.031064581" y="-0.01775855" z="-0.010469376" />
-          <Rotation x="-1.4901161e-08" y="-1.15484006e-07" z="2.5110785e-07" w="1.0" />
-          <Scale x="0.99999994" y="1.0" z="1.0" />
+          <Translation x="0.031064682" y="-0.017758563" z="-0.01046937" />
+          <Rotation x="-3.539026e-08" y="-1.05239465e-07" z="2.907473e-07" w="1.0" />
+          <Scale x="0.99999994" y="0.9999999" z="0.9999999" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1408,9 +1408,9 @@
           <ParentIndex value="106" />
           <SiblingIndex value="116" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.06579763" y="0.020741515" z="0.015459382" />
-          <Rotation x="-0.6685062" y="-0.069679715" z="-0.0009544907" w="0.7404345" />
-          <Scale x="0.99999994" y="1.0" z="1.0" />
+          <Translation x="0.06579765" y="0.02074154" z="0.015459398" />
+          <Rotation x="-0.6685062" y="-0.06967973" z="-0.0009543171" w="0.7404345" />
+          <Scale x="1.0" y="0.9999999" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1420,9 +1420,9 @@
           <ParentIndex value="112" />
           <SiblingIndex value="115" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.021029793" y="-4.1443855e-08" z="-1.4901161e-08" />
-          <Rotation x="0.024130642" y="0.0041025775" z="-0.016951691" w="0.9995568" />
-          <Scale x="1.0" y="1.0" z="1.0000001" />
+          <Translation x="0.02102988" y="-5.9604645e-08" z="-3.7252903e-09" />
+          <Rotation x="0.024130546" y="0.0041026017" z="-0.016951792" w="0.9995568" />
+          <Scale x="1.0" y="0.9999999" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1432,9 +1432,9 @@
           <ParentIndex value="113" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.013672426" y="-3.3408403e-05" z="3.5472214e-05" />
-          <Rotation x="0.007190031" y="-0.009214272" z="-0.008686897" w="0.9998941" />
-          <Scale x="0.99999994" y="0.9999999" z="1.0" />
+          <Translation x="0.013672435" y="-3.340561e-05" z="3.5477802e-05" />
+          <Rotation x="0.0071900105" y="-0.009214275" z="-0.00868687" w="0.9998941" />
+          <Scale x="1.0" y="1.0000001" z="1.0000001" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1444,9 +1444,9 @@
           <ParentIndex value="112" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="0.012159096" y="7.916242e-09" z="-1.8626451e-08" />
-          <Rotation x="4.6746572e-07" y="2.6845373e-07" z="1.1688098e-07" w="1.0" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="0.012159123" y="-8.8475645e-09" z="-5.5879354e-09" />
+          <Rotation x="3.721798e-07" y="2.9569492e-07" z="4.5518394e-08" w="1.0" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1456,9 +1456,9 @@
           <ParentIndex value="106" />
           <SiblingIndex value="119" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.06746661" y="0.0047753863" z="0.010716962" />
-          <Rotation x="-0.6529266" y="-0.059558965" z="-0.012375572" w="0.7549745" />
-          <Scale x="1.0" y="0.99999994" z="1.0000001" />
+          <Translation x="0.06746663" y="0.004775401" z="0.010716969" />
+          <Rotation x="-0.65292656" y="-0.059559073" z="-0.012375466" w="0.7549745" />
+          <Scale x="0.99999994" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1468,9 +1468,9 @@
           <ParentIndex value="116" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.02566147" y="-8.0558006e-05" z="3.5732053e-05" />
-          <Rotation x="0.010195917" y="0.0011508021" z="-0.014188238" w="0.9998468" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="0.025661476" y="-8.056732e-05" z="3.5723206e-05" />
+          <Rotation x="0.010195897" y="0.0011508302" z="-0.014188241" w="0.9998468" />
+          <Scale x="0.99999994" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1480,8 +1480,8 @@
           <ParentIndex value="117" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.016645903" y="-1.3504177e-08" z="-9.778887e-09" />
-          <Rotation x="0.021141984" y="-0.025121227" z="0.02039145" w="0.9992528" />
+          <Translation x="0.016645793" y="-6.519258e-09" z="-4.656613e-09" />
+          <Rotation x="0.021141991" y="-0.025121229" z="0.020391488" w="0.9992528" />
           <Scale x="1.0000001" y="1.0000001" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -1492,9 +1492,9 @@
           <ParentIndex value="106" />
           <SiblingIndex value="122" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.06417748" y="-0.008421034" z="0.0039127525" />
-          <Rotation x="-0.59571576" y="-0.07588753" z="-0.002631601" w="0.799598" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="0.06417751" y="-0.008421019" z="0.00391276" />
+          <Rotation x="-0.5957158" y="-0.075887635" z="-0.002631536" w="0.7995979" />
+          <Scale x="1.0" y="0.9999998" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1504,9 +1504,9 @@
           <ParentIndex value="119" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.029864036" y="-2.1891137e-05" z="1.1301308e-05" />
-          <Rotation x="-0.0013209778" y="-9.822629e-06" z="-0.009490207" w="0.9999541" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="0.029864116" y="-2.1932297e-05" z="1.130061e-05" />
+          <Rotation x="-0.0013209616" y="-9.8099235e-06" z="-0.009490158" w="0.9999541" />
+          <Scale x="1.0" y="0.99999994" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1516,9 +1516,9 @@
           <ParentIndex value="120" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.017189477" y="-2.6047928e-09" z="-8.469215e-09" />
-          <Rotation x="0.02780138" y="0.0009979231" z="0.0081467815" w="0.9995798" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="0.017189423" y="-1.6185368e-08" z="-6.9994712e-09" />
+          <Rotation x="0.027801381" y="0.0009979245" z="0.008146801" w="0.9995798" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1528,9 +1528,9 @@
           <ParentIndex value="106" />
           <SiblingIndex value="125" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.058160216" y="-0.019728296" z="-0.004577106" />
-          <Rotation x="-0.5411902" y="-0.06761673" z="0.046518717" w="0.8368854" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="0.05816025" y="-0.019728268" z="-0.0045771077" />
+          <Rotation x="-0.5411904" y="-0.06761674" z="0.046518918" w="0.8368853" />
+          <Scale x="0.99999994" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1540,9 +1540,9 @@
           <ParentIndex value="122" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.024818074" y="-3.9115548e-08" z="1.7508864e-07" />
-          <Rotation x="0.0061538173" y="-0.003171794" z="-0.014462906" w="0.99987155" />
-          <Scale x="0.99999994" y="0.9999999" z="0.9999999" />
+          <Translation x="0.024818147" y="-6.053597e-08" z="1.7508864e-07" />
+          <Rotation x="0.006153925" y="-0.0031717934" z="-0.014462997" w="0.99987155" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1552,9 +1552,9 @@
           <ParentIndex value="123" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.012980048" y="6.9849193e-07" z="-1.1175871e-08" />
-          <Rotation x="0.021112919" y="-0.006589306" z="0.028943306" w="0.99933636" />
-          <Scale x="0.99999994" y="1.0" z="0.99999994" />
+          <Translation x="0.012979981" y="7.3201954e-07" z="-2.2351742e-08" />
+          <Rotation x="0.021112902" y="-0.0065892967" z="0.028943291" w="0.99933636" />
+          <Scale x="0.9999999" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1564,9 +1564,9 @@
           <ParentIndex value="106" />
           <SiblingIndex value="126" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.035652615" y="-2.2351742e-08" z="3.9674342e-07" />
-          <Rotation x="1.2000091e-06" y="-3.108941e-05" z="3.8184226e-08" w="1.0" />
-          <Scale x="1.0" y="1.0" z="0.99999994" />
+          <Translation x="0.035652645" y="-5.5879354e-09" z="3.9115548e-07" />
+          <Rotation x="1.2065284e-06" y="-3.1088948e-05" z="1.6391277e-07" w="1.0" />
+          <Scale x="0.99999994" y="1.0" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1576,9 +1576,9 @@
           <ParentIndex value="106" />
           <SiblingIndex value="127" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.035652615" y="-2.2351742e-08" z="3.9674342e-07" />
-          <Rotation x="1.2000091e-06" y="-3.108941e-05" z="3.8184226e-08" w="1.0" />
-          <Scale x="1.0" y="1.0" z="0.99999994" />
+          <Translation x="0.035652645" y="-5.5879354e-09" z="3.9115548e-07" />
+          <Rotation x="1.2065284e-06" y="-3.1088948e-05" z="1.6391277e-07" w="1.0" />
+          <Scale x="0.99999994" y="1.0" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1588,8 +1588,8 @@
           <ParentIndex value="106" />
           <SiblingIndex value="128" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.023830222" y="5.5879354e-09" z="4.1164458e-07" />
-          <Rotation x="6.170012e-08" y="-2.7283095e-06" z="-7.683411e-07" w="1.0" />
+          <Translation x="0.023830248" y="7.450581e-09" z="4.2654574e-07" />
+          <Rotation x="7.6019205e-08" y="-2.732966e-06" z="-6.398186e-07" w="1.0" />
           <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -1600,9 +1600,9 @@
           <ParentIndex value="106" />
           <SiblingIndex value="129" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.049412087" y="0.009402322" z="0.004035471" />
-          <Rotation x="2.8331422e-06" y="-6.0070074e-06" z="-0.38268334" w="0.92387956" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="0.049412113" y="0.009402344" z="0.004035482" />
+          <Rotation x="2.829236e-06" y="-6.098237e-06" z="-0.38268322" w="0.92387974" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1612,9 +1612,9 @@
           <ParentIndex value="106" />
           <SiblingIndex value="130" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="0.0655968" y="0.034596965" z="0.0075980294" />
-          <Rotation x="0.27495465" y="0.16040008" z="0.10550906" w="0.9420933" />
-          <Scale x="0.99999994" y="1.0" z="0.99999994" />
+          <Translation x="0.06559681" y="0.034596995" z="0.0075980397" />
+          <Rotation x="0.2749546" y="0.16040011" z="0.10550911" w="0.9420933" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1624,9 +1624,9 @@
           <ParentIndex value="106" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="0.041951492" y="-0.0275851" z="-0.009776447" />
-          <Rotation x="-0.5357052" y="0.11480668" z="-0.07092529" w="0.8335522" />
-          <Scale x="1.0" y="1.0" z="1.0000001" />
+          <Translation x="0.041951526" y="-0.027585087" z="-0.009776438" />
+          <Rotation x="-0.53570527" y="0.11480658" z="-0.07092521" w="0.833552" />
+          <Scale x="0.9999999" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1636,9 +1636,9 @@
           <ParentIndex value="98" />
           <SiblingIndex value="132" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="-1.4342731e-09" y="1.6536796e-07" z="-5.1932147e-09" />
-          <Rotation x="-4.4871578e-07" y="-0.00013824733" z="-2.7370053e-08" w="1.0" />
-          <Scale x="0.99999994" y="0.9999999" z="0.9999999" />
+          <Translation x="-1.1668817e-08" y="1.7153798e-07" z="-2.057277e-09" />
+          <Rotation x="-4.4447006e-07" y="-0.0001382473" z="-6.156553e-08" w="1.0" />
+          <Scale x="0.99999994" y="0.9999998" z="0.9999999" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1648,9 +1648,9 @@
           <ParentIndex value="98" />
           <SiblingIndex value="133" />
           <Flags>RotX, RotY, RotZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="0.16291101" y="4.877802e-08" z="-2.2836175e-06" />
-          <Rotation x="1.8213732e-06" y="0.00024325596" z="-0.0110715665" w="0.99993867" />
-          <Scale x="0.99999994" y="0.9999999" z="0.99999994" />
+          <Translation x="0.16291101" y="4.284084e-08" z="-2.2889435e-06" />
+          <Rotation x="1.8249165e-06" y="0.00024325616" z="-0.011071565" w="0.99993867" />
+          <Scale x="0.99999994" y="0.99999994" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1660,8 +1660,8 @@
           <ParentIndex value="98" />
           <SiblingIndex value="134" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.16608381" y="0.05351029" z="-0.011222401" />
-          <Rotation x="1.9710543e-08" y="3.4135726e-05" z="-4.723799e-07" w="1.0" />
+          <Translation x="0.16608381" y="0.053510297" z="-0.011222405" />
+          <Rotation x="2.023967e-08" y="3.413575e-05" z="-4.7268213e-07" w="1.0" />
           <Scale x="0.99999994" y="0.9999999" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -1672,9 +1672,9 @@
           <ParentIndex value="98" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="-8.230927e-10" y="6.851042e-08" z="-2.1664164e-09" />
-          <Rotation x="2.3675934e-08" y="9.970212e-05" z="-2.7650005e-08" w="1.0" />
-          <Scale x="1.0" y="0.9999999" z="0.99999994" />
+          <Translation x="-1.1057637e-08" y="7.468043e-08" z="9.695214e-10" />
+          <Rotation x="2.7927504e-08" y="9.970214e-05" z="-6.161185e-08" w="1.0" />
+          <Scale x="1.0" y="0.9999998" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1684,9 +1684,9 @@
           <ParentIndex value="97" />
           <SiblingIndex value="138" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="-6.519258e-09" y="1.6065314e-07" z="4.269532e-08" />
-          <Rotation x="-1.326087e-06" y="8.463244e-05" z="9.3790015e-07" w="1.0" />
-          <Scale x="0.99999994" y="0.99999994" z="0.99999994" />
+          <Translation x="-9.546056e-09" y="1.4354009e-07" z="3.6205165e-08" />
+          <Rotation x="-1.2597303e-06" y="8.465248e-05" z="9.0128754e-07" w="1.0" />
+          <Scale x="0.99999994" y="0.9999999" z="0.9999999" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1696,9 +1696,9 @@
           <ParentIndex value="135" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.2116783" y="-7.799827e-09" z="3.0569732e-05" />
-          <Rotation x="0.12107334" y="0.01622913" z="-0.9758601" w="0.18103847" />
-          <Scale x="0.99999887" y="0.99999994" z="0.99999994" />
+          <Translation x="0.21167834" y="-3.608875e-09" z="3.0549272e-05" />
+          <Rotation x="0.12107339" y="0.016229078" z="-0.97586006" w="0.18103854" />
+          <Scale x="0.99999696" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1708,9 +1708,9 @@
           <ParentIndex value="136" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="-0.018619766" y="0.08378916" z="-0.050040577" />
-          <Rotation x="-1.9952324e-07" y="1.0079934e-06" z="0.15932013" w="0.9872271" />
-          <Scale x="0.99999994" y="0.99999994" z="1.0000001" />
+          <Translation x="-0.018619832" y="0.08378919" z="-0.05004059" />
+          <Rotation x="-2.4150327e-07" y="1.0457281e-06" z="0.15932027" w="0.98722696" />
+          <Scale x="1.0" y="1.0" z="1.0000001" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1720,9 +1720,9 @@
           <ParentIndex value="97" />
           <SiblingIndex value="140" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.18144149" y="2.4109613e-07" z="-0.070606515" />
-          <Rotation x="-0.11123038" y="0.34785584" z="0.32256314" w="0.87325674" />
-          <Scale x="1.0" y="1.0" z="0.9999999" />
+          <Translation x="0.18144147" y="2.173474e-07" z="-0.0706065" />
+          <Rotation x="-0.11123033" y="0.3478558" z="0.32256284" w="0.8732568" />
+          <Scale x="0.9999999" y="0.9999999" z="0.9999999" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1732,9 +1732,9 @@
           <ParentIndex value="138" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="-2.7474016e-08" y="4.749745e-08" z="1.6763806e-08" />
-          <Rotation x="-9.313226e-09" y="-7.785857e-07" z="5.7742e-07" w="1.0" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="-9.313226e-10" y="3.1664968e-08" z="-2.6077032e-08" />
+          <Rotation x="2.514571e-08" y="-6.519258e-07" z="7.7579165e-07" w="1.0" />
+          <Scale x="1.0000001" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1744,9 +1744,9 @@
           <ParentIndex value="97" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.18144147" y="2.491288e-07" z="-0.070606634" />
-          <Rotation x="0.03488177" y="-0.052043837" z="0.33941546" w="0.93854785" />
-          <Scale x="0.99999994" y="0.9999999" z="0.9999998" />
+          <Translation x="0.18144147" y="2.2957101e-07" z="-0.07060662" />
+          <Rotation x="0.034881685" y="-0.052043866" z="0.33941516" w="0.9385479" />
+          <Scale x="0.99999994" y="0.99999994" z="0.9999998" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1756,9 +1756,9 @@
           <ParentIndex value="140" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="6.519258e-08" y="-9.313226e-08" z="8.96398e-09" />
-          <Rotation x="-7.0803804e-07" y="6.6892244e-07" z="-1.05588704e-07" w="1.0" />
-          <Scale x="1.0" y="0.9999999" z="0.99999994" />
+          <Translation x="6.472692e-08" y="-9.2200935e-08" z="1.2805685e-09" />
+          <Rotation x="-5.761395e-07" y="6.500632e-07" z="-1.1525119e-08" w="1.0" />
+          <Scale x="0.9999999" y="0.99999994" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1768,9 +1768,9 @@
           <ParentIndex value="51" />
           <SiblingIndex value="209" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.10098358" y="-0.0463575" z="-8.979906e-06" />
-          <Rotation x="1.022149e-05" y="7.415737e-05" z="0.1091146" w="0.9940293" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="0.15328513" y="-0.047008004" z="-1.7530667e-05" />
+          <Rotation x="1.0208543e-05" y="7.403884e-05" z="0.10911459" w="0.9940293" />
+          <Scale x="1.0" y="0.9999998" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1780,9 +1780,9 @@
           <ParentIndex value="142" />
           <SiblingIndex value="201" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.04875366" y="-0.0091312975" z="-1.1077199e-06" />
-          <Rotation x="-1.9066776e-05" y="-0.0002471854" z="-0.119666584" w="0.9928141" />
-          <Scale x="0.9999998" y="0.9999999" z="1.0" />
+          <Translation x="0.04875366" y="-0.009131312" z="-1.107717e-06" />
+          <Rotation x="-1.9066854e-05" y="-0.00024718538" z="-0.11966655" w="0.9928141" />
+          <Scale x="0.99999994" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1792,8 +1792,8 @@
           <ParentIndex value="143" />
           <SiblingIndex value="145" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="1.1670633e-08" y="1.6530974e-08" z="-1.0401432e-12" />
-          <Rotation x="4.299842e-06" y="0.00053302833" z="1.1597916e-05" w="0.99999994" />
+          <Translation x="1.2922097e-08" y="2.4912877e-08" z="1.0886839e-11" />
+          <Rotation x="4.2998363e-06" y="0.00053302833" z="1.1613748e-05" w="0.99999994" />
           <Scale x="0.99999994" y="0.99999994" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -1804,8 +1804,8 @@
           <ParentIndex value="143" />
           <SiblingIndex value="198" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="1.18091625e-08" y="-1.7054472e-08" z="-3.000033e-07" />
-          <Rotation x="-0.49786365" y="-0.50208044" z="-0.49786353" w="0.50217426" />
+          <Translation x="1.308973e-08" y="-8.672568e-09" z="-2.9999225e-07" />
+          <Rotation x="-0.4978636" y="-0.50208044" z="-0.49786347" w="0.5021743" />
           <Scale x="0.99999994" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -1816,9 +1816,9 @@
           <ParentIndex value="145" />
           <SiblingIndex value="153" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
-          <Translation x="-7.699851e-06" y="0.006871291" z="0.013798032" />
-          <Rotation x="0.00042984277" y="1.01974535e-07" z="-4.992979e-07" w="1.0" />
-          <Scale x="1.0000001" y="1.0000001" z="1.0" />
+          <Translation x="-7.699825e-06" y="0.0068712896" z="0.013798037" />
+          <Rotation x="0.00042980554" y="1.02027926e-07" z="-4.9925137e-07" w="0.99999994" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1828,9 +1828,9 @@
           <ParentIndex value="146" />
           <SiblingIndex value="149" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ, Unk0</Flags>
-          <Translation x="0.0047745407" y="0.008750101" z="0.074368194" />
-          <Rotation x="0.07230465" y="0.18771653" z="0.021602884" w="0.9793201" />
-          <Scale x="1.0" y="1.0" z="0.9999999" />
+          <Translation x="0.0047745407" y="0.008750099" z="0.07436821" />
+          <Rotation x="0.07230465" y="0.18771651" z="0.021602884" w="0.9793201" />
+          <Scale x="1.0" y="0.9999999" z="0.9999999" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1840,8 +1840,8 @@
           <ParentIndex value="147" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="-4.656613e-10" y="-4.467438e-09" z="5.47152e-09" />
-          <Rotation x="1.3742829e-06" y="-7.939525e-08" z="5.525071e-07" w="1.0" />
+          <Translation x="3.259629e-09" y="-3.448804e-08" z="2.910383e-09" />
+          <Rotation x="1.3931422e-06" y="-8.5216016e-08" z="5.62286e-07" w="1.0" />
           <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -1852,8 +1852,8 @@
           <ParentIndex value="146" />
           <SiblingIndex value="151" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ, Unk0</Flags>
-          <Translation x="-1.832689e-05" y="0.008746764" z="0.07529956" />
-          <Rotation x="0.05233605" y="8.3728e-09" z="4.2072407e-10" w="0.9986295" />
+          <Translation x="-1.8326893e-05" y="0.008746762" z="0.075299576" />
+          <Rotation x="0.05233605" y="8.402442e-09" z="3.6894335e-10" w="0.9986295" />
           <Scale x="1.0" y="1.0" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -1864,9 +1864,9 @@
           <ParentIndex value="149" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="4.092726e-12" y="-1.7178092e-08" z="1.5238443e-08" />
-          <Rotation x="1.5087127e-07" y="-2.8285285e-10" z="3.9108272e-11" w="1.0" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="6.366463e-12" y="-1.8109642e-08" z="9.650533e-09" />
+          <Rotation x="1.750887e-07" y="-2.8830982e-10" z="8.7311484e-11" w="1.0" />
+          <Scale x="1.0000001" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1876,8 +1876,8 @@
           <ParentIndex value="146" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ, Unk0</Flags>
-          <Translation x="-0.004810769" y="0.008743326" z="0.07436659" />
-          <Rotation x="0.072304174" y="-0.18771681" z="-0.021602798" w="0.9793201" />
+          <Translation x="-0.004810769" y="0.008743295" z="0.07436661" />
+          <Rotation x="0.072304174" y="-0.18771681" z="-0.0216028" w="0.9793201" />
           <Scale x="1.0" y="0.9999999" z="0.9999999" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -1888,8 +1888,8 @@
           <ParentIndex value="151" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="-4.1909516e-09" y="-8.920324e-09" z="-2.2700988e-08" />
-          <Rotation x="1.7050189e-06" y="5.7788566e-07" z="-2.2538008e-07" w="1.0" />
+          <Translation x="-1.1175871e-08" y="2.1107553e-08" z="-2.8405339e-08" />
+          <Rotation x="1.7307467e-06" y="6.176997e-07" z="-2.3422764e-07" w="1.0" />
           <Scale x="1.0" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -1900,9 +1900,9 @@
           <ParentIndex value="145" />
           <SiblingIndex value="154" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.028541684" y="0.07116283" z="0.024882596" />
-          <Rotation x="0.00042695567" y="-1.946413e-07" z="-5.0299195e-07" w="1.0" />
-          <Scale x="1.0000001" y="1.0000001" z="1.0" />
+          <Translation x="0.028541684" y="0.0711628" z="0.024882598" />
+          <Rotation x="0.000426937" y="-1.9457673e-07" z="-5.0300827e-07" w="0.99999994" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1912,9 +1912,9 @@
           <ParentIndex value="145" />
           <SiblingIndex value="159" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
-          <Translation x="0.028541684" y="0.07116283" z="0.024882602" />
-          <Rotation x="0.1654709" y="2.3853588e-07" z="-1.4331412e-06" w="0.9862147" />
-          <Scale x="1.0000001" y="1.0000001" z="1.0" />
+          <Translation x="0.028541684" y="0.0711628" z="0.024882603" />
+          <Rotation x="0.16547096" y="2.386151e-07" z="-1.4331413e-06" w="0.98621476" />
+          <Scale x="1.0" y="0.99999994" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1924,8 +1924,8 @@
           <ParentIndex value="154" />
           <SiblingIndex value="157" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.005987903" y="-0.0014833914" z="0.013416513" />
-          <Rotation x="0.0043195575" y="0.16499129" z="0.025818832" w="0.98594767" />
+          <Translation x="0.0059879012" y="-0.0014833914" z="0.013416521" />
+          <Rotation x="0.004319507" y="0.1649913" z="0.025818823" w="0.98594755" />
           <Scale x="0.99999994" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -1936,9 +1936,9 @@
           <ParentIndex value="155" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="5.7043508e-09" y="-4.0163286e-08" z="0.0" />
-          <Rotation x="1.6903506e-07" y="-5.951152e-07" z="6.0535974e-08" w="1.0" />
-          <Scale x="0.99999994" y="0.99999994" z="0.9999999" />
+          <Translation x="8.731149e-09" y="-1.2456439e-08" z="-9.313226e-09" />
+          <Rotation x="1.8160789e-07" y="-6.342307e-07" z="5.308538e-08" w="1.0" />
+          <Scale x="1.0000001" y="1.0000001" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1948,9 +1948,9 @@
           <ParentIndex value="154" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="-0.005253605" y="-0.00092042907" z="0.01387623" />
-          <Rotation x="0.0030403922" y="-0.08710221" z="-0.034765664" w="0.99558794" />
-          <Scale x="1.0" y="1.0" z="0.9999999" />
+          <Translation x="-0.005253605" y="-0.0009204581" z="0.013876239" />
+          <Rotation x="0.0030403314" y="-0.087102205" z="-0.034765664" w="0.99558794" />
+          <Scale x="1.0" y="0.99999994" z="0.9999999" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1960,9 +1960,9 @@
           <ParentIndex value="157" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="2.2700988e-09" y="-1.11642294e-07" z="-9.313226e-09" />
-          <Rotation x="4.388857e-07" y="1.3690442e-07" z="2.4214385e-08" w="1.0" />
-          <Scale x="1.0" y="1.0000001" z="1.0000001" />
+          <Translation x="3.1432137e-09" y="-8.114148e-08" z="-1.071021e-08" />
+          <Rotation x="4.3655746e-07" y="1.527369e-07" z="2.0489097e-08" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1972,9 +1972,9 @@
           <ParentIndex value="145" />
           <SiblingIndex value="164" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
-          <Translation x="0.028541684" y="0.07116286" z="0.02488258" />
-          <Rotation x="-0.13874947" y="5.2738184e-08" z="-1.0230464e-06" w="0.99032754" />
-          <Scale x="1.0000001" y="1.0000001" z="1.0000001" />
+          <Translation x="0.028541684" y="0.07116283" z="0.024882581" />
+          <Rotation x="-0.13874954" y="5.2774812e-08" z="-1.0230553e-06" w="0.9903276" />
+          <Scale x="1.0" y="1.0" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1984,9 +1984,9 @@
           <ParentIndex value="159" />
           <SiblingIndex value="162" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.005863205" y="-0.00024197089" z="0.013221116" />
-          <Rotation x="0.02042017" y="0.12891932" z="-0.15509441" w="0.97923887" />
-          <Scale x="0.99999994" y="1.0" z="1.0" />
+          <Translation x="0.005863209" y="-0.00024200363" z="0.013221115" />
+          <Rotation x="0.020420142" y="0.12891933" z="-0.1550944" w="0.97923875" />
+          <Scale x="0.99999994" y="0.9999999" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -1996,9 +1996,9 @@
           <ParentIndex value="160" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="1.5250407e-08" y="-3.4691766e-08" z="8.381903e-09" />
-          <Rotation x="-3.3155084e-07" y="1.8626455e-08" z="3.0454248e-07" w="1.0" />
-          <Scale x="0.99999994" y="1.0" z="0.99999994" />
+          <Translation x="-1.9033905e-08" y="-6.868504e-09" z="0.0" />
+          <Rotation x="-3.3900142e-07" y="-1.490116e-08" z="2.6915222e-07" w="1.0" />
+          <Scale x="1.0000001" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2008,9 +2008,9 @@
           <ParentIndex value="159" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="-0.0060949004" y="0.00027162416" z="0.013899517" />
-          <Rotation x="-0.13898098" y="0.0072838054" z="0.05182694" w="0.98891115" />
-          <Scale x="0.99999994" y="0.99999994" z="1.0" />
+          <Translation x="-0.0060949004" y="0.00027162113" z="0.013899517" />
+          <Rotation x="-0.13898107" y="0.0072837933" z="0.051826935" w="0.98891115" />
+          <Scale x="0.99999994" y="0.9999999" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2020,9 +2020,9 @@
           <ParentIndex value="162" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="1.1350494e-09" y="-2.8172508e-08" z="-8.884308e-08" />
-          <Rotation x="-1.8875363e-06" y="2.0409061e-08" z="4.7823414e-07" w="1.0" />
-          <Scale x="1.0" y="0.9999999" z="1.0" />
+          <Translation x="1.0477379e-09" y="-2.863817e-08" z="-1.03537786e-07" />
+          <Rotation x="-1.8195677e-06" y="1.607259e-08" z="4.810281e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0000001" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2032,9 +2032,9 @@
           <ParentIndex value="145" />
           <SiblingIndex value="165" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="-9.719974e-05" y="0.10857344" z="0.09129723" />
-          <Rotation x="-0.060618684" y="1.927273e-07" z="-4.990104e-07" w="0.998161" />
-          <Scale x="1.0000001" y="1.0000001" z="1.0" />
+          <Translation x="-9.719972e-05" y="0.10857341" z="0.09129725" />
+          <Rotation x="-0.06061875" y="1.927846e-07" z="-4.989335e-07" w="0.998161" />
+          <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2044,9 +2044,9 @@
           <ParentIndex value="145" />
           <SiblingIndex value="167" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ, Unk0</Flags>
-          <Translation x="0.01148471" y="0.09729144" z="0.08966823" />
-          <Rotation x="-0.06928453" y="0.03470995" z="-0.0036333867" w="0.9969864" />
-          <Scale x="1.0000001" y="1.0000001" z="0.99999994" />
+          <Translation x="0.01148471" y="0.09729138" z="0.089668244" />
+          <Rotation x="-0.069284536" y="0.034709953" z="-0.0036333879" w="0.9969864" />
+          <Scale x="1.0" y="0.99999994" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2056,9 +2056,9 @@
           <ParentIndex value="165" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.00039269356" y="-0.009069273" z="-0.005303752" />
-          <Rotation x="0.3837284" y="-0.078983024" z="0.1267523" w="0.9112893" />
-          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <Translation x="0.0003926931" y="-0.009069274" z="-0.0053037484" />
+          <Rotation x="0.38372844" y="-0.07898299" z="0.12675233" w="0.9112892" />
+          <Scale x="0.99999994" y="0.99999994" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2068,9 +2068,9 @@
           <ParentIndex value="145" />
           <SiblingIndex value="168" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="0.037632007" y="0.10764748" z="0.08447176" />
-          <Rotation x="-0.14723149" y="0.37996334" z="-0.18953763" w="0.8933232" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="0.03763201" y="0.10764745" z="0.08447178" />
+          <Rotation x="-0.14723161" y="0.37996334" z="-0.18953766" w="0.8933232" />
+          <Scale x="0.99999994" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2080,9 +2080,9 @@
           <ParentIndex value="145" />
           <SiblingIndex value="174" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="2.2001109e-06" y="0.080047905" z="0.027598074" />
-          <Rotation x="-0.21084224" y="1.706627e-07" z="-3.92029e-07" w="0.9775201" />
-          <Scale x="1.0000001" y="1.0000001" z="1.0" />
+          <Translation x="2.2001182e-06" y="0.080047876" z="0.027598077" />
+          <Rotation x="-0.21084233" y="1.7070539e-07" z="-3.9196357e-07" w="0.9775201" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2092,8 +2092,8 @@
           <ParentIndex value="168" />
           <SiblingIndex value="170" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="-0.00037319423" y="7.33457e-06" z="0.0896583" />
-          <Rotation x="0.020878531" y="3.0092644e-09" z="-1.4027466e-09" w="0.999782" />
+          <Translation x="-0.00037319429" y="7.351345e-06" z="0.08965833" />
+          <Rotation x="0.020878538" y="3.0019869e-09" z="-1.3918303e-09" w="0.999782" />
           <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -2104,9 +2104,9 @@
           <ParentIndex value="168" />
           <SiblingIndex value="171" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="0.021756995" y="0.0021450554" z="0.08348618" />
-          <Rotation x="-0.013885019" y="0.19894925" z="-0.043798752" w="0.97893214" />
-          <Scale x="1.0" y="0.9999999" z="1.0" />
+          <Translation x="0.021756995" y="0.0021450957" z="0.083486214" />
+          <Rotation x="-0.013885091" y="0.19894926" z="-0.043798756" w="0.97893214" />
+          <Scale x="1.0" y="1.0000001" z="1.0000001" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2116,9 +2116,9 @@
           <ParentIndex value="168" />
           <SiblingIndex value="172" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="0.042251214" y="0.0047713723" z="0.06923592" />
-          <Rotation x="-0.08811238" y="0.38466132" z="-0.08992613" w="0.91443163" />
-          <Scale x="1.0" y="1.0000001" z="1.0" />
+          <Translation x="0.042251214" y="0.0047713877" z="0.069235966" />
+          <Rotation x="-0.088112324" y="0.38466132" z="-0.0899261" w="0.91443163" />
+          <Scale x="0.99999994" y="1.0" z="1.0000001" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2128,9 +2128,9 @@
           <ParentIndex value="168" />
           <SiblingIndex value="173" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="-0.021757007" y="0.0010265291" z="0.08539503" />
-          <Rotation x="-0.01388538" y="-0.19894896" z="0.0437996" w="0.97893214" />
-          <Scale x="0.99999994" y="0.99999994" z="0.99999994" />
+          <Translation x="-0.021757007" y="0.0010265431" z="0.08539505" />
+          <Rotation x="-0.013885313" y="-0.19894902" z="0.04379959" w="0.97893214" />
+          <Scale x="1.0000001" y="1.0000001" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2140,9 +2140,9 @@
           <ParentIndex value="168" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="-0.043555994" y="0.00350198" z="0.07090824" />
-          <Rotation x="-0.0881111" y="-0.38466188" z="0.089927174" w="0.9144314" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="-0.043555994" y="0.0035020283" z="0.07090826" />
+          <Rotation x="-0.08811108" y="-0.38466188" z="0.08992716" w="0.9144314" />
+          <Scale x="1.0000001" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2152,9 +2152,9 @@
           <ParentIndex value="145" />
           <SiblingIndex value="176" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ, Unk0</Flags>
-          <Translation x="-0.011642801" y="0.0972765" z="0.089663945" />
-          <Rotation x="-0.06928743" y="-0.034709726" z="0.0036329115" w="0.9969862" />
-          <Scale x="1.0" y="1.0000001" z="1.0" />
+          <Translation x="-0.011642801" y="0.09727651" z="0.08966396" />
+          <Rotation x="-0.06928744" y="-0.034709726" z="0.0036329117" w="0.9969862" />
+          <Scale x="1.0" y="1.0" z="0.9999999" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2164,9 +2164,9 @@
           <ParentIndex value="174" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="-0.0003928002" y="-0.009067324" z="-0.0053040013" />
-          <Rotation x="0.3837293" y="0.07898381" z="-0.1267516" w="0.91128886" />
-          <Scale x="1.0" y="0.9999999" z="1.0" />
+          <Translation x="-0.00039279927" y="-0.009067294" z="-0.0053039896" />
+          <Rotation x="0.38372937" y="0.078983806" z="-0.12675162" w="0.91128886" />
+          <Scale x="1.0" y="0.99999994" z="1.0000001" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2176,9 +2176,9 @@
           <ParentIndex value="145" />
           <SiblingIndex value="177" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="-0.03780139" y="0.10759905" z="0.084457524" />
-          <Rotation x="-0.14723055" y="-0.37996313" z="0.18953702" w="0.89332354" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="-0.037801392" y="0.10759902" z="0.08445754" />
+          <Rotation x="-0.1472307" y="-0.37996316" z="0.18953705" w="0.8933235" />
+          <Scale x="0.9999999" y="0.9999999" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2188,9 +2188,9 @@
           <ParentIndex value="145" />
           <SiblingIndex value="178" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="-0.02864189" y="0.07112611" z="0.024871891" />
-          <Rotation x="0.00042695564" y="-1.9442399e-07" z="-3.912332e-07" w="0.99999994" />
-          <Scale x="1.0000001" y="1.0" z="1.0" />
+          <Translation x="-0.02864189" y="0.07112608" z="0.024871895" />
+          <Rotation x="0.000426937" y="-1.9437401e-07" z="-3.912495e-07" w="0.99999994" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2200,9 +2200,9 @@
           <ParentIndex value="145" />
           <SiblingIndex value="183" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
-          <Translation x="-0.02864189" y="0.07112611" z="0.024871893" />
-          <Rotation x="-0.13874888" y="3.7454953e-08" z="-1.1337536e-06" w="0.9903276" />
-          <Scale x="1.0000001" y="1.0000001" z="1.0" />
+          <Translation x="-0.02864189" y="0.07112608" z="0.024871897" />
+          <Rotation x="-0.13874894" y="3.746586e-08" z="-1.1337644e-06" w="0.9903276" />
+          <Scale x="1.0" y="0.99999994" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2212,9 +2212,9 @@
           <ParentIndex value="178" />
           <SiblingIndex value="181" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
-          <Translation x="-0.00586318" y="-0.00024302557" z="0.01322012" />
-          <Rotation x="0.020419149" y="-0.12891905" z="0.15509719" w="0.9792384" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="-0.005863178" y="-0.00024305534" z="0.013220126" />
+          <Rotation x="0.02041915" y="-0.12891906" z="0.15509716" w="0.9792384" />
+          <Scale x="1.0" y="1.0" z="1.0000001" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2224,9 +2224,9 @@
           <ParentIndex value="179" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="1.8044375e-08" y="1.0477379e-08" z="4.656613e-10" />
-          <Rotation x="-1.15484006e-07" y="3.5390264e-07" z="-2.7939677e-09" w="1.0" />
-          <Scale x="0.99999994" y="1.0" z="0.99999994" />
+          <Translation x="7.450581e-09" y="1.1641532e-08" z="5.5879354e-09" />
+          <Rotation x="-1.0058284e-07" y="3.7439167e-07" z="-9.313226e-09" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2236,9 +2236,9 @@
           <ParentIndex value="178" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
-          <Translation x="0.006094912" y="0.00027360392" z="0.013899525" />
-          <Rotation x="-0.13898295" y="-0.0072840783" z="-0.05182592" w="0.9889109" />
-          <Scale x="1.0000001" y="1.0000001" z="1.0000001" />
+          <Translation x="0.0060949116" y="0.00027357353" z="0.013899524" />
+          <Rotation x="-0.13898301" y="-0.007284071" z="-0.051825926" w="0.988911" />
+          <Scale x="1.0000001" y="1.0" z="1.0000001" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2248,9 +2248,9 @@
           <ParentIndex value="181" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="2.9685907e-09" y="1.4901161e-08" z="-1.6290869e-08" />
-          <Rotation x="1.8119954e-07" y="-1.8524588e-08" z="2.2351742e-07" w="1.0" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="-2.1245796e-09" y="1.2805685e-08" z="-2.46755e-08" />
+          <Rotation x="1.8065114e-07" y="-1.978333e-08" z="2.1699819e-07" w="1.0" />
+          <Scale x="0.99999994" y="0.99999994" z="0.9999999" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2260,9 +2260,9 @@
           <ParentIndex value="145" />
           <SiblingIndex value="188" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
-          <Translation x="-0.028641893" y="0.07112614" z="0.024871912" />
-          <Rotation x="0.16547015" y="4.5783555e-08" z="-1.1633012e-06" w="0.9862148" />
-          <Scale x="1.0000001" y="1.0000001" z="1.0" />
+          <Translation x="-0.028641893" y="0.07112611" z="0.024871916" />
+          <Rotation x="0.16547018" y="4.5870127e-08" z="-1.1632992e-06" w="0.9862148" />
+          <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2272,8 +2272,8 @@
           <ParentIndex value="183" />
           <SiblingIndex value="186" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="-0.005987798" y="-0.0014882118" z="0.013418316" />
-          <Rotation x="0.0043205637" y="-0.1649914" z="-0.025817228" w="0.98594767" />
+          <Translation x="-0.005987798" y="-0.001488149" z="0.013418315" />
+          <Rotation x="0.0043205456" y="-0.16499141" z="-0.025817236" w="0.98594767" />
           <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -2284,9 +2284,9 @@
           <ParentIndex value="184" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="-5.820766e-09" y="-1.0477379e-09" z="-7.450581e-09" />
-          <Rotation x="7.371418e-07" y="6.7893416e-07" z="-1.73226e-07" w="1.0" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="3.3760443e-09" y="1.2805685e-09" z="-6.9849193e-09" />
+          <Rotation x="7.264316e-07" y="7.1153045e-07" z="-1.7229466e-07" w="1.0" />
+          <Scale x="1.0000001" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2296,9 +2296,9 @@
           <ParentIndex value="183" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
-          <Translation x="0.005253593" y="-0.00092614396" z="0.0138790235" />
-          <Rotation x="0.0030426295" y="0.087102495" z="0.03476786" w="0.9955878" />
-          <Scale x="0.99999994" y="1.0000001" z="0.9999999" />
+          <Translation x="0.005253595" y="-0.00092611084" z="0.013879032" />
+          <Rotation x="0.0030425866" y="0.08710252" z="0.03476786" w="0.9955878" />
+          <Scale x="0.99999994" y="1.0" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2308,9 +2308,9 @@
           <ParentIndex value="186" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="-3.085006e-09" y="-1.641456e-08" z="-1.816079e-08" />
-          <Rotation x="-8.591451e-08" y="-1.2665987e-07" z="-2.188608e-07" w="1.0" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="-6.0535967e-09" y="-4.2608008e-08" z="-3.7252903e-09" />
+          <Rotation x="-6.961636e-08" y="-1.4062971e-07" z="-2.1886079e-07" w="1.0" />
+          <Scale x="1.0000001" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2320,9 +2320,9 @@
           <ParentIndex value="145" />
           <SiblingIndex value="190" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ, Unk0</Flags>
-          <Translation x="0.0047651455" y="0.01807334" z="0.08921017" />
-          <Rotation x="-0.064251326" y="0.18085328" z="-0.027832275" w="0.98101443" />
-          <Scale x="1.0000001" y="1.0" z="1.0" />
+          <Translation x="0.004765146" y="0.018073343" z="0.08921018" />
+          <Rotation x="-0.06425134" y="0.18085329" z="-0.027832279" w="0.9810145" />
+          <Scale x="1.0" y="0.99999994" z="0.9999998" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2332,9 +2332,9 @@
           <ParentIndex value="188" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="1.071021e-08" y="1.9936124e-08" z="-2.4330802e-08" />
-          <Rotation x="7.1269454e-07" y="3.1944364e-07" z="1.9324943e-07" w="1.0" />
-          <Scale x="0.99999994" y="1.0000001" z="1.0000001" />
+          <Translation x="1.071021e-08" y="1.8349965e-08" z="-2.0721927e-08" />
+          <Rotation x="6.854534e-07" y="2.7334318e-07" z="1.7136335e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0000001" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2344,9 +2344,9 @@
           <ParentIndex value="145" />
           <SiblingIndex value="192" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ, Unk0</Flags>
-          <Translation x="-2.7730506e-05" y="0.018068885" z="0.09033473" />
-          <Rotation x="-0.06932644" y="1.9150585e-07" z="-4.9837854e-07" w="0.99759406" />
-          <Scale x="1.0000001" y="1.0000001" z="1.0" />
+          <Translation x="-2.7730473e-05" y="0.018068887" z="0.09033475" />
+          <Rotation x="-0.06932645" y="1.9154683e-07" z="-4.983063e-07" w="0.9975941" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2356,9 +2356,9 @@
           <ParentIndex value="190" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="3.637979e-12" y="-2.8856114e-08" z="2.7771666e-08" />
-          <Rotation x="-1.3001426e-06" y="-1.2551027e-10" z="7.741164e-08" w="1.0" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="1.6825652e-11" y="-1.3823112e-09" z="2.4046347e-08" />
+          <Rotation x="-1.3485683e-06" y="-1.018634e-10" z="7.7389814e-08" w="1.0" />
+          <Scale x="1.0" y="1.0000001" z="1.0000001" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2368,9 +2368,9 @@
           <ParentIndex value="145" />
           <SiblingIndex value="194" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ, Unk0</Flags>
-          <Translation x="0.011796498" y="0.016920812" z="0.084469326" />
-          <Rotation x="0.0004103855" y="0.30070657" z="0.0001287987" w="0.95371664" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="0.011796498" y="0.016920812" z="0.08446934" />
+          <Rotation x="0.00041038552" y="0.30070654" z="0.00012879873" w="0.95371664" />
+          <Scale x="0.99999994" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2380,9 +2380,9 @@
           <ParentIndex value="192" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="-3.741661e-09" y="-8.388724e-09" z="2.5465852e-09" />
-          <Rotation x="-1.0195071e-07" y="-8.19594e-07" z="-6.524601e-08" w="1.0" />
-          <Scale x="1.0" y="1.0" z="1.0000001" />
+          <Translation x="-2.4592737e-09" y="-6.92944e-09" z="1.0200893e-08" />
+          <Rotation x="-1.2632881e-07" y="-8.2704594e-07" z="-8.227653e-08" w="1.0" />
+          <Scale x="0.99999994" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2392,9 +2392,9 @@
           <ParentIndex value="145" />
           <SiblingIndex value="196" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ, Unk0</Flags>
-          <Translation x="-0.0048201573" y="0.018066518" z="0.08920878" />
-          <Rotation x="-0.06425048" y="-0.18085334" z="0.027831964" w="0.9810145" />
-          <Scale x="1.0000001" y="1.0000001" z="1.0" />
+          <Translation x="-0.004820158" y="0.01806652" z="0.0892088" />
+          <Rotation x="-0.064250484" y="-0.18085335" z="0.027831972" w="0.98101455" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2404,9 +2404,9 @@
           <ParentIndex value="194" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="-1.5366822e-08" y="1.2907549e-08" z="-3.5972334e-08" />
-          <Rotation x="-3.648456e-07" y="2.1187587e-08" z="2.8871002e-08" w="1.0" />
-          <Scale x="0.99999994" y="1.0" z="1.0000001" />
+          <Translation x="-1.071021e-08" y="1.3184035e-08" z="-2.4447218e-08" />
+          <Rotation x="-4.0465972e-07" y="4.3073673e-08" z="4.144386e-08" w="1.0" />
+          <Scale x="0.99999994" y="0.9999998" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2416,9 +2416,9 @@
           <ParentIndex value="145" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ, Unk0</Flags>
-          <Translation x="-0.011848123" y="0.01690399" z="0.08446556" />
-          <Rotation x="0.0004091856" y="-0.3007059" z="-0.00012963098" w="0.9537169" />
-          <Scale x="1.0000001" y="1.0000001" z="1.0" />
+          <Translation x="-0.011848123" y="0.016903993" z="0.08446558" />
+          <Rotation x="0.00040911464" y="-0.30070585" z="-0.00012960855" w="0.9537169" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2428,9 +2428,9 @@
           <ParentIndex value="196" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="5.5442797e-09" y="5.228094e-08" z="1.6530976e-08" />
-          <Rotation x="3.8743383e-07" y="4.8441063e-07" z="-1.5221303e-08" w="1.0" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="0.0" y="-1.1092652e-08" z="4.307367e-09" />
+          <Rotation x="4.2406464e-07" y="4.6952368e-07" z="-4.0847226e-08" w="1.0" />
+          <Scale x="0.99999994" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2440,9 +2440,9 @@
           <ParentIndex value="143" />
           <SiblingIndex value="199" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="0.08661052" y="-2.3269859e-08" z="1.15994535e-05" />
-          <Rotation x="-3.5002713e-06" y="1.1519378e-06" z="-2.234373e-07" w="1.0" />
-          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <Translation x="0.08661052" y="-1.3490975e-08" z="1.1599442e-05" />
+          <Rotation x="-3.500245e-06" y="1.1519753e-06" z="-2.9817593e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2452,9 +2452,9 @@
           <ParentIndex value="143" />
           <SiblingIndex value="200" />
           <Flags>RotX, RotY, RotZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="0.08661052" y="-2.3269859e-08" z="1.15994535e-05" />
-          <Rotation x="-3.5002706e-06" y="1.2096675e-06" z="-2.2344287e-07" w="1.0" />
-          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <Translation x="0.08661052" y="-1.3490975e-08" z="1.1599442e-05" />
+          <Rotation x="-3.5002445e-06" y="1.209705e-06" z="-2.981815e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2464,9 +2464,9 @@
           <ParentIndex value="143" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="0.08661052" y="-2.3269859e-08" z="1.15994535e-05" />
-          <Rotation x="-3.5002706e-06" y="1.2096675e-06" z="-2.2344287e-07" w="1.0" />
-          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <Translation x="0.08661052" y="-1.3490975e-08" z="1.1599442e-05" />
+          <Rotation x="-3.5002445e-06" y="1.209705e-06" z="-2.981815e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2476,9 +2476,9 @@
           <ParentIndex value="142" />
           <SiblingIndex value="202" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.046597514" y="2.2757185e-08" z="-5.388756e-09" />
-          <Rotation x="4.8933443e-06" y="7.357539e-08" z="-2.9443447e-07" w="1.0" />
-          <Scale x="0.99999994" y="0.99999994" z="1.0" />
+          <Translation x="0.046597514" y="-3.3198473e-09" z="-5.3871645e-09" />
+          <Rotation x="4.8932607e-06" y="7.3583124e-08" z="-2.2737922e-07" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2488,9 +2488,9 @@
           <ParentIndex value="142" />
           <SiblingIndex value="203" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.105235785" y="-8.018844e-07" z="-1.2168357e-08" />
-          <Rotation x="2.1331922e-05" y="-4.1166073e-05" z="-0.11966689" w="0.9928141" />
-          <Scale x="0.9999999" y="0.99999994" z="1.0" />
+          <Translation x="0.105235785" y="-8.1119765e-07" z="-1.21729045e-08" />
+          <Rotation x="2.133181e-05" y="-4.1166062e-05" z="-0.119666845" w="0.9928141" />
+          <Scale x="0.9999999" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2500,9 +2500,9 @@
           <ParentIndex value="142" />
           <SiblingIndex value="206" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.045828667" y="-0.00026699412" z="-0.036295887" />
-          <Rotation x="0.047921117" y="0.8908055" z="-0.1152108" w="0.4369161" />
-          <Scale x="0.99999994" y="0.99999976" z="0.9999999" />
+          <Translation x="0.045828726" y="-0.00026702392" z="-0.036295883" />
+          <Rotation x="0.04792106" y="0.8908055" z="-0.11521075" w="0.43691614" />
+          <Scale x="0.9999999" y="0.9999998" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2512,9 +2512,9 @@
           <ParentIndex value="203" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="1.8626451e-09" y="7.962808e-08" z="5.820766e-09" />
-          <Rotation x="2.393499e-07" y="2.317829e-06" z="-4.1211024e-07" w="1.0" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="3.7252903e-08" y="1.0617077e-07" z="-1.9324943e-08" />
+          <Rotation x="2.747402e-07" y="2.2910535e-06" z="-3.911555e-07" w="1.0" />
+          <Scale x="1.0" y="0.99999994" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2524,9 +2524,9 @@
           <ParentIndex value="204" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="3.7252903e-09" y="-1.3038516e-08" z="1.21071935e-08" />
-          <Rotation x="-1.6018748e-07" y="-5.3420663e-06" z="1.8533319e-07" w="1.0" />
-          <Scale x="1.0" y="1.0" z="0.99999994" />
+          <Translation x="-4.1909516e-09" y="-1.1641532e-08" z="1.7695129e-08" />
+          <Rotation x="-1.6950071e-07" y="-5.357666e-06" z="2.1001325e-07" w="1.0" />
+          <Scale x="0.99999994" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2536,9 +2536,9 @@
           <ParentIndex value="142" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.04582871" y="-0.00026698076" z="0.03629589" />
-          <Rotation x="-0.058988143" y="-0.8875943" z="-0.13777263" w="0.4355635" />
-          <Scale x="1.0" y="1.0000004" z="1.0" />
+          <Translation x="0.04582871" y="-0.00026699938" z="0.036295887" />
+          <Rotation x="-0.05898811" y="-0.8875943" z="-0.13777256" w="0.4355635" />
+          <Scale x="1.0" y="1.0000001" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2548,9 +2548,9 @@
           <ParentIndex value="206" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="3.259629e-09" y="7.8080575e-08" z="-1.8626451e-08" />
-          <Rotation x="0.025369471" y="7.4387726e-06" z="1.6744773e-06" w="0.99967813" />
-          <Scale x="1.0" y="0.99999994" z="0.99999994" />
+          <Translation x="1.3504177e-08" y="6.855498e-08" z="-3.5390258e-08" />
+          <Rotation x="0.025369417" y="7.4448285e-06" z="1.6677243e-06" w="0.99967813" />
+          <Scale x="1.0" y="1.0" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2560,9 +2560,9 @@
           <ParentIndex value="207" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="1.3038516e-08" y="0.0" z="9.080395e-09" />
-          <Rotation x="1.4994293e-07" y="-1.3936544e-05" z="2.188608e-07" w="1.0" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="4.656613e-10" y="7.450581e-09" z="-1.816079e-08" />
+          <Rotation x="1.7415734e-07" y="-1.3955172e-05" z="2.0535666e-07" w="1.0" />
+          <Scale x="0.99999994" y="0.9999999" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2572,9 +2572,9 @@
           <ParentIndex value="51" />
           <SiblingIndex value="211" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.22694139" y="0.118642755" z="2.5414774e-06" />
-          <Rotation x="-4.28372e-10" y="-5.998172e-06" z="1.4901514e-06" w="1.0" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="0.27924293" y="0.11799225" z="-5.9792555e-06" />
+          <Rotation x="-3.435048e-10" y="-6.1174037e-06" z="1.787952e-06" w="1.0" />
+          <Scale x="0.99999994" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2584,9 +2584,9 @@
           <ParentIndex value="209" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="-3.968652e-09" y="-1.04643405e-08" z="-1.8189894e-12" />
-          <Rotation x="0.007523904" y="9.499382e-05" z="-1.4359671e-06" w="0.9999717" />
-          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <Translation x="-3.6194034e-09" y="-4.4107384e-09" z="1.4551915e-11" />
+          <Rotation x="0.007523903" y="9.499194e-05" z="-1.6834733e-06" w="0.9999717" />
+          <Scale x="0.99999994" y="0.9999999" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2596,9 +2596,9 @@
           <ParentIndex value="51" />
           <SiblingIndex value="212" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.18019675" y="-0.08508002" z="1.6536578e-06" />
-          <Rotation x="-0.7114913" y="-0.70269495" z="-2.5975191e-06" w="2.4823148e-06" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="0.23249827" y="-0.08573051" z="-6.8782283e-06" />
+          <Rotation x="-0.7114913" y="-0.70269495" z="-2.6823654e-06" w="2.3985456e-06" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2608,9 +2608,9 @@
           <ParentIndex value="51" />
           <SiblingIndex value="213" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.18019675" y="-0.08508002" z="1.6536578e-06" />
-          <Rotation x="-0.7114913" y="-0.70269495" z="-2.5975191e-06" w="2.4823148e-06" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="0.23249827" y="-0.08573051" z="-6.8782283e-06" />
+          <Rotation x="-0.7114913" y="-0.70269495" z="-2.6823654e-06" w="2.3985456e-06" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2620,9 +2620,9 @@
           <ParentIndex value="51" />
           <SiblingIndex value="214" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.21343538" y="-0.15330991" z="0.00012324515" />
-          <Rotation x="0.7068871" y="-0.017649567" z="0.70688707" w="0.017600743" />
-          <Scale x="1.0000018" y="1.0" z="1.0000001" />
+          <Translation x="0.26573694" y="-0.15396039" z="0.0001147212" />
+          <Rotation x="0.70688707" y="-0.017649433" z="0.7068872" w="0.017600607" />
+          <Scale x="1.0000017" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2632,9 +2632,9 @@
           <ParentIndex value="51" />
           <SiblingIndex value="215" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.23725371" y="0.006239776" z="2.0389166e-06" />
-          <Rotation x="5.4112857e-06" y="3.5168168e-07" z="0.10911303" w="0.99402934" />
-          <Scale x="1.0000001" y="1.0" z="1.0" />
+          <Translation x="0.28955522" y="0.0055892905" z="-6.4793558e-06" />
+          <Rotation x="5.3982817e-06" y="2.331508e-07" z="0.10911318" w="0.99402934" />
+          <Scale x="0.99999994" y="0.9999999" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2644,8 +2644,8 @@
           <ParentIndex value="51" />
           <SiblingIndex value="221" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.08420985" y="0.0052673593" z="2.0783064e-06" />
-          <Rotation x="4.999707e-06" y="1.3158967e-07" z="-4.4722862e-07" w="1.0" />
+          <Translation x="0.13651142" y="0.0046168487" z="-6.4764517e-06" />
+          <Rotation x="4.9997516e-06" y="1.2347925e-08" z="-1.4942768e-07" w="1.0" />
           <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -2656,9 +2656,9 @@
           <ParentIndex value="215" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
-          <Translation x="-0.13040464" y="-0.15493752" z="-0.028744783" />
-          <Rotation x="-0.0147091355" y="0.097030774" z="0.14917237" w="0.9839291" />
-          <Scale x="0.99999994" y="0.9999998" z="0.99999994" />
+          <Translation x="-0.13040474" y="-0.1549375" z="-0.028744783" />
+          <Rotation x="-0.014709108" y="0.097030774" z="0.14917211" w="0.98392904" />
+          <Scale x="0.99999994" y="0.99999994" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2668,9 +2668,9 @@
           <ParentIndex value="216" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
-          <Translation x="-6.0535967e-09" y="-1.8248488e-07" z="-3.7252903e-09" />
-          <Rotation x="8.3640407e-07" y="-2.132263e-06" z="-1.9761583e-06" w="1.0" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="-4.656613e-09" y="-1.8302057e-07" z="-9.313226e-10" />
+          <Rotation x="8.3710427e-07" y="-2.1527521e-06" z="-1.954406e-06" w="1.0" />
+          <Scale x="1.0" y="1.0000001" z="1.0000001" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2680,9 +2680,9 @@
           <ParentIndex value="217" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
-          <Translation x="-0.14961898" y="-0.0077104685" z="-0.0004873278" />
-          <Rotation x="0.031598806" y="4.2089877e-07" z="-1.0653229e-08" w="0.99950063" />
-          <Scale x="1.0" y="0.99999994" z="0.99999994" />
+          <Translation x="-0.14961897" y="-0.007710487" z="-0.00048731422" />
+          <Rotation x="0.03159879" y="4.2685804e-07" z="-1.4982903e-07" w="0.99950063" />
+          <Scale x="1.0" y="1.0000001" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2692,9 +2692,9 @@
           <ParentIndex value="218" />
           <SiblingIndex value="220" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="5.7752914e-10" y="3.2169282e-08" z="4.620233e-09" />
-          <Rotation x="0.17319117" y="0.66683793" z="-0.010331801" w="0.7247243" />
-          <Scale x="1.0" y="0.9999998" z="0.9999999" />
+          <Translation x="1.7130333e-08" y="1.3953013e-08" z="-1.6007107e-10" />
+          <Rotation x="0.17319106" y="0.6668379" z="-0.010331676" w="0.72472435" />
+          <Scale x="1.0" y="1.0" z="0.9999999" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2704,9 +2704,9 @@
           <ParentIndex value="218" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="5.7752914e-10" y="3.2169282e-08" z="4.620233e-09" />
-          <Rotation x="0.7596145" y="-0.09477661" z="0.62806666" w="0.13977005" />
-          <Scale x="0.9999989" y="0.9999998" z="0.99999994" />
+          <Translation x="1.7130333e-08" y="1.3953013e-08" z="-1.6007107e-10" />
+          <Rotation x="0.75961435" y="-0.09477648" z="0.6280668" w="0.13976996" />
+          <Scale x="0.9999994" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2716,9 +2716,9 @@
           <ParentIndex value="51" />
           <SiblingIndex value="225" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.08192225" y="0.17739329" z="0.10777483" />
-          <Rotation x="0.22534575" y="-0.085390635" z="-0.13480073" w="0.9611225" />
-          <Scale x="0.99999994" y="1.0" z="0.99999994" />
+          <Translation x="0.13422376" y="0.17674278" z="0.10776628" />
+          <Rotation x="0.22534582" y="-0.08539078" z="-0.13480055" w="0.96112263" />
+          <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2728,9 +2728,9 @@
           <ParentIndex value="221" />
           <SiblingIndex value="223" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.06419164" y="0.050114546" z="-1.1175871e-07" />
-          <Rotation x="5.699857e-07" y="-0.0075300797" z="-9.686032e-07" w="0.99997175" />
-          <Scale x="0.9999999" y="0.99999994" z="0.99999994" />
+          <Translation x="0.06419164" y="0.050114524" z="-9.49949e-08" />
+          <Rotation x="5.6626027e-07" y="-0.007530047" z="-1.0449737e-06" w="0.9999717" />
+          <Scale x="0.99999994" y="0.99999994" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2740,9 +2740,9 @@
           <ParentIndex value="221" />
           <SiblingIndex value="224" />
           <Flags>RotX, RotY, RotZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="0.06419164" y="0.050114546" z="-1.1175871e-07" />
-          <Rotation x="5.699857e-07" y="-0.0075300797" z="-9.686032e-07" w="0.99997175" />
-          <Scale x="0.9999999" y="0.99999994" z="0.99999994" />
+          <Translation x="0.06419164" y="0.050114524" z="-9.49949e-08" />
+          <Rotation x="5.6626027e-07" y="-0.007530047" z="-1.0449737e-06" w="0.9999717" />
+          <Scale x="0.99999994" y="0.99999994" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2752,9 +2752,9 @@
           <ParentIndex value="221" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, ScaleX, ScaleY, ScaleZ</Flags>
-          <Translation x="0.06419164" y="0.050114546" z="-1.1175871e-07" />
-          <Rotation x="5.54137e-07" y="2.1196904e-06" z="-1.1799858e-06" w="1.0" />
-          <Scale x="0.99999994" y="0.99999994" z="0.99999994" />
+          <Translation x="0.06419164" y="0.050114524" z="-9.49949e-08" />
+          <Rotation x="5.960465e-07" y="2.1439046e-06" z="-1.3438985e-06" w="1.0" />
+          <Scale x="1.0" y="0.99999994" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2764,9 +2764,9 @@
           <ParentIndex value="51" />
           <SiblingIndex value="226" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.28088707" y="-0.05071055" z="1.727698e-06" />
-          <Rotation x="5.016935e-06" y="7.110168e-08" z="0.092597276" w="0.99570364" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="0.3331886" y="-0.051361028" z="-6.7801684e-06" />
+          <Rotation x="5.0059216e-06" y="-4.7620077e-08" z="0.09259698" w="0.9957037" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2776,9 +2776,9 @@
           <ParentIndex value="51" />
           <SiblingIndex value="227" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.23572576" y="0.10535215" z="-0.047040783" />
-          <Rotation x="-0.7069823" y="-0.013253673" z="-0.70698273" w="0.013258572" />
-          <Scale x="1.0000005" y="0.99999994" z="1.0000001" />
+          <Translation x="0.2880273" y="0.104701646" z="-0.0470493" />
+          <Rotation x="-0.70698225" y="-0.013253803" z="-0.7069828" w="0.013258654" />
+          <Scale x="1.0000006" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2788,9 +2788,9 @@
           <ParentIndex value="51" />
           <SiblingIndex value="228" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.2991918" y="-0.056684192" z="-0.047762707" />
-          <Rotation x="-0.7071068" y="-0.00011848505" z="-0.7071067" w="0.000118801356" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="0.35149336" y="-0.05733466" z="-0.047771208" />
+          <Rotation x="-0.7071067" y="-0.000118484924" z="-0.7071068" w="0.00011880082" />
+          <Scale x="1.0" y="1.0" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2800,9 +2800,9 @@
           <ParentIndex value="51" />
           <SiblingIndex value="229" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.23572588" y="0.10535078" z="0.047048528" />
-          <Rotation x="0.7070724" y="-0.006895432" z="0.707074" w="0.006893341" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="0.2880274" y="0.10470028" z="0.047040008" />
+          <Rotation x="0.70707226" y="-0.0068955105" z="0.70707405" w="0.0068934746" />
+          <Scale x="1.0" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2812,9 +2812,9 @@
           <ParentIndex value="51" />
           <SiblingIndex value="230" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.29919088" y="-0.05668467" z="0.047769025" />
-          <Rotation x="-0.70708585" y="-0.00560316" z="-0.7070833" w="0.0056006624" />
-          <Scale x="1.0000004" y="1.0000004" z="1.0000001" />
+          <Translation x="0.3514924" y="-0.057335146" z="0.047760524" />
+          <Rotation x="-0.7070857" y="-0.0056031593" z="-0.70708346" w="0.005600663" />
+          <Scale x="1.0000004" y="1.0000002" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2824,9 +2824,9 @@
           <ParentIndex value="51" />
           <SiblingIndex value="231" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.277268" y="0.027153177" z="0.094820075" />
-          <Rotation x="-0.7070673" y="-0.007483221" z="-0.707067" w="0.0074877506" />
-          <Scale x="0.99999994" y="0.9999997" z="0.9999999" />
+          <Translation x="0.32956943" y="0.026502693" z="0.094811566" />
+          <Rotation x="-0.7070672" y="-0.0074831694" z="-0.70706713" w="0.007487804" />
+          <Scale x="1.0000001" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2836,9 +2836,9 @@
           <ParentIndex value="51" />
           <SiblingIndex value="232" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.27726895" y="0.02715497" z="-0.09481297" />
-          <Rotation x="-0.70691925" y="-0.016308848" z="-0.7069182" w="0.016305856" />
-          <Scale x="1.0000011" y="0.99999994" z="1.0" />
+          <Translation x="0.32957044" y="0.026504487" z="-0.094821475" />
+          <Rotation x="-0.70691913" y="-0.016308637" z="-0.70691836" w="0.016305648" />
+          <Scale x="1.0000012" y="0.9999999" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2848,9 +2848,9 @@
           <ParentIndex value="51" />
           <SiblingIndex value="233" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="-0.011117071" y="0.03782919" z="0.050804675" />
-          <Rotation x="0.70715165" y="-0.0043638856" z="0.7070342" w="0.0044947546" />
-          <Scale x="1.0000001" y="1.0000001" z="1.0000001" />
+          <Translation x="0.041184485" y="0.037178673" z="0.050796095" />
+          <Rotation x="0.7071516" y="-0.0043638386" z="0.70703423" w="0.004494709" />
+          <Scale x="1.0000002" y="1.0000001" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2860,9 +2860,9 @@
           <ParentIndex value="51" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="-0.011129898" y="0.037812173" z="-0.05081351" />
-          <Rotation x="0.7071516" y="-0.0043638498" z="0.70703423" w="0.0044947723" />
-          <Scale x="1.0000001" y="1.0" z="0.99999994" />
+          <Translation x="0.041171666" y="0.037161652" z="-0.05082209" />
+          <Rotation x="0.7071515" y="-0.0043638367" z="0.70703435" w="0.0044947085" />
+          <Scale x="1.0000001" y="1.0" z="0.9999999" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2872,9 +2872,9 @@
           <ParentIndex value="50" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="-0.014896115" y="0.15883726" z="-0.09758487" />
-          <Rotation x="-0.20143412" y="0.6778082" z="-0.16445637" w="0.68771684" />
-          <Scale x="1.0000001" y="1.0000001" z="1.0000001" />
+          <Translation x="0.05030446" y="0.15960175" z="-0.097585924" />
+          <Rotation x="-0.18430138" y="0.6826654" z="-0.18172303" w="0.68335766" />
+          <Scale x="1.0" y="1.0" z="0.9999999" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2884,9 +2884,9 @@
           <ParentIndex value="49" />
           <SiblingIndex value="236" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.0823413" y="0.13710126" z="0.12080648" />
-          <Rotation x="0.150831" y="0.6908694" z="0.15526885" w="0.68981236" />
-          <Scale x="0.99999994" y="0.99999976" z="0.9999998" />
+          <Translation x="0.10867058" y="0.13727121" z="0.120775275" />
+          <Rotation x="0.15083097" y="0.69086945" z="0.15526886" w="0.6898123" />
+          <Scale x="1.0" y="0.9999998" z="0.9999999" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2896,9 +2896,9 @@
           <ParentIndex value="49" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.06498475" y="-0.18991663" z="0.014888789" />
-          <Rotation x="0.7068891" y="-0.01759736" z="0.70688987" w="0.017461203" />
-          <Scale x="1.0000014" y="1.0" z="0.99999994" />
+          <Translation x="0.091314" y="-0.18974675" z="0.01485757" />
+          <Rotation x="0.7068892" y="-0.017597284" z="0.70688975" w="0.017461136" />
+          <Scale x="1.0000015" y="1.0000002" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2908,9 +2908,9 @@
           <ParentIndex value="48" />
           <SiblingIndex value="238" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.016739113" y="0.20200509" z="3.2058372e-06" />
-          <Rotation x="0.60905296" y="0.7931297" z="-6.872245e-07" w="2.4897068e-07" />
-          <Scale x="1.0" y="1.0" z="1.0" />
+          <Translation x="0.0357051" y="0.19952798" z="3.0292267e-06" />
+          <Rotation x="0.64579564" y="0.76351035" z="-1.059451e-06" w="4.217112e-07" />
+          <Scale x="1.0" y="1.0000001" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2920,9 +2920,9 @@
           <ParentIndex value="48" />
           <SiblingIndex value="239" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.057964735" y="-0.14573374" z="3.4094796e-06" />
-          <Rotation x="0.66615653" y="0.745812" z="-6.2175087e-07" w="2.3413399e-07" />
-          <Scale x="1.0" y="1.0000001" z="1.0" />
+          <Translation x="0.043970164" y="-0.15054856" z="3.5323978e-06" />
+          <Rotation x="0.70060295" y="0.7135514" z="-1.0148613e-06" w="4.7917814e-07" />
+          <Scale x="1.0000001" y="1.0000002" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2932,9 +2932,9 @@
           <ParentIndex value="48" />
           <SiblingIndex value="241" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.053109463" y="0.012079255" z="-0.23906772" />
-          <Rotation x="-0.70664835" y="-0.025479302" z="-0.7066465" w="0.025487714" />
-          <Scale x="1.0000067" y="0.99999976" z="0.99999994" />
+          <Translation x="0.054011546" y="0.0070193075" z="-0.23906773" />
+          <Rotation x="0.70706356" y="-0.007889563" z="0.70706207" w="0.007881539" />
+          <Scale x="1.0" y="1.0" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2944,9 +2944,9 @@
           <ParentIndex value="239" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="-1.1662037e-07" y="7.9511665e-08" z="-2.5420377e-10" />
-          <Rotation x="2.110879e-06" y="1.5303215e-07" z="-4.2628662e-06" w="1.0" />
-          <Scale x="1.0" y="1.0000001" z="1.0000001" />
+          <Translation x="-1.01617395e-07" y="8.787538e-08" z="-4.9703885e-09" />
+          <Rotation x="2.1644287e-06" y="1.1805673e-07" z="-4.2446945e-06" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2956,9 +2956,9 @@
           <ParentIndex value="48" />
           <SiblingIndex value="243" />
           <Flags>RotX, RotY, RotZ, Unk0</Flags>
-          <Translation x="0.05310942" y="0.012079552" z="0.22395925" />
-          <Rotation x="-0.70632845" y="-0.03314897" z="-0.70633" w="0.033154514" />
-          <Scale x="1.0000191" y="0.99999976" z="0.9999999" />
+          <Translation x="0.054011595" y="0.0070200115" z="0.22395924" />
+          <Rotation x="0.7071059" y="-0.00021323636" z="0.7071076" w="0.00020754707" />
+          <Scale x="1.0" y="0.9999999" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2968,8 +2968,8 @@
           <ParentIndex value="241" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="7.2675093e-09" y="1.4631496e-08" z="-2.4306246e-09" />
-          <Rotation x="1.1204045e-06" y="-1.9857062e-08" z="-5.199657e-07" w="1.0" />
+          <Translation x="4.4579664e-09" y="2.1715095e-08" z="-9.52241e-10" />
+          <Rotation x="1.1121488e-06" y="-2.728465e-08" z="-6.507249e-07" w="1.0" />
           <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -2980,9 +2980,9 @@
           <ParentIndex value="48" />
           <SiblingIndex value="246" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
-          <Translation x="-0.37170377" y="0.009183175" z="-0.25449154" />
-          <Rotation x="-0.70630395" y="-0.03368428" z="-0.7063038" w="0.033691607" />
-          <Scale x="1.0000204" y="1.0000002" z="1.0000001" />
+          <Translation x="-0.3691834" y="0.044177964" z="-0.2544915" />
+          <Rotation x="-0.7071067" y="-0.00032200138" z="-0.7071067" w="0.00032958775" />
+          <Scale x="1.0" y="0.9999999" z="0.99999994" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -2992,9 +2992,9 @@
           <ParentIndex value="243" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
-          <Translation x="0.11961125" y="-0.09122753" z="0.40048164" />
-          <Rotation x="1.7881395e-06" y="1.840657e-08" z="2.235288e-07" w="1.0" />
-          <Scale x="1.0" y="0.99999994" z="1.0" />
+          <Translation x="0.11961364" y="-0.09122779" z="0.4004817" />
+          <Rotation x="1.788137e-06" y="3.9622925e-08" z="7.450571e-08" w="1.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -3004,9 +3004,9 @@
           <ParentIndex value="244" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="-1.6502241e-08" y="2.4255428e-08" z="7.948961e-08" />
-          <Rotation x="-0.06825159" y="0.22325997" z="-0.28428826" w="0.92988" />
-          <Scale x="1.0000001" y="1.0" z="0.99999994" />
+          <Translation x="3.1573109e-09" y="5.389984e-08" z="8.6448836e-08" />
+          <Rotation x="-0.06825027" y="0.22325964" z="-0.28429255" w="0.92987895" />
+          <Scale x="0.99999994" y="0.99999994" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -3016,9 +3016,9 @@
           <ParentIndex value="48" />
           <SiblingIndex value="249" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
-          <Translation x="-0.3717052" y="0.00918239" z="0.25407913" />
-          <Rotation x="-0.7063327" y="-0.03304207" z="-0.7063357" w="0.033048753" />
-          <Scale x="1.0000188" y="0.9999998" z="1.0" />
+          <Translation x="-0.36918476" y="0.044177756" z="0.2540791" />
+          <Rotation x="0.70710516" y="-0.0003201047" z="0.7071084" w="0.00031378402" />
+          <Scale x="1.0" y="0.99999976" z="0.9999999" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -3028,8 +3028,8 @@
           <ParentIndex value="246" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
-          <Translation x="-0.11912429" y="-0.09122677" z="0.4004826" />
-          <Rotation x="-5.0663048e-06" y="1.1498777e-08" z="-1.0430838e-06" w="1.0" />
+          <Translation x="-0.119126484" y="-0.09122669" z="0.40048254" />
+          <Rotation x="-4.7683934e-06" y="-1.307756e-08" z="-8.1955943e-07" w="1.0" />
           <Scale x="1.0" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -3040,8 +3040,8 @@
           <ParentIndex value="247" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
-          <Translation x="0.0029790292" y="0.01488031" z="0.004184229" />
-          <Rotation x="0.05204087" y="-0.17281434" z="0.32644328" w="0.92782634" />
+          <Translation x="0.0029790893" y="0.014880289" z="0.004184237" />
+          <Rotation x="0.052041475" y="-0.17281398" z="0.32644725" w="0.9278251" />
           <Scale x="0.99999994" y="1.0" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
@@ -3052,9 +3052,9 @@
           <ParentIndex value="48" />
           <SiblingIndex value="250" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.044520333" y="0.12379586" z="0.0921408" />
-          <Rotation x="0.059165288" y="-0.9972587" z="-0.018074462" w="0.040593866" />
-          <Scale x="1.0" y="1.0000004" z="1.0" />
+          <Translation x="0.05599083" y="0.11904841" z="0.09214069" />
+          <Rotation x="0.012047385" y="-0.99893963" z="-0.019969221" w="0.03969591" />
+          <Scale x="1.0" y="1.0000002" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -3064,9 +3064,9 @@
           <ParentIndex value="48" />
           <SiblingIndex value="-1" />
           <Flags>RotX, RotY, RotZ</Flags>
-          <Translation x="0.04452035" y="0.123796135" z="-0.091879524" />
-          <Rotation x="-0.06754456" y="0.99674654" z="-0.018442547" w="0.039923903" />
-          <Scale x="0.99999994" y="1.0" z="0.99999994" />
+          <Translation x="0.05599085" y="0.11904853" z="-0.091879636" />
+          <Rotation x="-0.020441575" y="0.99882334" z="-0.020306049" w="0.039009165" />
+          <Scale x="1.0" y="1.0000001" z="1.0" />
           <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
         </Item>
         <Item>
@@ -3095,42 +3095,42 @@
         </Item>
       </Bones>
     </Skeleton>
-  <DrawableModelsHigh>
-   <Item>
-    <RenderMask value="255" />
-    <Flags value="1" />
-    <HasSkin value="1" />
-    <BoneIndex value="0" />
-    <Unknown1 value="1" />
-    <Geometries>
-     <Item>
-      <ShaderIndex value="0" />
-      <BoundingBoxMin x="-12" y="-12" z="0" w="-12" />
-      <BoundingBoxMax x="12" y="12" z="0" w="12" />
-      <BoneIDs>0</BoneIDs>
-      <VertexBuffer>
-       <Flags value="0" />
-       <Layout type="GTAV1">
-        <Position />
-        <BlendWeights />
-        <BlendIndices />
-        <Normal />
-        <Colour0 />
-        <TexCoord0 />
-       </Layout>
-       <Data>
+    <DrawableModelsHigh>
+      <Item>
+        <RenderMask value="255" />
+        <Flags value="1" />
+        <HasSkin value="1" />
+        <BoneIndex value="0" />
+        <Unknown1 value="1" />
+        <Geometries>
+          <Item>
+            <ShaderIndex value="0" />
+            <BoundingBoxMin x="-12" y="-12" z="0" w="-12" />
+            <BoundingBoxMax x="12" y="12" z="0" w="12" />
+            <BoneIDs>0</BoneIDs>
+            <VertexBuffer>
+              <Flags value="0" />
+              <Layout type="GTAV1">
+                <Position />
+                <BlendWeights />
+                <BlendIndices />
+                <Normal />
+                <Colour0 />
+                <TexCoord0 />
+              </Layout>
+              <Data>
         12 12 0   0 0 255 0   0 0 0 0   0 0 1   255 255 255 255   0 0
         -12 12 0   0 0 255 0   0 0 0 0   0 0 1   255 255 255 255   1 0
         -12 -12 0   0 0 255 0   0 0 0 0   0 0 1   255 255 255 255   1 1
         12 -12 0   0 0 255 0   0 0 0 0   0 0 1   255 255 255 255   0 1
        </Data>
-      </VertexBuffer>
-      <IndexBuffer>
-       <Data>2 1 0 2 0 3</Data>
-      </IndexBuffer>
-     </Item>
-    </Geometries>
-   </Item>
-  </DrawableModelsHigh>
- </Drawable>
+            </VertexBuffer>
+            <IndexBuffer>
+              <Data>2 1 0 2 0 3</Data>
+            </IndexBuffer>
+          </Item>
+        </Geometries>
+      </Item>
+    </DrawableModelsHigh>
+  </Drawable>
 </Fragment>
