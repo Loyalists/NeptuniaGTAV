@@ -64,7 +64,7 @@
             </Item>
             <Item name="umGlobalParams" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
             <Item name="envEffFatThickness" type="Vector" x="25.0" y="25.0" z="0.0" w="0.0" />
-            <Item name="specularIntensityMult" type="Vector" x="0.125" y="0.0" z="0.0" w="0.0" />
+            <Item name="specularIntensityMult" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
             <Item name="specularFalloffMult" type="Vector" x="100.0" y="0.0" z="0.0" w="0.0" />
             <Item name="specularFresnel" type="Vector" x="0.6499999761581421" y="0.0" z="0.0" w="0.0" />
             <Item name="bumpiness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />

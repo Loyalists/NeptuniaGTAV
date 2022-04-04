@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Fragment>
- <Name>pack:/player_one</Name>
- <BoundingSphereCenter x="0" y="0" z="0" />
- <BoundingSphereRadius value="16.970562" />
- <UnknownB0 value="0" />
- <UnknownB8 value="0" />
- <UnknownBC value="0" />
- <UnknownC0 value="256" />
- <UnknownC4 value="67" />
- <UnknownCC value="0" />
- <GravityFactor value="1" />
- <BuoyancyFactor value="1" />
- <Drawable>
-  <Name>skel</Name>
-  <Matrix>
+  <Name>pack:/player_one</Name>
+  <BoundingSphereCenter x="0" y="0" z="0" />
+  <BoundingSphereRadius value="16.970562" />
+  <UnknownB0 value="0" />
+  <UnknownB8 value="0" />
+  <UnknownBC value="0" />
+  <UnknownC0 value="256" />
+  <UnknownC4 value="67" />
+  <UnknownCC value="0" />
+  <GravityFactor value="1" />
+  <BuoyancyFactor value="1" />
+  <Drawable>
+    <Name>skel</Name>
+    <Matrix>
    1 0 0
    0 1 0
    0 0 1
    0 0 0
   </Matrix>
-  <BoundingSphereCenter x="0" y="0" z="0" />
-  <BoundingSphereRadius value="16.970562" />
-  <BoundingBoxMin x="-12" y="-12" z="0" />
-  <BoundingBoxMax x="12" y="12" z="0" />
-  <LodDistHigh value="9998" />
-  <LodDistMed value="9998" />
-  <LodDistLow value="9998" />
-  <LodDistVlow value="9998" />
-  <FlagsHigh value="1" />
-  <FlagsMed value="0" />
-  <FlagsLow value="0" />
-  <FlagsVlow value="0" />
-  <Unknown9A value="0" />
-  <ShaderGroup>
-   <Unknown30 value="80" />
-   <Shaders>
-    <Item>
-     <Name>default</Name>
-     <FileName>default.sps</FileName>
-     <RenderBucket value="0" />
-     <Parameters>
-      <Item name="DiffuseSampler" type="Texture" />
-      <Item name="matMaterialColorScale" type="Vector" x="1" y="0" z="0" w="0" />
-      <Item name="HardAlphaBlend" type="Vector" x="1" y="0" z="0" w="0" />
-      <Item name="useTessellation" type="Vector" x="0" y="0" z="0" w="0" />
-      <Item name="wetnessMultiplier" type="Vector" x="1" y="0" z="0" w="0" />
-      <Item name="globalAnimUV1" type="Vector" x="0" y="1" z="0" w="0" />
-      <Item name="globalAnimUV0" type="Vector" x="1" y="0" z="0" w="0" />
-     </Parameters>
-    </Item>
-   </Shaders>
-  </ShaderGroup>
+    <BoundingSphereCenter x="0" y="0" z="0" />
+    <BoundingSphereRadius value="16.970562" />
+    <BoundingBoxMin x="-12" y="-12" z="0" />
+    <BoundingBoxMax x="12" y="12" z="0" />
+    <LodDistHigh value="9998" />
+    <LodDistMed value="9998" />
+    <LodDistLow value="9998" />
+    <LodDistVlow value="9998" />
+    <FlagsHigh value="1" />
+    <FlagsMed value="0" />
+    <FlagsLow value="0" />
+    <FlagsVlow value="0" />
+    <Unknown9A value="0" />
+    <ShaderGroup>
+      <Unknown30 value="80" />
+      <Shaders>
+        <Item>
+          <Name>default</Name>
+          <FileName>default.sps</FileName>
+          <RenderBucket value="0" />
+          <Parameters>
+            <Item name="DiffuseSampler" type="Texture" />
+            <Item name="matMaterialColorScale" type="Vector" x="1" y="0" z="0" w="0" />
+            <Item name="HardAlphaBlend" type="Vector" x="1" y="0" z="0" w="0" />
+            <Item name="useTessellation" type="Vector" x="0" y="0" z="0" w="0" />
+            <Item name="wetnessMultiplier" type="Vector" x="1" y="0" z="0" w="0" />
+            <Item name="globalAnimUV1" type="Vector" x="0" y="1" z="0" w="0" />
+            <Item name="globalAnimUV0" type="Vector" x="1" y="0" z="0" w="0" />
+          </Parameters>
+        </Item>
+      </Shaders>
+    </ShaderGroup>
     <Skeleton>
       <Unknown1C value="16777216" />
       <Unknown50 value="1832184151" />
@@ -3071,43 +3071,42 @@
         </Item>
       </Bones>
     </Skeleton>
-  <DrawableModelsHigh>
-   <Item>
-    <RenderMask value="255" />
-    <Flags value="1" />
-    <HasSkin value="1" />
-    <BoneIndex value="0" />
-    <Unknown1 value="1" />
-    <Geometries>
-     <Item>
-      <ShaderIndex value="0" />
-      <BoundingBoxMin x="-12" y="-12" z="0" w="-12" />
-      <BoundingBoxMax x="12" y="12" z="0" w="12" />
-      <BoneIDs>0</BoneIDs>
-      <VertexBuffer>
-       <Flags value="0" />
-       <Layout type="GTAV1">
-        <Position />
-        <BlendWeights />
-        <BlendIndices />
-        <Normal />
-        <Colour0 />
-        <TexCoord0 />
-       </Layout>
-       <Data>
+    <DrawableModelsHigh>
+      <Item>
+        <RenderMask value="255" />
+        <Flags value="1" />
+        <HasSkin value="1" />
+        <BoneIndex value="0" />
+        <Unknown1 value="1" />
+        <Geometries>
+          <Item>
+            <ShaderIndex value="0" />
+            <BoundingBoxMin x="-12" y="-12" z="0" w="-12" />
+            <BoundingBoxMax x="12" y="12" z="0" w="12" />
+            <BoneIDs>0</BoneIDs>
+            <VertexBuffer>
+              <Flags value="0" />
+              <Layout type="GTAV1">
+                <Position />
+                <BlendWeights />
+                <BlendIndices />
+                <Normal />
+                <Colour0 />
+                <TexCoord0 />
+              </Layout>
+              <Data>
         12 12 0   0 0 255 0   0 0 0 0   0 0 1   255 255 255 255   0 0
         -12 12 0   0 0 255 0   0 0 0 0   0 0 1   255 255 255 255   1 0
         -12 -12 0   0 0 255 0   0 0 0 0   0 0 1   255 255 255 255   1 1
         12 -12 0   0 0 255 0   0 0 0 0   0 0 1   255 255 255 255   0 1
        </Data>
-      </VertexBuffer>
-      <IndexBuffer>
-       <Data>2 1 0 2 0 3</Data>
-      </IndexBuffer>
-     </Item>
-    </Geometries>
-   </Item>
-  </DrawableModelsHigh>
- </Drawable>
- <Lights />
+            </VertexBuffer>
+            <IndexBuffer>
+              <Data>2 1 0 2 0 3</Data>
+            </IndexBuffer>
+          </Item>
+        </Geometries>
+      </Item>
+    </DrawableModelsHigh>
+  </Drawable>
 </Fragment>
