@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DrawableDictionary>
+  <Item>
+    <Name>hand_002_u</Name>
+    <BoundingSphereCenter x="0.0" y="-0.00118495" z="-0.16363077" />
+    <BoundingSphereRadius value="0.00018448739" />
+    <BoundingBoxMin x="-0.0001009" y="-0.0013394" z="-0.16363077" />
+    <BoundingBoxMax x="0.0001009" y="-0.0010305" z="-0.16363077" />
+    <LodDistHigh value="9998" />
+    <LodDistMed value="9998" />
+    <LodDistLow value="9998" />
+    <LodDistVlow value="9998" />
+    <FlagsHigh value="1" />
+    <FlagsMed value="0" />
+    <FlagsLow value="0" />
+    <FlagsVlow value="0" />
+    <Unknown9A value="0" />
+    <ShaderGroup>
+      <Unknown30 value="0" />
+      <Shaders>
+        <Item>
+          <Name>ped_default</Name>
+          <FileName>ped_default.sps</FileName>
+          <RenderBucket value="0" />
+          <Parameters>
+            <Item name="DiffuseSampler" type="Texture">
+              <Name>hand_diff_002_a_uni</Name>
+            </Item>
+            <Item name="TextureSamplerDiffPal" type="Texture">
+              <Name>None</Name>
+            </Item>
+            <Item name="VolumeSampler" type="Texture">
+              <Name>None</Name>
+            </Item>
+            <Item name="BumpSampler" type="Texture">
+              <Name>None</Name>
+            </Item>
+            <Item name="SpecSampler" type="Texture">
+              <Name>None</Name>
+            </Item>
+            <Item name="envEffFatThickness" type="Vector" x="25.0" y="25.0" z="0.0" w="0.0" />
+            <Item name="specMapIntMask" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+            <Item name="specularIntensityMult" type="Vector" x="0.125" y="0.0" z="0.0" w="0.0" />
+            <Item name="specularFalloffMult" type="Vector" x="100.0" y="0.0" z="0.0" w="0.0" />
+            <Item name="specularFresnel" type="Vector" x="0.9700000286102295" y="0.0" z="0.0" w="0.0" />
+            <Item name="bumpiness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+            <Item name="detailSettings" type="Vector" x="0.0" y="0.0" z="24.0" w="0.0" />
+            <Item name="StubbleControl" type="Vector" x="2.0" y="0.6000000238418579" z="0.0" w="0.0" />
+          </Parameters>
+        </Item>
+      </Shaders>
+    </ShaderGroup>
+    <Skeleton>
+      <Unknown1C value="16777216" />
+      <Unknown50 value="1305111520" />
+      <Unknown54 value="3867670484" />
+      <Unknown58 value="1001830195" />
+      <Bones>
+        <Item>
+          <Name>SKEL_ROOT</Name>
+          <Tag value="0" />
+          <Index value="0" />
+          <ParentIndex value="-1" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ, Unk0</Flags>
+          <Translation x="0.0" y="0.007101" z="-0.018706" />
+          <Rotation x="0.0" y="0.0" z="1.0" w="0.0" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_Pelvis</Name>
+          <Tag value="11816" />
+          <Index value="1" />
+          <ParentIndex value="0" />
+          <SiblingIndex value="3" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="-7.1054274e-15" y="-0.015386488" z="-0.09514185" />
+          <Rotation x="-1.9999999e-07" y="0.7071066" z="2.0000013e-07" w="0.70710707" />
+          <Scale x="1.0" y="1.0" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Thigh</Name>
+          <Tag value="58271" />
+          <Index value="2" />
+          <ParentIndex value="1" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ</Flags>
+          <Translation x="2.0408324e-08" y="-4.452532e-08" z="-0.06946212" />
+          <Rotation x="-0.021861332" y="-0.0041503366" z="0.005906077" w="0.99973506" />
+          <Scale x="0.99999994" y="0.99999994" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_Spine3</Name>
+          <Tag value="24818" />
+          <Index value="3" />
+          <ParentIndex value="0" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="-0.00074652414" y="-0.0012862491" z="0.14359231" />
+          <Rotation x="-0.004338094" y="-0.707151" z="0.004456847" w="0.70703524" />
+          <Scale x="1.0000001" y="1.0000001" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_Clavicle</Name>
+          <Tag value="64729" />
+          <Index value="4" />
+          <ParentIndex value="3" />
+          <SiblingIndex value="6" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.11631907" y="-0.020695938" z="0.029140463" />
+          <Rotation x="0.009556175" y="-0.75659305" z="-0.014108922" w="0.653664" />
+          <Scale x="1.0" y="0.9999999" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_L_UpperArm</Name>
+          <Tag value="45509" />
+          <Index value="5" />
+          <ParentIndex value="4" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.05822884" y="0.002002697" z="-0.008551137" />
+          <Rotation x="0.018224187" y="-0.38607362" z="0.006547197" w="0.9222647" />
+          <Scale x="1.0" y="1.0000001" z="1.0" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_Clavicle</Name>
+          <Tag value="10706" />
+          <Index value="6" />
+          <ParentIndex value="3" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, Unk0</Flags>
+          <Translation x="0.1163093" y="-0.020705862" z="-0.030664988" />
+          <Rotation x="-0.009557861" y="0.7566872" z="-0.014105826" w="0.65355504" />
+          <Scale x="1.0000001" y="1.0000001" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+        <Item>
+          <Name>SKEL_R_UpperArm</Name>
+          <Tag value="40269" />
+          <Index value="7" />
+          <ParentIndex value="6" />
+          <SiblingIndex value="-1" />
+          <Flags>RotX, RotY, RotZ, TransX, TransY, TransZ</Flags>
+          <Translation x="0.05822968" y="0.001983008" z="0.008548579" />
+          <Rotation x="-0.011283202" y="0.38633412" z="0.0032610355" w="0.9222841" />
+          <Scale x="1.0" y="1.0000001" z="1.0000001" />
+          <TransformUnk x="0.0" y="4.0" z="-3.0" w="0.0" />
+        </Item>
+      </Bones>
+    </Skeleton>
+    <Joints />
+    <DrawableModelsHigh>
+      <Item>
+        <RenderMask value="255" />
+        <Flags value="1" />
+        <HasSkin value="1" />
+        <BoneIndex value="0" />
+        <Unknown1 value="251" />
+        <Geometries>
+          <Item>
+            <ShaderIndex value="0" />
+            <BoundingBoxMin x="-0.0001009" y="-0.0013394" z="-0.16363077" />
+            <BoundingBoxMax x="0.0001009" y="-0.0010305" z="-0.16363077" />
+            <BoneIDs>0, 1, 2, 3, 4, 5, 6, 7</BoneIDs>
+            <VertexBuffer>
+              <Flags value="0" />
+              <Layout type="GTAV1">
+                <Position />
+                <BlendWeights />
+                <BlendIndices />
+                <Normal />
+                <Colour0 />
+                <Colour1 />
+                <TexCoord0 />
+              </Layout>
+              <Data>
+                0.0 -0.0010305 -0.16363077   0 0 255 0   0 0 1 0   -3.9068258e-05 0.0 -1.0   255 255 255 255   255 255 255 0   0.4963379 -0.11621094   
+                0.0 -0.0011747 -0.16363077   0 0 255 0   0 0 1 0   -3.906826e-05 0.0 -1.0   255 255 255 255   255 255 255 0   0.4963379 -0.10205078   
+                -0.0001009 -0.0011801 -0.16363077   0 0 255 0   0 0 1 0   -7.8136516e-05 0.0 -0.99999994   255 255 255 255   255 255 255 0   0.489502 -0.10205078   
+                0.0 -0.0013394 -0.16363077   0 0 255 0   0 0 1 0   3.420543e-05 0.0 -1.0   255 255 255 255   255 255 255 0   0.3200684 -0.12841797   
+                -0.0001009 -0.0011801 -0.16363077   0 0 255 0   0 0 1 0   6.841086e-05 0.0 -1.0   255 255 255 255   255 255 255 0   0.3293457 -0.122558594   
+                0.0 -0.0011747 -0.16363077   0 0 255 0   0 0 1 0   3.420543e-05 0.0 -1.0   255 255 255 255   255 255 255 0   0.3200684 -0.122558594   
+                0.0001009 -0.0011801 -0.16363077   0 0 255 0   0 0 1 0   0.0 0.0 -0.99999994   255 255 255 255   255 255 255 0   0.489502 -0.10205078   
+                0.0001009 -0.0011801 -0.16363077   0 0 255 0   0 0 1 0   0.0 0.0 -1.0   255 255 255 255   255 255 255 0   0.3293457 -0.122558594
+              </Data>
+            </VertexBuffer>
+            <IndexBuffer>
+              <Data>0 1 2 3 4 5 1 0 6 5 7 3</Data>
+            </IndexBuffer>
+          </Item>
+        </Geometries>
+      </Item>
+    </DrawableModelsHigh>
+  </Item>
+</DrawableDictionary>
