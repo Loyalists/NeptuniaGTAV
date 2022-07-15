@@ -22,10 +22,10 @@
           <Name>body_schoolv44</Name>
           <Unk32 value="0" />
           <Usage>UNKNOWN</Usage>
-          <UsageFlags>UNK24, X1024, X128, X2, X2048, X32, X512, X64</UsageFlags>
+          <UsageFlags>UNK24, X8</UsageFlags>
           <ExtraFlags value="0" />
-          <Width value="2048" />
-          <Height value="2048" />
+          <Width value="8" />
+          <Height value="8" />
           <MipLevels value="0" />
           <Format>D3DFMT_DXT1</Format>
           <FileName>body_schoolv44.dds</FileName>
